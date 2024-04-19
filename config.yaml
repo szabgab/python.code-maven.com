@@ -1,0 +1,41 @@
+url: https://python.code-maven.com
+repo: https://github.com/szabgab/python.code-maven.com
+branch: main
+site_name: Python programming language
+author_name: Gábor Szabó
+link_to_source: true
+footer: ""
+tags:
+  title: Tags
+  description: Articles about Python with tags
+
+authors:
+  - name: Gabor Szabo
+    nickname: szabgab
+    picture: szabgab.png
+
+show_related: true
+related_pages_title: Related Pages
+
+from:
+  name: Gabor Szabo
+  email: gabor@szabgab.com
+archive:
+  title: Archive
+  description: List of all the articles about the Python programming language
+
+atom:
+  max: 20
+
+navbar:
+  start:
+    - path: /
+      title: Home
+    - path: /tags/
+      title: Tags
+  end:
+    - path: /archive
+      title: Archive
+    - path: /about
+      title: About
+
