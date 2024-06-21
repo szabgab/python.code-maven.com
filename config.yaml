@@ -34,6 +34,8 @@ navbar:
     - path: /tags/
       title: Tags
   end:
+    - path: https://t.me/PythonMaven
+      title: Telegram
     - path: /archive
       title: Archive
     - path: /about
