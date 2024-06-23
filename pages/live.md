@@ -13,6 +13,7 @@ tags:
 | When       | events                                                                                                          |
 | ---------- | --------------------------------------------------------------------------------------------------------------- |
 | 2024.07.07 | [Getting started with web development using Python Flask](https://www.meetup.com/code-mavens/events/301574483/) |
+| 2024.07.18 | [Testing Python with Pytest: The magic of fixtures](https://www.meetup.com/code-mavens/events/301810834/)       |
 
 
 ## Past events
