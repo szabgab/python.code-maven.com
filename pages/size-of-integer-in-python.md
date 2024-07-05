@@ -21,6 +21,11 @@ The following little program demonstrates, using the powers of 2, that Python ca
 {% include file="examples/size_of_integer.py" %}
 
 
+* `i` - the power
+* `size` - size of the variable in bytes
+* `len` - number of digits in the value (which power of 10 is this value)
+* `2**i` - the actually number
+
 {% include file="examples/size_of_integer.txt" %}
 
 
