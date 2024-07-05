@@ -2,8 +2,8 @@
 title: Change the modify date of a file using Python (touch)
 timestamp: 2024-07-05T16:10:01
 author: szabgab
-published: Get the modify time of a file and set all the timestamps of a file.
-description:
+published: true
+description: Get the modify time of a file and set all the timestamps of a file.
 tags:
     - stat
     - utime
