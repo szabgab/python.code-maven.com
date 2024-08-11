@@ -1,5 +1,5 @@
 ---
-title: Testing python with pytest: The magic of fixtures
+title: "Testing python with pytest: The magic of fixtures"
 timestamp: 2024-08-11T09:30:01
 author: szabgab
 published: true
