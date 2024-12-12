@@ -10,9 +10,11 @@ tags:
 
 ## Planned events
 
-| When       | events                                                                                                          |
-| ---------- | --------------------------------------------------------------------------------------------------------------- |
-| 2024.09.01 | [TBD](https://www.meetup.com/code-mavens/)       |
+| When       | events                                                                                                                                           | register                                                         |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| 2025.01.06 | [logger.info(f"Don't Give all your {secrets} away") with Tamar Galer](https://python.code-maven.com/logger-info-with-tamar-galer)                | [register](https://www.meetup.com/code-mavens/events/305045436/) |
+
+Form the [Code Maven live](https://live.code-maven.com/) series.
 
 
 ## Past events
