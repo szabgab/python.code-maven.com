@@ -1,6 +1,6 @@
 ---
 title: logger.info(f"Don't Give all your {secrets} away") with Tamar Galer
-timestamp: 2024-12-122T16:30:01
+timestamp: 2024-12-12T16:30:01
 author: szabgab
 published: true
 description:
