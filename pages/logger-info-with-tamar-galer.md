@@ -26,4 +26,4 @@ I'll share my personal experiences as a developer on a security research team an
 By the end of this talk, developers will be equipped with the knowledge and tools to protect sensitive data from accidental disclosure and safeguard their applications from the perils of sensitive data exposure. Embrace the journey towards log safety and ensure your code remains secure and confidential.
 
 
-![Tamar Galer](/images/tamar-galer.jpg)
+![](/images/tamar-galer.jpg)
