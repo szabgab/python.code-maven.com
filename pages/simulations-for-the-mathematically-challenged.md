@@ -18,4 +18,4 @@ We'll solve this question and others, using only a `for` loop and a random numbe
 In this talk, we'll see how to use Monte Carlo simulations to solve various problems that might intimidate you due to lack of match skills.
 
 
-![](/images/miki-tebeka.png)
+![](images/miki-tebeka.png)
