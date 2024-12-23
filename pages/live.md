@@ -13,6 +13,7 @@ tags:
 | When       | events                                                                                                                                           | register                                                         |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
 | 2025.01.06 | [logger.info(f"Don't Give all your {secrets} away") with Tamar Galer](https://python.code-maven.com/logger-info-with-tamar-galer)                | [register](https://www.meetup.com/code-mavens/events/305045436/) |
+| 2025.02.20 | [Simulations for the Mathematically Challenged with Miki Tebeka](https://python.code-maven.com/simulations-for-the-mathematically-challenged)    | [register](https://www.meetup.com/code-mavens/events/305223619/) |
 
 Form the [Code Maven live](https://live.code-maven.com/) series.
 
