@@ -1,6 +1,6 @@
 ---
 title: Title
-timestamp: 2024-11-04T14:30:01
+timestamp: 2025-01-04T14:30:01
 author: szabgab
 published: false
 description:
@@ -14,3 +14,4 @@ todo:
 
 {% youtube id="" %}
 
+<a class="button is-primary" href="https://www.meetup.com/code-mavens/events/305045436/">register</a>
