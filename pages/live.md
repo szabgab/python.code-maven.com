@@ -15,6 +15,7 @@ tags:
 | 2025.01.06 | [logger.info(f"Don't Give all your {secrets} away") with Tamar Galer](https://python.code-maven.com/logger-info-with-tamar-galer)                | [register](https://www.meetup.com/code-mavens/events/305045436/) |
 | 2025.01.27 | [The Reference Model for COVID-19 attempts to explain USA data with Jacob Barhak](https://python.code-maven.com/covid-19-with-jacob-barhak)      | [register](https://www.meetup.com/code-mavens/events/305357268/) |
 | 2025.02.20 | [Simulations for the Mathematically Challenged with Miki Tebeka](https://python.code-maven.com/simulations-for-the-mathematically-challenged)    | [register](https://www.meetup.com/code-mavens/events/305223619/) |
+| 2025.02.03 | [How to Make Your Backend Roar with Haki Benita](https://python.code-maven.com/how-to-make-your-backend-roar)                                    | [register](https://www.meetup.com/code-mavens/events/305374633/) |
 
 Form the [Code Maven live](https://live.code-maven.com/) series.
 
