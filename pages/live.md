@@ -13,8 +13,9 @@ tags:
 | When       | events                                                                                                                                           | register                                                         |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
 | 2025.01.27 | [The Reference Model for COVID-19 attempts to explain USA data with Jacob Barhak](https://python.code-maven.com/covid-19-with-jacob-barhak)      | [register](https://www.meetup.com/code-mavens/events/305357268/) |
-| 2025.02.20 | [Simulations for the Mathematically Challenged with Miki Tebeka](https://python.code-maven.com/simulations-for-the-mathematically-challenged)    | [register](https://www.meetup.com/code-mavens/events/305223619/) |
 | 2025.02.03 | [How to Make Your Backend Roar with Haki Benita](https://python.code-maven.com/how-to-make-your-backend-roar)                                    | [register](https://www.meetup.com/code-mavens/events/305374633/) |
+| 2025.02.05 | [The Evolution of Python Monitoring with May Walter](https://python.code-maven.com/the-evolution-of-python-monitoring)                           | [register](https://www.meetup.com/code-mavens/events/305453203/) |
+| 2025.02.20 | [Simulations for the Mathematically Challenged with Miki Tebeka](https://python.code-maven.com/simulations-for-the-mathematically-challenged)    | [register](https://www.meetup.com/code-mavens/events/305223619/) |
 
 Form the [Code Maven live](https://live.code-maven.com/) series.
 
