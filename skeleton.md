@@ -14,4 +14,4 @@ todo:
 
 {% youtube id="" file="" %}
 
-<a class="button is-primary" href="https://www.meetup.com/code-mavens/events/305045436/">register</a>
+<a class="button is-primary" href="">register</a>
