@@ -1,0 +1,101 @@
+---
+title: "Mocking input and output for Python testing"
+timestamp: 2018-05-21T18:50:01
+tags:
+  - testing
+  - pytest
+  - mocking
+  - capsys
+published: true
+books:
+  - python
+author: szabgab
+archive: true
+---
+
+
+One of the recommendations when writing well designed applications is to separate concerns.
+So one function to get input. Another to do the computation (business logic). A  third function to generate the output.
+
+Unfortunately in many applications people mix these things. Especially if they have not tried to test the application.
+
+So when you start writing tests to such an application, one that might have functions with hundreds or thousands of lines
+of code, you need to be able untangle the code.
+
+In this article we'll override the input and output of a CLI (Command Line Interface) based application.
+
+
+For our purposes we'll use this "application". It has a single function that has input, output and some "business logic". (Yeah, I know, adding two numbers is probably not such a huge business these days.)
+
+{% include file="examples/python/mock-input/app.py" %}
+
+We then have a test like this:
+
+{% include file="examples/python/mock-input/test_app.py" %}
+
+In this code we have two lines in which we replace the `input` and `print` functions of the `app` object. The overriding of `print` seems to be the simpler here.
+
+Every time the code in `app` calls `print` our `lambda` function will append the value to the list called `output` we have declared earlier. It won't print anything to the screen.  (In case you are not familiar with `lambda` it creates an anonymous function on the fly.)
+
+Overriding the `input` function is similar, but that required two statements, so we could not do it in a `lambda`. Hence we created a function called `mock_input` (a totally arbitrary name) and then assigned that function to the `app.input`. That means every time `input` is called inside the `app` object, Python will call our `mock_input` function instead of the built-in `input` function.
+
+Normally the `input` function of Python 3 does 2 things: prints the received string to the screen and then collects any text typed in on the keyboard. Our function will also do two things: Append the received string to the list called `output` just as the `lambda` function of `print` does and then take the first value from the list called `input_values` and return that.
+
+This allows us to prepare a list of answers we would like to give to the application and this function will help us pretend we have actually typed those in when the application asked for it.
+
+
+Once we prepared all this we call the main function of the application: `app.main()`.
+
+This will call the fake `input` function and the fake `print` function, but the rest of the code won't know about the change. So the rest, the business logic, we work as it should.
+
+Then we can assert whether the values collected in the `output` list are the same values as we expected them.
+
+We can run the test by typing `pytest test_app.py` in the directory where we have both of these files.
+(In our case that is the `examples/python/mock-input/` directory.
+
+The above works, but we might have better solutions:
+
+## capsys
+
+`capsys` is one of the built-in fixtures [Pytest](https://pytest.org/) provides.
+It helps us capture everything that goes to the standard output and the standard error during the execution of a test.
+
+In order to use it we need to include the parameter `capsys` in the list of parameters our test function expects. (In our case this is the only parameter.) Seeing that the function expects the `capsys` object Pytest will call our function passing in the `capsys` object (this technique is called dependency injection.) Pytest will also set up everything necessary to capture both the output and error stream.
+
+That means we don't need to (and we really should not) override the `print` function and in the `mock_input` function we don't save the parameter string in an `output` list. Actually, because our `mock_input` function only has one statement in it, we could have converted it to a `lambda`. But I digress.
+
+Once we have our setup we call `app.main()` just as in the previous case. Then we can call the
+`readouterr` method of the `capsys` object that will return two strings. Whatever was printed to the standard output and whatever was printed to the standard error since the beginning of the test function.
+
+We can compare these two to the expected strings.
+
+{% include file="examples/python/mock-input/test_app_capsys.py" %}
+
+Using `capsys` has the advantage that it is a built-in tool and that it can be used to check both the correct output and that nothing was printed to the error channel.
+
+In other cases we might use it to make sure the expected error message was printed to the error channel.
+
+We should also notice that in this solution we don't capture the output that should have been generated by the `input` function as that part was swallowed by our mocking function. This might be clearer or more confusing to you depending on your expectations.
+
+We also had to include the new-line `\n` in our expected string.
+
+Try: `pytest test_app_capsys.py`
+
+## capsys capturing the prompts as well
+
+If you'd like to include the prompt strings in the captured output, it can also be easily done.
+You just need to print them in the `mock_input` function.
+
+{% include file="examples/python/mock-input/test_app_capsys_print.py" %}
+
+Then we also need to include those strings in the expected output.
+
+(We used `end = ''` in the `print` function inside the `mock_input` function as that's how `input` prints the prompt string.)
+
+Try: `pytest test_app_capsys_print.py`
+
+## Warning
+
+If you have all the 3 test files and the application in the same directory and you run `pytest` it will run all 3 test files and then some of them will fail. This is because they run in the same process and we override parts of the `app` in different ways in the different test files.
+In a real application you would stick to one of the above solution for all of your test files and then this problem would not happen.
+
