@@ -3,7 +3,7 @@ title: "Python: avoid importing everything using a star: *"
 timestamp: 2020-03-23T13:30:01
 tags:
   - import
-  - *
+  - '*'
 published: true
 books:
   - python

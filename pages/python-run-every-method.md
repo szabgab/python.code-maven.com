@@ -1,6 +1,6 @@
 ---
 title: "Python: run every method in ABC order"
-timestamp: 2019-01-01T07:30:01
+timestamp: 2019-01-01T07:30:02
 tags:
   - CodeMaven
 published: false
