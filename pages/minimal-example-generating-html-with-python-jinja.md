@@ -79,8 +79,19 @@ That's the whole thing.
 
 {% include file="examples/python/jinja-skeleton/app/templates/index.html" %}
 
-The Jinja Template uses the Mustache-like markup for inserting the values of individual attributes: `{{ name }}`.
-It also uses `{%  %}` pairs to embed some Jinja code. You can do a number of things with it. In our example we see a condition and a loop. Note, unlike Python, here you need to end the blocks with `endif` and `endfor` respectively.
+The Jinja Template uses the Mustache-like markup for inserting the values of individual attributes:
+
+```
+{{ name }}
+```
+
+It also uses
+
+```
+{%  %}
+```
+
+pairs to embed some Jinja code. You can do a number of things with it. In our example we see a condition and a loop. Note, unlike Python, here you need to end the blocks with `endif` and `endfor` respectively.
 
 ## The end result
 

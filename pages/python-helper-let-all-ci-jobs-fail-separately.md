@@ -64,7 +64,7 @@ I've added a GitHub Actions configuration file to run the tests using <b>python 
 
 The tests failures looked like this:
 
-![](static/img/python-helper-ci-cancelled.png)
+![](images/python-helper-ci-cancelled.png)
 
 that is, they failed on Ubuntu Linux on two different versions of Python and were cancelled on OSX and Windows.
 
@@ -76,7 +76,7 @@ I thought it would be more useful for the author to see all the failing results 
 
 This time the results looked like this:
 
-![](static/img/python-helper-ci-failed.png)
+![](images/python-helper-ci-failed.png)
 
 That is, the tests failed on all 3 version of Python both on Ubuntu Linux and on OSX.
 However, I was surprised to see that they passed on all 3 versions of Python when running on MS Windows.

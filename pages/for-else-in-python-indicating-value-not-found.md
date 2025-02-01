@@ -1,5 +1,5 @@
 ---
-title: "for-else in Python indicating "value not found""
+title: "for-else in Python indicating 'value not found'"
 timestamp: 2018-03-27T10:40:01
 tags:
   - for

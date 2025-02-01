@@ -75,7 +75,9 @@ we have not copied the content of `team_b`, we just connected the existing dicti
 
 ## Comments
 
+```
 I'm trying to add a dictionary to another dictionary primary{{secondary_key : value}, {secondary_key : value}}. When I try to assign a value like this "dict[primary_key][secondary_key] = value" I get error IndexError: list assignment index out of range.
+```
 
 ---
 

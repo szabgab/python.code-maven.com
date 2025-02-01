@@ -15,7 +15,7 @@ archive: true
 This could be used for any image, but for the example we use this <a href="/create-images-with-python-pil-pillow">image
 that was created using Python</a>:
 
-![](/img/pil_color.png)
+![](images/pil_color.png)
 
 A slightly generic script to write text in the top left corner: (Coordintates (0, 0))
 
@@ -23,5 +23,5 @@ A slightly generic script to write text in the top left corner: (Coordintates (0
 
 The result looks like this:
 
-![](/img/pil_text_hello.png)
+![](images/pil_text_hello.png)
 
