@@ -79,7 +79,12 @@ with an arbitrary key we called `data`.
 
 {% include file="examples/flask/poll2/poll.py" %}
 
-In the template we use the expression `{{ data.question }}` to include the
+In the template we use the expression
+```
+{{ data.question }}
+```
+
+to include the
 question. We use that both as the title of the whole page that will show up as the title
 of the browser tab, and in an `h1` element to have something more visible.
 

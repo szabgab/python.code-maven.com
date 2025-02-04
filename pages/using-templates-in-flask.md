@@ -148,7 +148,13 @@ You said: {{ text }}
 ```
 
 This syntax tells [Jinja](http://jinja.pocoo.org/) to put the content of the `text`
-variable instead of the `{{ text }}` snippet.
+variable instead of the
+
+```
+{{ text }}
+```
+
+snippet.
 
 Then we can pass a value to the `text` variable by passing it to the `render_template` function.
 The new `echo()` function looks like this:
@@ -173,9 +179,19 @@ Of course, I did not say anything yet, so it has nothing to display, but then I'
 that text either.
 
 So in our template we need to add a conditional and display the whole
-`You said: {{ text }}` business only if there is something in the `text` variable.
 
-This is also supported by [Jinja](http://jinja.pocoo.org/). In side `{%   %}`
+```
+You said: {{ text }}
+```
+
+business only if there is something in the `text` variable.
+
+This is also supported by [Jinja](http://jinja.pocoo.org/). In side
+
+```
+{%   %}
+```
+
 pairs we can add some code. This is how the new version of our template looks like:
 
 ```html
