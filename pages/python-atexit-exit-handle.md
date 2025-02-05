@@ -39,7 +39,7 @@ This script can end in 3 ways:
 
 If we call it without any parameters it will end with the `exit` call:
 
-<code">
+```
 $ python end.py
 Usage: end.py A B
 myexit

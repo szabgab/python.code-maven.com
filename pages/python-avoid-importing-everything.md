@@ -77,7 +77,7 @@ It is better to explicitly import whatever you need:
 
 ```
 from tkinter import Tk, Menu, Frame, Label, Button
-</code<
+```
 
 Even better (as in easier to read) is to import the <b>tkinter</b> module (with or without an alias):
 
