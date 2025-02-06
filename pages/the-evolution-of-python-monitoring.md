@@ -12,6 +12,9 @@ Join us and time-travel across the evolution of Python monitoring mechanisms. We
 
 ![May Walter](images/may-walter.jpeg)
 
+[May Walter](https://www.linkedin.com/in/may-walterr/)
+
+
 {% youtube id="XIqoYYWaWFI" file="2025-02-05-the-evolution-of-python-monitoring.mp4" %}
 
 

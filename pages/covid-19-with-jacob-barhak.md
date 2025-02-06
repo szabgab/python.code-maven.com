@@ -34,9 +34,6 @@ Jacob Barhak is an independent Computational Disease Modeler focusing on machine
 
 ## Transcript
 
-
-WEBVTT
-
 1
 00:00:02.260 --> 00:00:20.330
 Gabor Szabo: Hello, and welcome to the Code Maven Channel on Youtube and our meeting. Thank you for everyone who is arrived to this meeting, and especially to Jacob, who is going to give the presentation. If you are unfamiliar with the Channel, then

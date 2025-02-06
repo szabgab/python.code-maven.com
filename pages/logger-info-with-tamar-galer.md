@@ -14,6 +14,7 @@ Explore the transition from developer to security researcher, addressing log saf
 * [CWE-532: Insertion of Sensitive Information into Log File](https://cwe.mitre.org/data/definitions/532.html)
 * [Gitleaks](https://github.com/gitleaks/gitleaks)
 * [MaskerLogger](https://github.com/oxsecurity/MaskerLogger)
+* [Tamar Galer](https://www.linkedin.com/in/tamar-galer/)
 
 
 In my seven years as a software developer, I've primarily worked in teams composed solely of developers. However, my recent transition to a team of security researchers has opened my eyes to a crucial aspect that often goes unnoticed: log safety in applications.
