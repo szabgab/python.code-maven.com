@@ -14,6 +14,7 @@ tags:
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------- |----------------------------------------------------------------- |
 | 2025.02.20 | [Simulations for the Mathematically Challenged](https://python.code-maven.com/simulations-for-the-mathematically-challenged)      | Miki Tebeka   | [register](https://www.meetup.com/code-mavens/events/305223619/) |
 | 2025.02.25 | [Reducing your memory footprint by 75% with 6 lines](https://python.code-maven.com/reducing-your-memory-footprint)                | Tomer Brisker | [register](https://www.meetup.com/code-mavens/events/305492369/) |
+| 2025.03.05 | [daffodil, data frames for optimized data inspection and logical processing](https://python.code-maven.com/daffodil-data-frames-for-optimized-data-inspection-and-logical-processing)  | Ray Lutz | [register](https://www.meetup.com/code-mavens/events/305731787/) |
 | 2025.03.11 | [Using Streamlit to create interactive web apps & deploy machine learning models](https://python.code-maven.com/using-streamlit)  | Leah Levy     | [register](https://www.meetup.com/code-mavens/events/305584832/) |
 
 Form the [Code Maven live](https://live.code-maven.com/) series.
