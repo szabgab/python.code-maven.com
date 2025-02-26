@@ -12,8 +12,6 @@ tags:
 
 | When       | events                                                                                                                            | who           | register                                                         |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------- |----------------------------------------------------------------- |
-| 2025.02.20 | [Simulations for the Mathematically Challenged](https://python.code-maven.com/simulations-for-the-mathematically-challenged)      | Miki Tebeka   | [register](https://www.meetup.com/code-mavens/events/305223619/) |
-| 2025.02.25 | [Reducing your memory footprint by 75% with 6 lines](https://python.code-maven.com/reducing-your-memory-footprint)                | Tomer Brisker | [register](https://www.meetup.com/code-mavens/events/305492369/) |
 | 2025.03.05 | [daffodil, data frames for optimized data inspection and logical processing](https://python.code-maven.com/daffodil-data-frames-for-optimized-data-inspection-and-logical-processing)  | Ray Lutz | [register](https://www.meetup.com/code-mavens/events/305731787/) |
 | 2025.03.11 | [Using Streamlit to create interactive web apps & deploy machine learning models](https://python.code-maven.com/using-streamlit)  | Leah Levy     | [register](https://www.meetup.com/code-mavens/events/305584832/) |
 
@@ -33,5 +31,7 @@ Form the [Code Maven live](https://live.code-maven.com/) series.
 | 2025.02.03 | [How to Make Your Backend Roar](https://python.code-maven.com/how-to-make-your-backend-roar)                                                     | Haki Benita   | [event](https://www.meetup.com/code-mavens/events/305374633/) |
 | 2025.02.05 | [The Evolution of Python Monitoring](https://python.code-maven.com/the-evolution-of-python-monitoring)                                           | May Walter    | [event](https://www.meetup.com/code-mavens/events/305453203/) |
 | 2025.02.12 | [Python async.io - From zero to hero](https://python.code-maven.com/async-io-from-zero-to-hero)                                                  | Eyal Balla    | [event](https://www.meetup.com/code-mavens/events/305479458/) |
+| 2025.02.20 | [Simulations for the Mathematically Challenged](https://python.code-maven.com/simulations-for-the-mathematically-challenged)                     | Miki Tebeka   | [event](https://www.meetup.com/code-mavens/events/305223619/) |
+| 2025.02.25 | [Reducing your memory footprint by 75% with 6 lines](https://python.code-maven.com/reducing-your-memory-footprint)                               | Tomer Brisker | [event](https://www.meetup.com/code-mavens/events/305492369/) |
 
 
