@@ -12,6 +12,7 @@ tags:
 
 | When       | events                                                                                                                            | who           | register                                                         |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------- |----------------------------------------------------------------- |
+| 2025.05.06 | [How to build a microservice with Python + FastAPI to switch from RDS to DynamoDB](https://python.code-maven.com/how-to-build-a-microservice-with-python-and-fastapi) | Nikita Baryshev | [register](https://www.meetup.com/code-mavens/events/307228860/) |
 
 Form the [Code Maven live](https://live.code-maven.com/) series.
 
