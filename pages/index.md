@@ -7,6 +7,12 @@ description: Welcome to the Python Maven, the site that will help you programmin
 
 Welcome to the Python Maven web site about, well, the Python programming language!
 
+## Books
+
+* [Python Programming](/python-programming/)
+* [Functional Programming in Python](/python-functional-programming/)
+* [Object Oriented Programming in Python](/python-oop/)
+
 ## The most recent articles
 
 {% latest limit=5 %}
