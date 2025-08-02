@@ -12,6 +12,10 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Python Programming](/python-programming/)
 * [Functional Programming in Python](/python-functional-programming/)
 * [Object Oriented Programming in Python](/python-oop/)
+* [Web application development with Python Flask](/python-flask/)
+* [Regular Expressions in Python](/python-regular-expressions/)
+* [Databases using Python](/python-databases/)
+
 
 ## The most recent articles
 
