@@ -15,6 +15,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Web application development with Python Flask](/python-flask/)
 * [Regular Expressions in Python](/python-regular-expressions/)
 * [Databases using Python](/python-databases/)
+* [Error and Exception handling in Python](/python-exceptions/)
 
 
 ## The most recent articles
