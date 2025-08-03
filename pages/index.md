@@ -21,11 +21,16 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Parallel programming in Python](/python-parallel/) Do more sooner.
 * [OpenCV](/python-opencv/)
 * [Testing Python code](/python-testing/)
+* [Scientific Python](/python-science/)
+* [GUI with Python/Tk](/python-tk/)
+* [A mix of other Python content](/python-other/)
+
 
 ## Presentations
 
 * [Python types at PyWeb 2025.01](/python-types-at-pyweb-2025-01/)
 * [Python types at PyWeb 2025.05](/python-types-at-pyweb-2025-05/)
+* [Pair programming and TDD workshop](/python-pair-programming-and-tdd-workshop/)
 
 
 ## The most recent articles
