@@ -16,6 +16,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Regular Expressions in Python](/python-regular-expressions/)
 * [Databases using Python](/python-databases/)
 * [Error and Exception handling in Python](/python-exceptions/)
+* [Web development with Python FastAPI](/python-fastapi/)
 
 
 ## The most recent articles
