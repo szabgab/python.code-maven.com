@@ -17,6 +17,8 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Databases using Python](/python-databases/)
 * [Error and Exception handling in Python](/python-exceptions/)
 * [Web development with Python FastAPI](/python-fastapi/)
+* [Fixtures and Mocking in Python](/python-mocking/)
+* [Parallel programming in Python](/python-parallel/) Do more sooner.
 
 
 ## The most recent articles
