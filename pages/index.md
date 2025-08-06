@@ -28,6 +28,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Python with Java and Jython](/python-java/)
 * [Python with .NET](/python-dotnet/)
 * [Python Turtle](/python-turtle/)
+* [Python and the GitHub API](/python-github/)
 * [Machine Learning with Python](/python-machine-learning/)
 * [PyCharm](/python-pycharm/)
 * [VS Code](/python-vscode/)
