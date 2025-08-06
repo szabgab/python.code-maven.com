@@ -2,3 +2,4 @@
 *.bak
 .ipynb_checkpoints/
 books/*/book/
+/html/
