@@ -2,7 +2,7 @@
 
 - [Python Testing](./index.md)
 
-- [Testing Demo](./testing-demo/index.md)
+- [Why testing](./testing-demo/index.md)
   - [Testing Flask](./testing-demo/demo-testing-flask.md)
   - [How do you test your code?](./testing-demo/how-do-you-test-your-code.md)
   - [What is testing?](./testing-demo/what-is-testing.md)
