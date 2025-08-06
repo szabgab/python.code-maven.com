@@ -24,6 +24,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Scientific Python](/python-science/)
 * [GUI with Python/Tk](/python-tk/)
 * [PIL/Pillow](/python-pil/)
+* [Python with Java and Jython](/python-java/)
 * [PyCharm](/python-pycharm/)
 * [VS Code](/python-vscode/)
 * [Jupyter](/python-jupyter/)
