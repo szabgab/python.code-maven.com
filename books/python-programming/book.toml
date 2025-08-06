@@ -6,9 +6,9 @@ title = "Python Programming"
 
 # Add github icon to the menu
 [output.html]
-git-repository-url = "https://github.com/szabgab/slides"
+git-repository-url = "https://github.com/szabgab/python.code-maven.com"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/szabgab/slides/edit/main/python-programming/{path}"
+edit-url-template = "https://github.com/szabgab/python.code-maven.com/edit/main/books/python-programming/{path}"
 
 [output.markdown]
 
