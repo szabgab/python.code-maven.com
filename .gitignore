@@ -1,3 +1,4 @@
 /_site/
 *.bak
 .ipynb_checkpoints/
+books/*/book/
