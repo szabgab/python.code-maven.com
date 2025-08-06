@@ -435,13 +435,6 @@
   - [F811 - redefinition of unused](./linters/flake8-f811.md)
   - [Warn when Redefining functions](./linters/warn-when-redefining-functions.md)
 
-- [Python .NET](./dotnet/index.md)
-  - [IronPython](./dotnet/ironpython.md)
-  - [Use .NET libraries from Python](./dotnet/dotnet-from-python.md)
-  - [Python and .NET console](./dotnet/python-and-dotnet-console.md)
-  - [Python and .NET examples](./dotnet/python-and-dotnet.md)
-  - [Exercise Python and .NET](./dotnet/exercise-python-and-dotnet.md)
-
 - [Signals](./signals/index.md)
   - [Signals and Python](./signals/signals-and-python.md)
   - [Sending Signal](./signals/sending-signal.md)
