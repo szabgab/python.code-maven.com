@@ -1,6 +1,6 @@
 # Summary
 
-- [Python Other](./index.md)
+- [Python Testing](./index.md)
 
 - [Testing Demo](./testing-demo/index.md)
   - [Testing Flask](./testing-demo/demo-testing-flask.md)
