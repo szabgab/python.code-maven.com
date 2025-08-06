@@ -23,6 +23,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Testing Python code](/python-testing/)
 * [Scientific Python](/python-science/)
 * [GUI with Python/Tk](/python-tk/)
+* [PyCharm](/python-pycharm/)
 * [A mix of other Python content](/python-other/)
 
 
