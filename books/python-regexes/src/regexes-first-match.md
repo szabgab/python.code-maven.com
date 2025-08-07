@@ -14,7 +14,8 @@ The search method returns either an object representing the match or `None`, if 
 
 We can use this value in a conditional statement that will be `True` if there was a match and it will be `False` if there was not match and the value in `None`.
 
-If there is a match you can call the `group()` method. Passing 0 to it will return the actual substring that was matched.
+If there is a match you can call the `group()` method. Passing 0 to it will return the actual substring that was matched. In this specific example this is not too interesting.
+We know we were looking for `lac` so if there is a match we know that it has matched `lac`. It will be much more interesting in the next example when we make the regex more flexible.
 
 In this first example we use a very simple regular expression that did not have any special characters. We knew exactly what we are looking for. In reality in such cases there is no need to use the `re` library.
 We could simply use the `text.find('lac')` or we could use the `in` operator and ask: `'lac' in text`, but I wanted to show the syntax used with the `re` library.
@@ -25,7 +26,7 @@ In the second example we were searching for **dog**, but as there is no dog in t
 ---
 * r
 * re
-* search|re
-* group|re
+* search
+* group
 
 
