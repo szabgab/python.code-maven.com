@@ -503,6 +503,7 @@
   - [scope](./other/scope-of-names.md)
   - [type](./other/type.md)
   - [Look deeper in a list](./other/deeper.md)
+  - [More examples](./other/more-examples.md)
 
 
 
