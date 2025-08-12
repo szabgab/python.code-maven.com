@@ -1,9 +1,5 @@
 # Flask: Hello World
 
-* Flask
-* route
-* app
-
 The de-facto standard first thing to do in programming in every language or framework is to print "Hello World" on the screen.
 This is what we are going to do with Flask now. This is probably the most simple Flask application.
 
@@ -26,5 +22,10 @@ For now, let's see how we can use this.
 
 {% embed include file="src/examples/flask/hello_world/app.py" %}
 
+---
+
+* Flask
+* route
+* app
 
 

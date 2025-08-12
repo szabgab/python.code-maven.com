@@ -2,7 +2,7 @@
 
 There is nothing special. You install flask as you'd install any other Python package. Using some kind of virtual envrionment is recommended here too.
 
-```
+```bash
 virtualenv venv -p python3
 source venv/bin/activate
 
