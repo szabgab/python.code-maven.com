@@ -3,3 +3,4 @@
 .ipynb_checkpoints/
 books/*/book/
 /html/
+__pycache__
