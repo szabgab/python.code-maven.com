@@ -30,6 +30,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Python Turtle](/python-turtle/)
 * [Python and the GitHub API](/python-github/)
 * [Python and Scapy](/python-scapy/)
+* [Web scraping Web client](/python-web-scraping/)
 * [Machine Learning with Python](/python-machine-learning/)
 * [PyCharm](/python-pycharm/)
 * [VS Code](/python-vscode/)
