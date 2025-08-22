@@ -37,6 +37,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Jupyter](/python-jupyter/)
 * [A mix of other Python content](/python-other/)
 * [Python types](/python-types/)
+* [Improving Performance - optimizing code](/python-optimizations/)
 
 
 ## Presentations
