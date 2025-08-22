@@ -36,6 +36,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [VS Code](/python-vscode/)
 * [Jupyter](/python-jupyter/)
 * [A mix of other Python content](/python-other/)
+* [Python types](/python-types/)
 
 
 ## Presentations
