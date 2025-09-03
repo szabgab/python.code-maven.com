@@ -30,7 +30,7 @@ passed. The exit-code will be 0 as expected.
 {% embed include file="src/examples/testing-demo/test_one_with_unittest.py" %}
 
 
-{% embed include file="src/examples/testing-demo/test_one_with_unittest.out)
+{% embed include file="src/examples/testing-demo/test_one_with_unittest.out" %}
 
 ```
 $ python -m unittest test_one_with_unittest.py
