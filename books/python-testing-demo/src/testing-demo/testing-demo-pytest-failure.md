@@ -2,7 +2,7 @@
 
 {% embed include file="src/examples/testing-demo/test_with_pytest_failure.py" %}
 
-{% embed include file="src/examples/testing-demo/test_with_pytest_failure.out)
+{% embed include file="src/examples/testing-demo/test_with_pytest_failure.out" %}
 
 ```
 $ pytest test_with_pytest.py

@@ -15,7 +15,7 @@ pip install pytest
 
 {% embed include file="src/examples/testing-demo/test_with_pytest.py" %}
 
-{% embed include file="src/examples/testing-demo/test_with_pytest.out)
+{% embed include file="src/examples/testing-demo/test_with_pytest.out" %}
 
 ```
 $ pytest test_with_pytest.py

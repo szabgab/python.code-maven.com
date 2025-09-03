@@ -21,7 +21,7 @@ BTW this exit-code is used by the various CI systems to understand the results o
 
 {% embed include file="src/examples/testing-demo/test_with_unittest.py" %}
 
-{% embed include file="src/examples/testing-demo/test_with_unittest.out)
+{% embed include file="src/examples/testing-demo/test_with_unittest.out" %}
 
 ```
 $ python -m unittest test_with_unittest.py

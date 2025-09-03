@@ -11,7 +11,7 @@ to know that the tests have failed.
 
 {% embed include file="src/examples/testing-demo/test_with_pytest_class_failure.py" %}
 
-{% embed include file="src/examples/testing-demo/test_with_pytest_class_failure.out)
+{% embed include file="src/examples/testing-demo/test_with_pytest_class_failure.out" %}
 
 ```
 $ pytest test_with_pytest_class_failure.py

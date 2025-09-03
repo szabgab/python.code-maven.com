@@ -35,7 +35,7 @@ pip install pytest
 
 {% embed include file="src/examples/testing-demo/test_with_pytest_class.py" %}
 
-{% embed include file="src/examples/testing-demo/test_with_pytest_class.out)
+{% embed include file="src/examples/testing-demo/test_with_pytest_class.out" %}
 
 ```
 $ pytest test_with_pytest_class.py
