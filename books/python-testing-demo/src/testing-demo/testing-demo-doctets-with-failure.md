@@ -16,7 +16,7 @@ eliminated the possibility of this failure to return unnoticed.
 {% embed include file="src/examples/testing-demo/doctest_fail/mymath.py" %}
 
 
-{% embed include file="src/examples/testing-demo/doctest_fail/mymath.out)
+{% embed include file="src/examples/testing-demo/doctest_fail/mymath.out" %}
 
 ```
 $ python -m doctest mymath.py
