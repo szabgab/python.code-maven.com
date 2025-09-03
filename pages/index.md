@@ -38,6 +38,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [A mix of other Python content](/python-other/)
 * [Python types](/python-types/)
 * [Improving Performance - optimizing code](/python-optimizations/)
+* [Data Science](/data-science/)
 
 
 ## Presentations
