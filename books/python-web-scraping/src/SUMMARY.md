@@ -1,8 +1,11 @@
 # Summary
 
 - [Web client - web scraping](./web-client/index.md)
+
+- [urllib]()
   - [get HTML page using urllib](./web-client/urllib.md)
   - [Download image using urllib](./web-client/urllib-download.md)
+- [request]()
   - [get HTML page using requests](./web-client/requests-get.md)
   - [Download image using requests](./web-client/dowload-image-using-requests.md)
   - [Download image as a stream using requests](./web-client/dowload-image-as-a-stream-using-requests.md)
