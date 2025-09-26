@@ -2,7 +2,7 @@
 
 [urllib](https://docs.python.org/library/urllib.html) is a rather low level library. It comes standard with Python and thus it might be useful for simple tasks.
 
-{% embed include file="src/examples/web-client/with_urllib.py" %}
+{% embed include file="src/examples/urllib/with_urllib.py" %}
 
 
 This code will print the content of the HTML page download from the given web site.
