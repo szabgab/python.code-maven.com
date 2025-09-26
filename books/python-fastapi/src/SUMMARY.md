@@ -2,8 +2,8 @@
 
 - [Web development with Python FastAPI](./index.md)
   - [Install FastAPI](./fastapi-install.md)
-  - [FastAPI -  Hello World](./fastapi-hello-world.md)
-  - [FastAPI -  Test Hello World](./fastapi-hello-world-test.md)
+  - [FastAPI - Hello World](./fastapi-hello-world.md)
+  - [FastAPI - Test Hello World](./fastapi-hello-world-test.md)
   - [FastAPI with Docker compose](./fastapi-with-docker-compose.md)
   - [FastAPI - Dynamic response](./fastapi-dynamic-response.md)
   - [FastAPI - Echo GET - Query Parameters](./fastapi-echo-get.md)

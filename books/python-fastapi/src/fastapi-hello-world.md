@@ -1,8 +1,7 @@
-# FastAPI -  Hello World
+# FastAPI - Hello World
 
-* FastAPI
-* get
-* virtualenv
+The easy start, writing a "web application" that can return "Hello World!".
+
 
 * The requirements include both `FastAPI` and `pytest` so we can write and run tests for our web application.
 
@@ -42,5 +41,12 @@ You can also visit some other pages on this site:
 * `http://localhost:8000/openapi.json`
 
 * path - endpoint - route
+
+
+---
+
+* FastAPI
+* get
+* virtualenv
 
 

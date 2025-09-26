@@ -1,7 +1,14 @@
 # FastAPI -  Test Hello World
 
-* TestClient
-* assert
+
+```
+$ tree
+.
+├── main.py
+├── requirements.txt
+└── test_main.py
+```
+
 
 Writing the web application is nice, but we better also write tests that verify the application works properly.
 This will make it easier to verify that none of the changes we introduce later on will break parts that have been
@@ -16,5 +23,10 @@ Just run `pytest` to execute the tests.
 ```
 pytest
 ```
+
+---
+
+* TestClient
+* assert
 
 
