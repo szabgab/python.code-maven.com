@@ -419,3 +419,44 @@ Version:      10.0.19045
 
 
 
+## Course notes
+
+f = g if cond else h
+
+list_of_operations = [f,g,h]
+for func in list_of_operations:
+    x = func(x)
+
+callback function
+
+dispatch table
+
+decorators: a decorator for argument validation
+
+add a print statement to the reduce function to show how it works.
+
+Partial application
+def add(x, y, z):
+   return x+y+z
+def add5(x, y):
+   add(x, y, 5)
+but also:
+
+def create_adder(z)
+   def func(x, y):
+        return add(x, y, z)
+   return func
+add5 = create_adder(5)
+
+currying is when we go all the levels:
+def create_adder(z)
+   def func(y):
+        def inner(x):
+             return x+y+z
+         return inner
+   return func
+create_adder(5)(6)(7)
+
+from functools import partial
+
+
