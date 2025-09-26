@@ -4,6 +4,7 @@
 
 - [urllib]()
   - [get HTML page using urllib](./web-client/urllib.md)
+  - [urllib GET with error handling](./web-client/urllib-get-with-error-handling.md)
   - [Download image using urllib](./web-client/urllib-download.md)
 - [request]()
   - [get HTML page using requests](./web-client/requests-get.md)
