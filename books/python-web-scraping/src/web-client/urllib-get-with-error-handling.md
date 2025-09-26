@@ -1,7 +1,7 @@
 # urllib GET with error handling
 
 
-The [urllib](https://docs.python.org/3/library/urllib.html) module is split into several submodules. One of them os the [urllib.error](https://docs.python.org/3/library/urllib.error.html)
+The [urllib](https://docs.python.org/3/library/urllib.html) module is split into several submodules. One of them is the [urllib.error](https://docs.python.org/3/library/urllib.error.html)
 that defines the exceptions raised by [urllib.request](https://docs.python.org/3/library/urllib.request.html)
 
 
