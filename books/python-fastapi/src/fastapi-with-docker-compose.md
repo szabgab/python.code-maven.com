@@ -1,8 +1,14 @@
 # FastAPI with Docker compose
 
-{% embed include file="src/examples/fastapi/Dockerfile)
+## Dockerfile
 
-{% embed include file="src/examples/fastapi/docker-compose.yml)
+{% embed include file="src/examples/fastapi/Dockerfile" %}
+
+## docker-compose.yml
+
+{% embed include file="src/examples/fastapi/docker-compose.yml" %}
+
+## requirements.txt
 
 {% embed include file="src/examples/fastapi/requirements.txt" %}
 
