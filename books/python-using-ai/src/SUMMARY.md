@@ -3,7 +3,7 @@
 - [Python using AI](./index.md)
   - [Preparation](./preparation.md)
 
-- Introduction]()
+- [Introduction]()
   - [Evolution of programming](./evolution-of-programming.md)
   - [Checking results](./checking-results.md)
 
