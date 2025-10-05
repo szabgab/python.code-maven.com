@@ -39,6 +39,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Python types](/python-types/)
 * [Improving Performance - optimizing code](/python-optimizations/)
 * [Data Science](/data-science/)
+* [Python using AI](/python-using-ai/)
 
 
 ## Presentations
