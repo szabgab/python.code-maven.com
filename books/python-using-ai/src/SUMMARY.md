@@ -1,11 +1,13 @@
 # Summary
 
 - [Python using AI](./index.md)
+  - [Preparation](./preparation.md)
+
+- Introduction]()
   - [Evolution of programming](./evolution-of-programming.md)
   - [Checking results](./checking-results.md)
 
 - [General]()
-  - [Preparation](./preparation.md)
   - [Installations](./installations.md)
   - [Hello World!](./hello-world.md)
   - [Rectangle](./rectangle.md)

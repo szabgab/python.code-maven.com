@@ -1,6 +1,6 @@
 # Preparation
 
-* Setup Windows machine via https://www.kamatera.com/
+* Setup Windows machine via [Kamatera](https://www.kamatera.com/)
     * Type A
     * CPU 4
     * RAM 8 Gb
