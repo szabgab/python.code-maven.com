@@ -11,7 +11,8 @@
     * HD: 30 Gb
     * Hourly Billing Cycle
 * Connect to it using Remmina Remote Desktop Client (RDP)
-* Login to GitHub in the browser
-* Login to Kaggle.
+* Skip all the setup screens.
+* Login to [GitHub](https://github.com/) in the browser.
+* Login to [Kaggle](https://www.kaggle.com/) in the browser.
 
 
