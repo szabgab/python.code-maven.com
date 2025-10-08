@@ -19,6 +19,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Web development with Python FastAPI](/python-fastapi/)
 * [Fixtures and Mocking in Python](/python-mocking/)
 * [Parallel programming in Python](/python-parallel/) Do more sooner.
+    * [Async programming in Python](/python-async/)
 * [OpenCV](/python-opencv/)
 * [Python Testing Demo](/python-testing-demo/)
 * [Testing Python code](/python-testing/)
