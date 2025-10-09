@@ -14,6 +14,8 @@
   - [Word distance](./word-distance.md)
   - [Drinking age](./drinking-age.md)
   - [Pie chart](./pie-chart.md)
+  - [Master Mind](./mastermind.md)
+  - [Wordle](./wordle.md)
 
 - [Data Sources](./data-sources.md)
   - [SQLte](./sqlite.md)
