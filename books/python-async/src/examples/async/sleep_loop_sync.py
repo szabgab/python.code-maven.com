@@ -1,16 +1,20 @@
 import time
+import sys
 
-def sleep(cnt, sec):
-    print(f"Start {cnt}")
+def do_task(task_id: int, sec: int):
+    print(f"Start task {task_id}")
     time.sleep(sec)
-    print(f"End {cnt}")
+    print(f"End task {task_id}")
 
 def main():
-    for i in range(4):
-        sleep(i, 1)
+    if len(sys.argv) != 2:
+        exit(f"Usage {sys.argv[0]} NUMBER")
+
+    for i in range(int(sys.argv[1])):
+        do_task(i, 1)
 
 
 start = time.monotonic()
 main()
 end = time.monotonic()
-print(f"Elapsed {end-start}")
+print(f"Elapsed time: {end-start}")

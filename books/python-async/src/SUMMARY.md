@@ -9,7 +9,7 @@
   - [Print async](./async/print-async.md)
   - [Sync sleep](./async/sync-sleep.md)
   - [Async sleep](./async/async-sleep.md)
-  - [Sync sleep in loop](./async/sync-sleep-in-loop.md)
+  - [Sync tasks in loop](./async/sync-sleep-in-loop.md)
   - [Async sleep in loop](./async/async-sleep-in-loop.md)
   - [Async sleep in loop with gather](./async/async-sleep-in-loop-with-gather.md)
   - [coroutines](./async/async-coroutines.md)
