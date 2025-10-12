@@ -18,7 +18,7 @@
   - [Wordle](./wordle.md)
 
 - [Data Sources](./data-sources.md)
-  - [SQLte](./sqlite.md)
+  - [SQLite](./sqlite.md)
 
 - [Biology]()
   - [Dowloading data from NCBI](./download-data-from-ncbi.md)
