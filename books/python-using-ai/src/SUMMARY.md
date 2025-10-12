@@ -25,4 +25,5 @@
   - [Analyzing sequences](./analyzing-sequences.md)
   - [Iris dataset](./iris-dataset.md)
 
+- [copilot-instructions](./copilot-instructions.md)
 - [Assignments](./assignments.md)
