@@ -23,7 +23,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [OpenCV](/python-opencv/)
 * [Python Testing Demo](/python-testing-demo/)
 * [Testing Python code](/python-testing/)
-* [Scientific Python](/python-science/)
+* [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
 * [GUI with Python/Tk](/python-tk/)
 * [PIL/Pillow](/python-pil/)
 * [Python with Java and Jython](/python-java/)
