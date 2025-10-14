@@ -24,6 +24,7 @@
   - [Dowloading data from NCBI](./download-data-from-ncbi.md)
   - [Analyzing sequences](./analyzing-sequences.md)
   - [Iris dataset](./iris-dataset.md)
+  - [Count Amino Acids](./count-amino-acids.md)
 
 - [copilot-instructions](./copilot-instructions.md)
 - [Assignments](./assignments.md)
