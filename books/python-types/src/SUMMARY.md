@@ -9,4 +9,4 @@
   - [Types function returns None or bool](./types/mypy-to-check-function-returns.md)
   - [Types used properly](./types/types-used-properly.md)
   - [TODO: mypy](./types/mypy-todo.md)
-
+- [Case studies](./types/case-studies.md)
