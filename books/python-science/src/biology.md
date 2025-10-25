@@ -17,7 +17,7 @@ Libraries for working with genome sequences, reads, and expression data:
 * [HTSeq](https://htseq.readthedocs.io//) - For analyzing high-throughput sequencing (RNA-Seq, etc.). Counts reads, annotates features, handles GFF/GTF formats.
 * [anndata](https://anndata.readthedocs.io/) - Data structure for annotated data matrices (used in single-cell). Foundation for many single-cell analysis tools (e.g. scanpy).
 * [scanpy](https://scanpy.readthedocs.io/) - Analysis toolkit for single-cell RNA-seq data. Supports clustering, visualization, trajectory inference, etc.
-* [pyranges](https://github.com/pyranges/pyranges) - Fast genomic interval operations in pure Python. Like pybedtools, but implemented with pandas for speed.
+* [pyranges](https://github.com/pyranges/pyranges) - Fast genomic interval operations in pure Python. Like pybedtools, but implemented with pandas for speed. Better to use [pyranges_1](https://github.com/pyranges/pyranges_1.x).
 * [cyvcf2](https://brentp.github.io/cyvcf2/) - Fast VCF parser and query tool.
 
 ## Proteomics and Structural Biology
