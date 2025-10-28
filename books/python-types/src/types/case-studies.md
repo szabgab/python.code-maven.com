@@ -1,5 +1,11 @@
 # Case studies
 
+## Process
+
+* Run `mypy .`. Instead of `.` you might want to run it on a subfolder.
+* Edit the `pyproject.toml` or the `.mypy.ini`
+* It is not a very god idea to disable `name-defined`, but sometimes it is necessary. It is better to add `  # type: ignore[name-defined]` to the few lines where it complains and then enable it again. Otherwise we might easily add incorrect type-names.
+
 ## tskit
 
 * I created an [issue to add type-annotation](https://github.com/tskit-dev/tskit/issues/3304).
@@ -31,4 +37,11 @@ I found some type-annotation, but no use of `mypy`.
 
 * Opened an [issue to add mypy and type-annotation](https://github.com/scverse/anndata/issues/2173).
 * Created a [pull-request](https://github.com/scverse/anndata/pull/2174).
+
+## linkchecker
+
+I found no type annotation in the [linkchecker](https://github.com/linkchecker/linkchecker) project.
+
+* Opened an [issue to add mypy and type-annotation](https://github.com/linkchecker/linkchecker/issues/902)
+* Created a [pull-request](https://github.com/linkchecker/linkchecker/pull/903) to setup mypy in the CI and add configuration file.
 
