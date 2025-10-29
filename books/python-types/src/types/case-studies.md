@@ -8,6 +8,8 @@
 
 ## tskit
 
+[tskit](https://github.com/tskit-dev/tskit/)
+
 * I created an [issue to add type-annotation](https://github.com/tskit-dev/tskit/issues/3304).
 * Sent a [pull-request](https://github.com/tskit-dev/tskit/pull/3305).
     * Add `mypy` to pre-commit
@@ -20,6 +22,8 @@ I should have searched for this more, before putting in the work.
 
 ## biopython
 
+[biopython](github.com/biopython/biopython/)
+
 It already had type-annotation in some places and `mypy` enabled in the pre-commit and in the CI.
 
 * [PR to add type annotations to Bio/Seq.py](https://github.com/biopython/biopython/pull/5087)
@@ -27,11 +31,15 @@ It already had type-annotation in some places and `mypy` enabled in the pre-comm
 
 ##  pyranges
 
+[pyranges](https://github.com/pyranges/pyranges/)
+
 There is alread an [issue](https://github.com/pyranges/pyranges/issues/309) from 2023 and a corresponding [pull-request](https://github.com/pyranges/pyranges/pull/340).
 
 I asked on the issue if they would be interested in smaller PRs. Apparently a new code-base is being developed at [pyranges_1.x](https://github.com/pyranges/pyranges_1.x).
 
 ## anndata
+
+[anndata](https://github.com/scverse/anndata/)
 
 I found some type-annotation, but no use of `mypy`.
 
