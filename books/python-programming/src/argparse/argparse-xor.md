@@ -1,4 +1,4 @@
-# Argparse xor - mutual exlucise - only one - exactly one
+# Argparse xor - mutual exclusive - only one - exactly one
 
 
 {% embed include file="src/examples/argparse/argparse_xor.py" %}
