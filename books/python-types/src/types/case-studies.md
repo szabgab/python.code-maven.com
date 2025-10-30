@@ -1,11 +1,5 @@
 # Case studies
 
-## Process
-
-* Run `mypy .`. Instead of `.` you might want to run it on a subfolder.
-* Edit the `pyproject.toml` or the `.mypy.ini`
-* It is not a very god idea to disable `name-defined`, but sometimes it is necessary. It is better to add `  # type: ignore[name-defined]` to the few lines where it complains and then enable it again. Otherwise we might easily add incorrect type-names.
-
 ## tskit
 
 [tskit](https://github.com/tskit-dev/tskit/)
@@ -22,7 +16,7 @@ I should have searched for this more, before putting in the work.
 
 ## biopython
 
-[biopython](github.com/biopython/biopython/)
+[biopython](https://github.com/biopython/biopython/)
 
 It already had type-annotation in some places and `mypy` enabled in the pre-commit and in the CI.
 
@@ -52,4 +46,17 @@ I found no type annotation in the [linkchecker](https://github.com/linkchecker/l
 
 * Opened an [issue to add mypy and type-annotation](https://github.com/linkchecker/linkchecker/issues/902)
 * Created a [pull-request](https://github.com/linkchecker/linkchecker/pull/903) to setup mypy in the CI and add configuration file.
+
+## veusz
+
+I found no type-annotation in the [veusz](https://github.com/veusz/veusz/) project.
+
+* Opened an [issue to add mypy to the CI and add type-annotation](https://github.com/veusz/veusz/issues/794)
+
+* Created a [pull-request](https://github.com/veusz/veusz/pull/795)
+
+* `mypy` was complaining about some missing type stubs. So I installed `h5py-stubs`. That made mypy complain about other things that lead me opening an [issue about the try/except block around import h5py](https://github.com/veusz/veusz/issues/796) which might be a left-over from early development when h5py was not a hard requirement of the project.
+
+* I have another branch from which I am going to send a PR once the first one is accepted.
+
 

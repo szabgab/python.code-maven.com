@@ -10,3 +10,4 @@
   - [Types used properly](./types/types-used-properly.md)
   - [TODO: mypy](./types/mypy-todo.md)
 - [Case studies](./types/case-studies.md)
+- [Process](./types/process.md)
