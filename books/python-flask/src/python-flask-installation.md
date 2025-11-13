@@ -9,4 +9,20 @@ source venv/bin/activate
 pip install flask
 ```
 
+## Install using uv
+
+[uv](https://docs.astral.sh/uv/) is avery fast package and project manager. After installing uv you can do the following.
+
+```
+$ uv init flask-demo
+$ cd flask-demo
+$ uv add flask
+```
+
+Rename the `main.py` file to `app.py` to make it easier to follow along.
+
+
+```
+$ uv run flask run
+```
 
