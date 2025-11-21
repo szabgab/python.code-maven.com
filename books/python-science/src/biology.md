@@ -64,26 +64,29 @@ Libraries for metabolic models, pathways, and systems simulation:
 * [Open Babel (Pybel)](https://open-babel.readthedocs.io/) - Chemical toolbox for converting between molecular file formats.
 
 
-## More obscure & esoteric Python libraries used in biology
+## More Python libraries used in biology
+
+* [pyrosetta](https://www.pyrosetta.org/).distributed - The Python interface to Rosetta in cluster / distributed computing contexts.
+* [pyrosetta](https://www.pyrosetta.org/).bindings - Bindings for Rosetta energy functions only - used almost nowhere outside protein design labs.
 
 ### Genomics & Sequencing
 
 * [dnaio](https://github.com/marcelm/dnaio/) - Fast FASTA/FASTQ reader/writer used under the hood by cutadapt.
-* cutadapt (Python API) - Adapter trimming library - most people use the CLI, but it has a Python API.
+* [cutadapt](https://github.com/marcelm/cutadapt/) (Python API) - Adapter trimming library - most people use the CLI, but it has a Python API.
 * python-edlib -  Ultra-fast library for edit distance / approximate sequence alignment (bindings for Edlib C library).
 * parasail-python - Bindings to the Parasail SIMD-accelerated pairwise alignment routines.
-* mappy - Python bindings to minimap2 for ultra-fast genome mapping.
+* [mappy](https://pypi.org/project/mappy/) - Python bindings to minimap2 for ultra-fast genome mapping.
 * pyfaidx - FASTA indexing and fast random access (like samtools faidx, but in Python).
-* screed - Indexed FASTA/FASTQ reader optimized for streaming very large datasets.
+* [screed](https://github.com/dib-lab/screed) - Indexed FASTA/FASTQ reader optimized for streaming very large datasets.
 * sourmash - Implements MinHash comparisons for genomic sketching, metagenomics, and large-scale sequence similarity.
 * khmer - K-mer counting, compression, and probabilistic data structures for huge genomes.
 * xopen - Handles compressed files (bgzip, gz) more efficiently than standard Python readers; used in many seq tools.
 
 ### Neuroscience & Neurobiology
-* neo - Data model library for electrophysiology experiment formats.
-* elephant - Statistical analysis for spiking neural data (built on Neo).
+* [neo](https://github.com/NeuralEnsemble/python-neo) - Data model library for electrophysiology experiment formats.
+* [elephant](https://github.com/NeuralEnsemble/elephant) - Statistical analysis for spiking neural data (built on Neo).
 * PyNWB / HDMF - Work with the Neurodata Without Borders (NWB) data standard.
-* brian2 - Spiking neural network simulator used in theoretical neuroscience.
+* [brian2](https://briansimulator.org/) - Spiking neural network simulator used in theoretical neuroscience.
 * pyabf - Reading Axon Binary File (ABF) electrophysiology files.
 * pylake - Control and analysis for optical tweezer experiments (LUMICKS instruments)
 
@@ -91,7 +94,6 @@ Libraries for metabolic models, pathways, and systems simulation:
 * PyEMMA - Markov state modeling for protein conformational dynamics.
 * MSMBuilder - Machine learning library for analyzing molecular dynamics trajectories.
 * MDtraj - Specialized molecular dynamics trajectory analysis toolkit.
-* pyrosetta.distributed - The Python interface to Rosetta in cluster / distributed computing contexts.
 * molecool - Small library for manipulating molecular structures intended for teaching but used in niche workflows.
 * pdbfixer - Automatically fix missing atoms/residues in PDB files - used before MD simulations.
 
@@ -111,19 +113,19 @@ Libraries for metabolic models, pathways, and systems simulation:
 * allel (scikit-allel) - Analysis of large-scale population genetics data (VCF, Zarr-based).
 * fwdpy11 - Forward-time evolutionary simulations (selection, demography).
 * moments - Demographic inference from site-frequency spectra.
-* dadi - Another demographic inference tool (Diffusion Approximations for Demographic Inference).
+* [dadi](https://pypi.org/project/dadi/) - Another demographic inference tool (Diffusion Approximations for Demographic Inference).
 
 ### Proteomics
-* pyteomics - Parsing MS/MS mass spectrometry formats (mzML, mzXML, MGF).
-* alphapept - End-to-end proteomics pipeline with a Python engine.
+* [pyteomics](https://github.com/levitsky/pyteomics) - Parsing MS/MS mass spectrometry formats (mzML, mzXML, MGF).
+* [alphapept](https://alphapept.org/) - End-to-end proteomics pipeline with a Python engine.
 * ms_deisotope - Deisotoping + charge state deconvolution for mass spec signals.
-* GlyPy - Glycoinformatics library - glycan structures & mass spec data.
+* [GlyPy](https://github.com/mobiusklein/glypy) - Glycoinformatics library - glycan structures & mass spec data.
 
 ### Phylogenetics
 * biopython-phylip - Sxtensions for interacting with PHYLIP tools.
-* augur (Nextstrain) - Python API for phylogenetic pipelines (used heavily in genomic epidemiology).
-* phylopandas - Integrates phylogenetic sequences & metadata into a pandas-like API.
-* pastml - Phylogenetic ancestral state reconstruction in Python.
+* [augur (Nextstrain)](https://github.com/nextstrain/augur) - Python API for phylogenetic pipelines (used heavily in genomic epidemiology).
+* [phylopandas](https://github.com/Zsailer/phylopandas) - Integrates phylogenetic sequences & metadata into a pandas-like API.
+* [pastml](https://pastml.pasteur.fr/) - Phylogenetic ancestral state reconstruction in Python.
 
 ### Microscopy / Image analysis
 * aicsimageio - Read microscopy data from proprietary formats (CZI, OME-TIFF, etc.).
@@ -136,12 +138,11 @@ Libraries for metabolic models, pathways, and systems simulation:
 * SLEAP - Multi-animal pose tracking using deep learning.
 
 ### Plant biology
-* PlantCV - Computer vision toolkit for plant phenotyping.
+* [PlantCV](https://plantcv.org/) - Computer vision toolkit for plant phenotyping.
 
 ### Bioinformatics adjacent / "Strange but real"
-* skmer - Genome distance estimation without assembly using spectral k-mer methods.
-* phylter - Detect suspicious sequences in phylogenetic datasets (contaminants and outliers).
-* pyslim - Manipulate tree sequences produced by SLiM evolutionary simulations.
+* [skmer](https://github.com/shahab-sarmashghi/Skmer) - Genome distance estimation without assembly using spectral k-mer methods.
+* [phylter](https://github.com/damiendevienne/phylter/) - Detect suspicious sequences in phylogenetic datasets (contaminants and outliers).
+* [pyslim](https://github.com/tskit-dev/pyslim) - Manipulate tree sequences produced by SLiM evolutionary simulations.
 * pp-sketchlib - MinHash sketches for petabase-scale genomics (used by BIGSI databases).
 * pyswift - Machine-learning-based annotation for Schizosaccharomyces pombe datasets
-* pyrosetta.bindings - Bindings for Rosetta energy functions only - used almost nowhere outside protein design labs.
