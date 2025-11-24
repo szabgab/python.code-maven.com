@@ -9,7 +9,7 @@ Each line starts with the IP address of the visitor. e.g. 217.0.22.3.
 
 Create a script called **apache_log_parser.py** that given such a log file from Apache, report how many hits (line were from each IP address.
 
-{% embed include file="src/examples/dictionary/apache_access.log)
+{% embed include file="src/examples/dictionary/apache_access.log" %}
 
 Expected output:
 

@@ -18,6 +18,6 @@ Examples:
 
 * [Libretranslate](https://libretranslate.com/)
 
-{% embed include file="src/examples/json/data.json)
+{% embed include file="src/examples/json/data.json" %}
 
 

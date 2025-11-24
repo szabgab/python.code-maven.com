@@ -2,7 +2,7 @@
 
 
 
-{% embed include file="src/examples/files/text_report.txt)
+{% embed include file="src/examples/files/text_report.txt" %}
 {% embed include file="src/examples/files/read_report.py" %}
 
 

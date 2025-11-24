@@ -2,7 +2,7 @@
 
 * `.env` file in the same folder where the program is.
 
-{% embed include file="src/examples/os/.env)
+{% embed include file="src/examples/os/.env" %}
 
 {% embed include file="src/examples/os/show_env.py" %}
 
