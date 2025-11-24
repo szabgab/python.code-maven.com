@@ -12,7 +12,7 @@ run()
 ```
 
 * Where does `run()` come from?
-* What if both moduldes have the `run()` function? Then the order of the import will be important.
+* What if both modules have the `run()` function? Then the order of the import will be important.
 * What if the `one` has the `run()` function, but a new version of `two` also adds one?
 
 

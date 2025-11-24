@@ -9,7 +9,7 @@ $ python phone.py Foo 123
 Foo added
 
 $ python phone.py Bar
-Bar is not in the phnebook
+Bar is not in the phonebook
 
 $ python phone.py Bar 456
 Bar added

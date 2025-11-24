@@ -1,4 +1,4 @@
-# Permutations - factorial funcion
+# Permutations - factorial function
 
 
 

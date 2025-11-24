@@ -2,7 +2,7 @@
 
 
 Write a script called **count_dna_bases.py** that given a sequence like this: "ACTNGTGCTYGATRGTAGCYXGTN",
-will print out the distribution of the elemnts to get the following result:
+will print out the distribution of the elements to get the following result:
 
 ```
 A 3 - 12.50 %

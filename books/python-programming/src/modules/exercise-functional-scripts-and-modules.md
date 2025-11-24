@@ -1,4 +1,4 @@
-# Exercies: Scripts and modules
+# Exercise: Scripts and modules
 
 Take the number guessing game:
 

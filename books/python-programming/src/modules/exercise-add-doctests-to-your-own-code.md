@@ -5,7 +5,7 @@
 * Add code that will run the 'self_test' when the file is executed as a script.
 * Add documentation to one of the functions and convert the 'assert'-based tests to doctests.
 * Convert the mechanism that executed the 'self_test' to run the doctests as well.
-* Let me know what are the dificulties!
+* Let me know what are the difficulties!
 
 
 

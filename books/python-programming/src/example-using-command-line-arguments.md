@@ -5,7 +5,7 @@ If we run this script without any command-line parameters it will print out usag
 If we give it two parameters it will treat the first one as the name of an input file and the second as the name of an output file.
 
 
-* First try this; Then repeate. We must type in the same path again and again. Boring and error-prone.
+* First try this; Then repeat. We must type in the same path again and again. Boring and error-prone.
 
 {% embed include file="src/examples/basics/convert_stdin.py" %}
 

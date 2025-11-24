@@ -14,7 +14,7 @@ SSL certificate problem: self signed certificate in certificate chain
 
 Sometimes people get an error:
 
-The soulution is then to do the following: (on Windows)
+The solution is then to do the following: (on Windows)
 
 ```
 set GIT_SSL_NO_VERIFY=true

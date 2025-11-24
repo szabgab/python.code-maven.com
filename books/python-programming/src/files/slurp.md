@@ -3,7 +3,7 @@
 * read
 
 
-In some other cases, especially if you are looknig for some pattern that starts on one line but ends on another line.
+In some other cases, especially if you are looking for some pattern that starts on one line but ends on another line.
 you'd be better off having the whole file as a single string in a variable. This is where the `read` method comes in handy.
 
 It can also be used to read in chunks of the file.

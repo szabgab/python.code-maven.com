@@ -1,6 +1,6 @@
 # Reading a YAML file
 
-[YAML](https://yaml.org/) files are often used as configuuration files.
+[YAML](https://yaml.org/) files are often used as configuration files.
 
 {% embed include file="src/examples/files/data.yaml" %}
 

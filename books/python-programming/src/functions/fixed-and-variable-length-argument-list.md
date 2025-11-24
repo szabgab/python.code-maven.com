@@ -1,4 +1,4 @@
-# Fixed parmeters before the others
+# Fixed parameters before the others
 
 
 

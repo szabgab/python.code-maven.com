@@ -34,7 +34,7 @@ Mac
 All platforms
 
 * [Sublime Text](http://www.sublimetext.com/) (commercial)
-* [Ligth Table](http://www.lighttable.com/)
+* [Light Table](http://www.lighttable.com/)
 
 IDEs
 

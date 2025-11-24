@@ -1,4 +1,4 @@
-# argparse print help explicitely
+# argparse print help explicitly
 
 * print_help
 

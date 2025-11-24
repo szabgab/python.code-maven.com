@@ -15,7 +15,7 @@ There are other syntax-like errors that will be only caught during execution
 {% embed include file="src/examples/basics/compile_with_global.py" %}
 {% embed include file="src/examples/basics/compile_with_global.out" %}
 
-* Python code is first compiled to bytecode and then interpreted.
+* Python code is first compiled to byte-code and then interpreted.
 * CPython is both the compiler and the interpreter.
 * Jython and IronPython are mostly just compiler to JVM and CLR respectively.
 

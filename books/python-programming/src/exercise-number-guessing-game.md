@@ -35,7 +35,7 @@ Level 4
 Level 5
 
 * Create a file called **number_guessing_game_5.py**
-* The 'm' button is another toggle. It is called 'move mode'. When it is 'on', the hidden number changes a little bit after every step (+/-2). That is, it is chaning by one of the following: -2, -1, 0, 1, 2. Pressing 'm' again will turn this feature off.
+* The 'm' button is another toggle. It is called 'move mode'. When it is 'on', the hidden number changes a little bit after every step (+/-2). That is, it is changing by one of the following: -2, -1, 0, 1, 2. Pressing 'm' again will turn this feature off.
 
 Level 6
 

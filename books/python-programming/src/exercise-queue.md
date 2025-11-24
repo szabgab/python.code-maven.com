@@ -1,4 +1,4 @@
-# Exercies: Queue
+# Exercise: Queue
 
 
 * Create file called **queue_of_people.py**
