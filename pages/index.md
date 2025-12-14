@@ -20,12 +20,12 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Fixtures and Mocking in Python](/python-mocking/)
 * [Parallel programming in Python](/python-parallel/) Do more sooner.
     * [Async programming in Python](/python-async/)
-* [OpenCV](/python-opencv/)
+* [OpenCV](/python-opencv/) - images and drawings
 * [Python Testing Demo](/python-testing-demo/)
 * [Testing Python code](/python-testing/)
 * [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
 * [GUI with Python/Tk](/python-tk/)
-* [PIL/Pillow](/python-pil/)
+* [PIL/Pillow](/python-pil/) - image manipulation
 * [Python with Java and Jython](/python-java/)
 * [Python with .NET](/python-dotnet/)
 * [Python Turtle](/python-turtle/)
@@ -35,7 +35,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Machine Learning with Python](/python-machine-learning/)
 * [PyCharm](/python-pycharm/)
 * [VS Code](/python-vscode/)
-* [Jupyter](/python-jupyter/)
+* [Jupyter](/python-jupyter/) (also: images and drawings with Matplotlib, Seaborn)
 * [A mix of other Python content](/python-other/)
 * [Python types](/python-types/)
 * [Improving Performance - optimizing code](/python-optimizations/)
