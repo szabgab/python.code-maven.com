@@ -1,7 +1,5 @@
 # Jupyter input
 
 ```
-name = input("Name: ")
+input.ipynb
 ```
-
-

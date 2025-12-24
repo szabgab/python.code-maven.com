@@ -1,6 +1,5 @@
 # File chooser
 
-* Avoid hard-coded pathes
-* `FileChooser.ipynb`
-
+* Avoid hard-coded pathes, use the FileChooser.
+* `filechooser.ipynb`
 

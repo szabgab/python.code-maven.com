@@ -13,7 +13,7 @@ pip install jupyter
 Run
 
 ```
-cd examples/jupyter/
+cd src/examples/jupyter/
 jupyter notebook
 ```
 
