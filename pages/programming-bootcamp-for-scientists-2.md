@@ -34,5 +34,5 @@ show_related: false
 * 48:45 Variables
 * 49:53 Exercise: Hello World
 
-* [Python Slides](/slides/python)
+* [Python Maven](https://python.code-maven.com/)
 

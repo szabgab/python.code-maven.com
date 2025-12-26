@@ -14,34 +14,31 @@ show_related: false
 
 {% youtube id="-dSKcFsuzwM" file="english-programming-bootcamp-35.mp4" %}
 
-        <ul>
-            <li>00:00 Standard module (standard packages) (slides changed a lot since video recording)</li>
-            <li>00:42 Some standard packages</li>
-            <li>02:58 sys</li>
-            <li>05:14 Writing to the standard error (stderr) and command line redirection</li>
-            <li>10:13 Current directory (getcwd, pwd, chdir)</li>
-            <li>14:30 OS dir (mkdir, mkdirs, remove, rmdir)</li>
-            <li>17:35 python which OS are we running on (os, platform)</li>
-            <li>18:22 Get process ID</li>
-            <li>21:08 OS path  (basename, dirname, abspath)</li>
-            <li>23:28 Traverse directory tree - list directories recursively (walk)</li>
-            <li>24:32 os.path.join</li>
-            <li>24:58 Directory listing (listdir)</li>
-            <li>26:10 Listing specific files using glob</li>
-            <li>27:15 External command with system</li>
-            <li>28:38 subprocess</li>
-            <li>29:13 time</li>
-            <li>32:55 sleep in Python</li>
-            <li>33:38 back to subprocess</li>
-            <li>37:09 subprocess in the background</li>
-            <li>38:15 Accessing the system environment variables from Python</li>
-            <li>38:59 shutil (copy, copytree, move, rmtree)</li>
-            <li>39:23 timer</li>
-            <li>39:41 Current date and time datetime now</li>
-            <li>40:51 Converting string to datetime</li>
-            <li>44:03 datetime arithmetics (elapsed time, timedelta)</li>
-            <li>45:17 Rounding datetime object to nearest second</li>
-        </ul>
+* 00:00 Standard module (standard packages) (slides changed a lot since video recording)
+* 00:42 Some standard packages
+* 02:58 sys
+* 05:14 Writing to the standard error (stderr) and command line redirection
+* 10:13 Current directory (getcwd, pwd, chdir)
+* 14:30 OS dir (mkdir, mkdirs, remove, rmdir)
+* 17:35 python which OS are we running on (os, platform)
+* 18:22 Get process ID
+* 21:08 OS path  (basename, dirname, abspath)
+* 23:28 Traverse directory tree - list directories recursively (walk)
+* 24:32 os.path.join
+* 24:58 Directory listing (listdir)
+* 26:10 Listing specific files using glob
+* 27:15 External command with system
+* 28:38 subprocess
+* 29:13 time
+* 32:55 sleep in Python
+* 33:38 back to subprocess
+* 37:09 subprocess in the background
+* 38:15 Accessing the system environment variables from Python
+* 38:59 shutil (copy, copytree, move, rmtree)
+* 39:23 timer
+* 39:41 Current date and time datetime now
+* 40:51 Converting string to datetime
+* 44:03 datetime arithmetics (elapsed time, timedelta)
+* 45:17 Rounding datetime object to nearest second
 
-* [Python Slides](/slides/python)
 

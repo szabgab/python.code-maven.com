@@ -14,20 +14,17 @@ show_related: false
 
 {% youtube id="jLAKgOiQB-A" file="english-programming-bootcamp-29.mp4" %}
 
-        <ul>
-            <li>00:00 Excel files</li>
-            <li>00:44 Spreadsheets in general</li>
-            <li>01:35 Python Excel</li>
-            <li>03:12 Created an Excel file from scratch (openpyxl)</li>
-            <li>06:55 Installing a module using pip</li>
-            <li>10:10 Worksheets in Excel</li>
-            <li>12:55 Color Selector</li>
-            <li>14:35 Add expression to Excel</li>
-            <li>17:25 Number series and chart</li>
-            <li>23:35 Read Excel file</li>
-            <li>25:32 Update Excel file</li>
-            <li>26:35 Exercises</li>
-        </ul>
+* 00:00 Excel files
+* 00:44 Spreadsheets in general
+* 01:35 Python Excel
+* 03:12 Created an Excel file from scratch (openpyxl)
+* 06:55 Installing a module using pip
+* 10:10 Worksheets in Excel
+* 12:55 Color Selector
+* 14:35 Add expression to Excel
+* 17:25 Number series and chart
+* 23:35 Read Excel file
+* 25:32 Update Excel file
+* 26:35 Exercises
 
-* [Python Slides](/slides/python)
 

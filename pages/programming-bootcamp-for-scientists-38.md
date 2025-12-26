@@ -14,17 +14,14 @@ show_related: false
 
 {% youtube id="4bSfNSYc9Ds" file="english-programming-bootcamp-38.mp4" %}
 
-        <ul>
-            <li>00:00 Biology</li>
-            <li>00:50 BioPython</li>
-            <li>02:20 BioPython Background; FASTA file format</li>
-            <li>04:42 BioPython sequences (Seq)</li>
-            <li>07:45 NCBI</li>
-            <li>09:15 Read FASTA, GenBank files, download file using the requests module</li>
-            <li>18:15 Search for nucleotides on NCBI</li>
-            <li>28:30 Download nucleotides from NCBI</li>
-            <li>33:14 Chemistry</li>
-        </ul>
+* 00:00 Biology
+* 00:50 BioPython
+* 02:20 BioPython Background; FASTA file format
+* 04:42 BioPython sequences (Seq)
+* 07:45 NCBI
+* 09:15 Read FASTA, GenBank files, download file using the requests module
+* 18:15 Search for nucleotides on NCBI
+* 28:30 Download nucleotides from NCBI
+* 33:14 Chemistry
 
-* [Python Slides](/slides/python)
 

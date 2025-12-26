@@ -17,7 +17,7 @@ show_related: false
 * 00:00 Introduction to the Bootcamp.
 * 01:37 [Nóra Doleschall](https://www.linkedin.com/in/nora-doleschall/) introduces herself and her background in programming.
 * 02:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)
-* 08:04 About [Code-Maven](/), all the [slides](/slides), the [Python slides](/slides/python).
+* 08:04 About Code-Maven, all the [slides](https://code-maven.com/), the [Python slides](https://python.code-maven.com/).
 * 09:38 Showing the Windows command line and the file explorer
 * 15:20 Keyboard shortcuts for the slides
 * 16:48 Keyboard shortcuts on YouTube
@@ -27,5 +27,5 @@ show_related: false
 * 24:08 The source code of Python
 * 26:00 Open Source
 
-* [Python Slides](/slides/python)
+* [Python Slides](https://python.code-maven.com/)
 

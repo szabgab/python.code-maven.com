@@ -14,15 +14,12 @@ show_related: false
 
 {% youtube id="KlNfJoQZU3E" file="english-programming-bootcamp-26.mp4" %}
 
-        <ul>
-            <li>00:00 Solutions for the exercises in the Functions chapter</li>
-            <li>00:40 Solution: Function returning Statistics</li>
-            <li>04:30 The _ placeholder variable</li>
-            <li>07:25 Solution: Recursive function to show dependency tree</li>
-            <li>12:03 Solution: Tower of Hanoi - skipping</li>
-            <li>12:20 Solution: Bubble sort (sort-of)</li>
-            <li>31:50 Solution: Merge sort</li>
-        </ul>
+* 00:00 Solutions for the exercises in the Functions chapter
+* 00:40 Solution: Function returning Statistics
+* 04:30 The _ placeholder variable
+* 07:25 Solution: Recursive function to show dependency tree
+* 12:03 Solution: Tower of Hanoi - skipping
+* 12:20 Solution: Bubble sort (sort-of)
+* 31:50 Solution: Merge sort
 
-* [Python Slides](/slides/python)
 
