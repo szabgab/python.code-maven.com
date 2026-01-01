@@ -10,41 +10,62 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 ## Books
 
 * [Python Programming](/python-programming/)
+* [Regular Expressions in Python](/python-regexes/)
+
+### Advanced
+
 * [Functional Programming in Python](/python-functional-programming/)
 * [Object Oriented Programming in Python](/python-oop/)
-* [Web application development with Python Flask](/python-flask/)
-* [Regular Expressions in Python](/python-regexes/)
-* [Databases using Python](/python-databases/)
+* [Closures](/python-closures/)
 * [Error and Exception handling in Python](/python-exceptions/)
-* [Web development with Python FastAPI](/python-fastapi/)
-* [Fixtures and Mocking in Python](/python-mocking/)
 * [Parallel programming in Python](/python-parallel/) Do more sooner.
     * [Async programming in Python](/python-async/)
-* [OpenCV](/python-opencv/) - images and drawings
+* [Improving Performance - optimizing code](/python-optimizations/)
+
+### Web
+
+* [Web application development with Python Flask](/python-flask/)
+* [Web development with Python FastAPI](/python-fastapi/)
+* [Web scraping Web client](/python-web-scraping/) (http client, request, urllib)
+
+### Testing
+
 * [Python Testing Demo](/python-testing-demo/)
 * [Testing Python code](/python-testing/)
-* [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
-* [GUI with Python/Tk](/python-tk/)
-* [PIL/Pillow](/python-pil/) - image manipulation
-* [Python with Java and Jython](/python-java/)
-* [Python with .NET](/python-dotnet/)
-* [Python Turtle](/python-turtle/)
-* [Python and the GitHub API](/python-github/)
-* [Python and Scapy](/python-scapy/)
-* [Web scraping Web client](/python-web-scraping/) (http client, request, urllib)
-* [Machine Learning with Python](/python-machine-learning/)
+* [Fixtures and Mocking in Python](/python-mocking/)
+
+### Development Environment
+
 * [PyCharm](/python-pycharm/)
 * [VS Code](/python-vscode/)
 * [Jupyter](/python-jupyter/) (also: images and drawings with Matplotlib, Seaborn)
-* [A mix of other Python content](/python-other/)
+
+### Python Flavors
+
+* [Python with Java and Jython](/python-java/)
+* [Python with .NET](/python-dotnet/)
+
+### Other
+
+* [Databases using Python](/python-databases/)
+* [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
+* [OpenCV](/python-opencv/) - images and drawings
+* [GUI with Python/Tk](/python-tk/)
+* [PIL/Pillow](/python-pil/) - image manipulation
+* [Python Turtle](/python-turtle/)
+* [Python and the GitHub API](/python-github/)
+* [Python and Scapy](/python-scapy/)
+* [Machine Learning with Python](/python-machine-learning/)
 * [Python types](/python-types/)
-* [Improving Performance - optimizing code](/python-optimizations/)
-* [Data Science](/data-science/)
 * [Python using AI](/python-using-ai/)
 
+### Mix
+
+* [A mix of other Python content](/python-other/)
 
 ## Presentations
 
+* [Data Science](/data-science/)
 * [Python types at PyWeb 2025.01](/python-types-at-pyweb-2025-01/)
 * [Python types at PyWeb 2025.05](/python-types-at-pyweb-2025-05/)
 * [Pair programming and TDD workshop](/python-pair-programming-and-tdd-workshop/)
