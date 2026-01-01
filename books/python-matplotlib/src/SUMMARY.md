@@ -11,5 +11,8 @@
   - [Matplotlib Pie](./matplotlib/matplotlib-pie.md)
   - [Matplotlib Pie (test cases)](./matplotlib/matplotlib-pie-test-cases.md)
   - [Bar](./matplotlib/bar.md)
+  - [Histogram](./matplotlib/histogram.md)
+  - [Fill between](./matplotlib/fill-between.md)
+  - [3D bars](./matplotlib/3d-bars.md)
   - [Plot, scatter, histogram](./matplotlib/matplotlib-plot.md)
 
