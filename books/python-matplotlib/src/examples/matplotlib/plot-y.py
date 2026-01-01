@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 
-x = [ 3,  4,   5,  6 ]
 y = [ 23, 42, 10, 19 ]
-plt.plot(x, y)
+plt.plot(y)
 plt.show()
-#plt.savefig('line.png')
+#plt.savefig('plot-y.png')
