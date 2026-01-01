@@ -7,6 +7,7 @@
   - [Plot a line with x and y axis](./matplotlib/matplotlib-line.md)
   - [Plot a line with y only](./matplotlib/plot-y.md)
   - [Plot a line with labels](./matplotlib/line-with-labels.md)
+  - [Line with formatting](./matplotlib/line-with-formatting.md)
   - [Line with dates](./matplotlib/matplotlib-line-with-dates.md)
   - [Simple Pie](./matplotlib/matplotlib-simple-pie.md)
   - [Simple Pie with params](./matplotlib/matplotlib-simple-pie-with-params.md)
