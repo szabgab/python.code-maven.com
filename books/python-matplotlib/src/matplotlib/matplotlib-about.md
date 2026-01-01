@@ -2,4 +2,6 @@
 
 * [matplotlib](http://matplotlib.org/)
 
-
+```
+pip insall matplotlib
+```

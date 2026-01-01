@@ -60,7 +60,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 ## Science
 
 * [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
-* [Matplotlib](/python-matplotlib/)
+* [Matplotlib](/python-matplotlib/) - Visualization
 * [Seaborn](/python-seaborn/)
 * [OpenCV](/python-opencv/) - images and drawings
 * [PIL/Pillow](/python-pil/) - image manipulation
