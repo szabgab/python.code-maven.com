@@ -12,6 +12,10 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Python Programming](/python-programming/)
 * [Regular Expressions in Python](/python-regexes/)
 
+## File formats
+
+* [CSV](/python-csv/)
+
 ## Advanced
 
 * [Logging](/python-logging/)
