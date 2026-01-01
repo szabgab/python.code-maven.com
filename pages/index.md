@@ -57,17 +57,21 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Python with Java and Jython](/python-java/)
 * [Python with .NET](/python-dotnet/)
 
+## Science
+
+* [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
+* [Matplotlib](/python-matplotlib/)
+* [OpenCV](/python-opencv/) - images and drawings
+* [PIL/Pillow](/python-pil/) - image manipulation
+* [Machine Learning with Python](/python-machine-learning/)
+
 ## Other
 
 * [Databases using Python](/python-databases/)
-* [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
-* [OpenCV](/python-opencv/) - images and drawings
 * [GUI with Python/Tk](/python-tk/)
-* [PIL/Pillow](/python-pil/) - image manipulation
 * [Python Turtle](/python-turtle/)
 * [Python and the GitHub API](/python-github/)
 * [Python and Scapy](/python-scapy/)
-* [Machine Learning with Python](/python-machine-learning/)
 * [Python types](/python-types/)
 * [Python using AI](/python-using-ai/)
 
