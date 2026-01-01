@@ -15,6 +15,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 ## File formats
 
 * [CSV](/python-csv/)
+* [Excel](/python-excel/)
 
 ## Advanced
 
