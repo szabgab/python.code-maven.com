@@ -1,6 +1,6 @@
 # Summary
 
-- [Python Other](./index.md)
+- [Python Decorators](./index.md)
 
 - [Decorators](./decorators/index.md)
   - [Decorators: simple example](./decorators/decorators-example.md)

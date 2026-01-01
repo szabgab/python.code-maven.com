@@ -14,6 +14,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 
 ## Advanced
 
+* [Logging](/python-logging/)
 * [Functional Programming in Python](/python-functional-programming/)
 * [Object Oriented Programming in Python](/python-oop/)
 * [Closures](/python-closures/)

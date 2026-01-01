@@ -1,6 +1,6 @@
 # Summary
 
-- [Python Other](./index.md)
+- [Python Context Managers](./index.md)
 
 - [Context managers (with statement)](./context/index.md)
   - [Why use context managers?](./context/context-manager-why.md)
