@@ -18,6 +18,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [Object Oriented Programming in Python](/python-oop/)
 * [Closures](/python-closures/)
 * [Decorators](/python-decorators/)
+* [Context Managers](/python-context/)
 * [Error and Exception handling in Python](/python-exceptions/)
 * [Parallel programming in Python](/python-parallel/) Do more sooner.
     * [Async programming in Python](/python-async/)
