@@ -2,6 +2,6 @@
 
 {% embed include file="src/examples/matplotlib/pie.py" %}
 
-![](examples/matplotlib/pie.png)
+![](../examples/matplotlib/pie.png)
 
 

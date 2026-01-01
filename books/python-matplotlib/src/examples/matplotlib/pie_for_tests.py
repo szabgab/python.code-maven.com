@@ -17,6 +17,6 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, s
 ax1.axis('equal')
 
 plt.tight_layout()
-plt.show()
-#plt.savefig('pie_for_tests.png')
+#plt.show()
+plt.savefig('pie_for_tests.png')
 

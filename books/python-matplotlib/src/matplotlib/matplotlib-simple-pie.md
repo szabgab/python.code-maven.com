@@ -2,6 +2,8 @@
 
 {% embed include file="src/examples/matplotlib/simple_pie.py" %}
 
-![](examples/matplotlib/simple_pie.png)
+The number in the array represent the ratio of the areas. They do NOT have to add up to a 100.
+
+![simple pie diagram](../examples/matplotlib/simple_pie.png)
 
 
