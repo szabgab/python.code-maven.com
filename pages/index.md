@@ -18,6 +18,8 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [YAML](/python-yaml/)
 * [CSV](/python-csv/)
 * [Excel](/python-excel/)
+* [XML](/python-xml/)
+* TOML
 
 ## Advanced
 
