@@ -7,12 +7,12 @@ description: Welcome to the Python Maven, the site that will help you programmin
 
 Welcome to the Python Maven web site about, well, the Python programming language!
 
-## Books
+## Beginner
 
 * [Python Programming](/python-programming/)
 * [Regular Expressions in Python](/python-regexes/)
 
-### Advanced
+## Advanced
 
 * [Functional Programming in Python](/python-functional-programming/)
 * [Object Oriented Programming in Python](/python-oop/)
@@ -23,30 +23,30 @@ Welcome to the Python Maven web site about, well, the Python programming languag
     * [Async programming in Python](/python-async/)
 * [Improving Performance - optimizing code](/python-optimizations/)
 
-### Web
-
-* [Web application development with Python Flask](/python-flask/)
-* [Web development with Python FastAPI](/python-fastapi/)
-* [Web scraping Web client](/python-web-scraping/) (http client, request, urllib)
-
-### Testing
+## Testing
 
 * [Python Testing Demo](/python-testing-demo/)
 * [Testing Python code](/python-testing/)
 * [Fixtures and Mocking in Python](/python-mocking/)
 
-### Development Environment
+## Web
+
+* [Web application development with Python Flask](/python-flask/)
+* [Web development with Python FastAPI](/python-fastapi/)
+* [Web scraping Web client](/python-web-scraping/) (http client, request, urllib)
+
+## Development Environment
 
 * [PyCharm](/python-pycharm/)
 * [VS Code](/python-vscode/)
 * [Jupyter](/python-jupyter/) (also: images and drawings with Matplotlib, Seaborn)
 
-### Python Flavors
+## Python Flavors
 
 * [Python with Java and Jython](/python-java/)
 * [Python with .NET](/python-dotnet/)
 
-### Other
+## Other
 
 * [Databases using Python](/python-databases/)
 * [Scientific Python](/python-science/) (Biology, Chemistry, numpy, pandas)
