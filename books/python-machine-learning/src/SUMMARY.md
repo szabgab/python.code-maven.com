@@ -2,12 +2,13 @@
 
 - [Python Machine Learning](./index.md)
 
-- [Machine Learning](./machine-learning/index.md)
+- [Machine Learning (ML)](./machine-learning/index.md)
   - [Types of Machine Learning algorithms](./machine-learning/ml-types-of-machine-learning-algorithms.md)
   - [ML - Supervised Learning](./machine-learning/ml-supervised-learning.md)
   - [Regression problem](./machine-learning/ml-regression-problem.md)
   - [Classification problem](./machine-learning/ml-classification-problem.md)
   - [ML - Unsupervised Learning](./machine-learning/ml-unsupervised-learning.md)
+  - [Reinforcement Learning (RL)](./machine-learning/reinforcement-learning.md)
   - [Linear regression with sklearn](./machine-learning/ml-linear-regression-with-sklern.md)
   - [Split data set](./machine-learning/ml-split-data-set.md)
   - [Food-truck linear regression](./machine-learning/ml-food-truck.md)
