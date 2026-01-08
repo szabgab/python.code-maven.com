@@ -14,4 +14,7 @@ we can use the model.
 
 {% embed include file="src/examples/ml/basic_linear_regression_predict.py" %}
 
+**examples/ml/basic_linear_regression.py**
+
+{% embed include file="src/examples/ml/basic_linear_regression.py" %}
 
