@@ -4,3 +4,5 @@
 books/*/book/
 /html/
 __pycache__
+
+/books/python-machine-learning/src/examples/ml/linear.joblib
