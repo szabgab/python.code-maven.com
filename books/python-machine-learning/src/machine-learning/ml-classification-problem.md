@@ -4,7 +4,7 @@
 
 * A picture of an animal. What kind of an animal is it? Is it a cat, a dog, a tiger?
 
-![](/img/Supervised_Learning_2ae4dbc912.png)
+![](../img/Supervised_Learning_2ae4dbc912.png)
 
 
 * Medical diagnosis
