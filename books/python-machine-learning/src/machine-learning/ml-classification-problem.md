@@ -2,6 +2,10 @@
 
 * Predict a discrete valued output (yes/no) or (A, B, C, D)
 
+* A picture of an animal. What kind of an animal is it? Is it a cat, a dog, a tiger?
+
+![](/img/Supervised_Learning_2ae4dbc912.png)
+
 
 * Medical diagnosis
     * Lab results
@@ -13,7 +17,8 @@
 * e.g. We might know the tumor size, the age of the patient, the gender of the patient, etc.
 
 
-* A picture of an animal. What kind of an animal is it? Is it a cat, a dog, a tiger?
+
+
 
 * Iris: Based on the sepal and petal length and width, guess the species:
     * Iris-setosa
@@ -21,3 +26,4 @@
     * Iris-virginica
 
 
+[image source](https://cdn.botpenguin.com/assets/website/Supervised_Learning_2ae4dbc912.png)

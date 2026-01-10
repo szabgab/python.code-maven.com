@@ -2,7 +2,7 @@
 
 * Predict continuous valued output.
 
-* Housing prices (y)
+## Housing prices (y)
 * X:
     * Size of the flat in sqm.
     * Distance from school.
@@ -13,8 +13,21 @@
 
 * How to predict the price based on the input variables?
 
-* Size, weight, color, nutrition value of various crops (y) based on rainfall, amount of sun, use of fertilizer, etc. (X).
-* Life expectancy at birth or when a certain disase is found in a person.
+## Size, weight, color, nutrition value of various crops (y)
+* X:
+    * rainfall
+    * amount of sun
+    * use of fertilizer
+    * ...
+
+## Life expectancy at birth (y)
+* X:
+    * alcohol or drug usage by the mother during the pregnancy
+    * age of the mother
+    * method of birth (delivery)
+    * birth-control used prior to the conception
+    * prior pregnencies
+    * same for the father where relevant
 
 ---
 
