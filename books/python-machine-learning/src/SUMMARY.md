@@ -8,15 +8,18 @@
   - [Regression problem](./machine-learning/ml-regression-problem.md)
   - [Classification problem](./machine-learning/ml-classification-problem.md)
   - [Unsupervised Learning](./machine-learning/ml-unsupervised-learning.md)
+  - [Clustering vs classification](./machine-learning/clustering-vs-classification.md)n
   - [Reinforcement Learning (RL)](./machine-learning/reinforcement-learning.md)
   - [Linear regression with sklearn](./machine-learning/ml-linear-regression-with-sklern.md)
   - [Split data set](./machine-learning/ml-split-data-set.md)
   - [Polynomial Regression](./machine-learning2/ml-polynomial-regression.md)
   - [Food-truck linear regression](./machine-learning/ml-food-truck.md)
   - [Basic Classification example](./machine-learning/ml-basic-classification.md)
+  - [California Housing prices](./machine-learning/california-housing-prices.md)
   - [Kaggle](./machine-learning/ml-kaggle.md)
   - [Kaggle - USA housing listing](./machine-learning/ml-kaggle-usa-housing-listing.md)
   - [Kaggle - Iris](./machine-learning/ml-kaggle-iris.md)
+  - [Data Preprocessing](./machine-learning/data-preprocessing.md)
 
 - [Machine Learning 2](./machine-learning2/index.md)
   - [Number of features](./machine-learning2/ml-number-of-features.md)

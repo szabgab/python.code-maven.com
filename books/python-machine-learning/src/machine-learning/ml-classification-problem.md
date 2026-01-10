@@ -2,12 +2,21 @@
 
 * Predict a discrete valued output (yes/no) or (A, B, C, D)
 
-* A picture of an animal. What kind of an animal is it? Is it a cat, a dog, a tiger?
-
 ![](../img/Supervised_Learning_2ae4dbc912.png)
 
+## What kind of an animal is it? Is it a cat, a dog, a tiger?
+X:
+    * height
+    * weight
+    * size of ears,
+    * size of tail
+    * color, color of the eyes
+    * ...
+    * OR the picture of an animal
 
-* Medical diagnosis
+
+## Medical diagnosis
+X:
     * Lab results
     * Images (CT, MRI, Ultrasound)
     * Patient metadata
@@ -17,13 +26,15 @@
 * e.g. We might know the tumor size, the age of the patient, the gender of the patient, etc.
 
 
-
-
-
-* Iris: Based on the sepal and petal length and width, guess the species:
+## Iris species
+* Classical example from the paper of Ronald Fisher in 1936: "The use of multiple measurements in taxonomic problems"
+* y:
     * Iris-setosa
     * Iris-versicolor
     * Iris-virginica
+* X:
+    * sepal and petal length and width (4 numbers)
+* [](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 
 
 [image source](https://cdn.botpenguin.com/assets/website/Supervised_Learning_2ae4dbc912.png)

@@ -2,6 +2,8 @@
 
 * Predict continuous valued output.
 
+![](../img/linear_regression_diagram.png)
+
 ## Housing prices (y)
 * X:
     * Size of the flat in sqm.
@@ -31,8 +33,10 @@
 
 ---
 
+
 * A linear line: `ax + b`?
 * Maybe a 2nd degree polynom `ax^2 + bx + c`?
 * An exact match on the known points using very high degree polynom?
 
+[image source](https://arjun-mota.github.io/assets/img/sample/linear_regression_diagram.png)
 
