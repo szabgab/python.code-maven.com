@@ -27,8 +27,10 @@ def main():
 
     np.random.seed(42)
     df = generate_data_with_noise(size, noise)
+    print(df)
     #df.plot()
     #df.plot.scatter(x='x', y='y', c='Blue');
+    #plt.show()
     X = df[["x"]]
     #print(X)
     y = df["y"]
@@ -52,7 +54,6 @@ def main():
     #print(f"intercept: {model.intercept_}  coef: {model.coef_}")
     print('train coefficient of determination:', model.score(x_train, y_train))
     print('test coefficient of determination:', model.score(x_test, y_test))
-    print('coefficient of determination:', model.score(X, y))
 
     #x1, x2 = min(df["x"]), max(df["x"]) # 0, size-1
     #y1, y2 = model.predict(pd.DataFrame({'x': [x1, x2]}))
