@@ -176,3 +176,5 @@ jupyter lab
 
 # Tutorials: https://numiqo.com/tutorial/roc-curve
 
+The titanic.py is based on this video: https://www.youtube.com/watch?v=SW0YGA9d8y8
+

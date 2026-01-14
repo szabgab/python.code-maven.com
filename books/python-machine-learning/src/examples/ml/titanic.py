@@ -10,7 +10,6 @@
 # ///
 
 # Titanic dataset by Brenda N https://www.kaggle.com/datasets/brendan45774/test-file
-# Based on this vide: https://www.youtube.com/watch?v=SW0YGA9d8y8
 
 import pandas as pd
 import numpy as np
@@ -90,10 +89,9 @@ def main():
     filename = "titanic.csv"
     df = pd.read_csv(filename)
     df.info()
-    print(df.isnull().sum())
+    #print(df.isnull().sum())
     data_cleaning(df)
-    print(df.isnull().sum())
-
+    #print(df.isnull().sum())
     X = df.drop(columns=["Survived"])
     y = df["Survived"]
 
