@@ -1,6 +1,6 @@
 ---
 title: Adding GitHub Actions to qrcode-pretty
-timestamp: 2025-02-04T07:40:01
+timestamp: 2026-02-04T07:40:01
 author: szabgab
 published: true
 description:

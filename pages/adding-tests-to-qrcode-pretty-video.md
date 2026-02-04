@@ -1,6 +1,6 @@
 ---
 title: Exploring qrcode-pretty and adding tests to it
-timestamp: 2025-02-04T07:30:01
+timestamp: 2026-02-04T07:30:01
 author: szabgab
 published: true
 description:
