@@ -49,8 +49,8 @@ jobs:
 
       - name: Download mdBook
         env:
-          MDBOOK_VERSION: 0.4.52
-          EMBEDIFY_VERSION: 0.2.17
+          MDBOOK_VERSION: 0.5.2
+          EMBEDIFY_VERSION: 0.3.2
           ALERTS_VERSION: 0.8.0
         run: |
           set -x

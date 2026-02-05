@@ -7,7 +7,7 @@ title = "Python types at PyWeb 2025.05"
 # Add github icon to the menu
 [output.html]
 git-repository-url = "https://github.com/szabgab/python.code-maven.com"
-git-repository-icon = "fa-github"
+git-repository-icon = "fas-code-fork"
 edit-url-template = "https://github.com/szabgab/python.code-maven.com/edit/main/books/python-types-at-pyweb-2025-05/{path}"
 
 [output.markdown]
