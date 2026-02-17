@@ -18,4 +18,5 @@
   - [Fill between](./matplotlib/fill-between.md)
   - [3D bars](./matplotlib/3d-bars.md)
   - [Scatter, histogram](./matplotlib/matplotlib-plot.md)
+  - [Other](./matplotlib/other.md)
 
