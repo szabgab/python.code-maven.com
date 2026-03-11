@@ -1,3 +1,5 @@
 # Testing Resources
 
-* [AB Testing](http://www.angryweasel.com/ABTesting/) Alan and Brent talk about Modern Testing
+* [Modern Testing](https://www.moderntesting.org/) by Alan and Brent (was AB Testing)
+* [Continuous Delivery](https://continuousdelivery.com/) by Dave Farley
+* [Modern Software Engineering](https://modernsoftwareengineering.co.uk/) by Dave Farley [Youtube](https://www.youtube.com/@ModernSoftwareEngineeringYT)
