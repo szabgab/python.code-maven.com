@@ -1,15 +1,16 @@
-# Use a module
+# Use the `mymath` module
 
-We have a module called `mymath` that has two methods: `add` and `div`.
+Before we start testing it, let's see how we would use this module?
 
+{% embed include file="src/examples/testing/use_mymath.py" %}
+
+The output looks like this
 
 ```
-import mymath
-print( mymath.add(2, 3) )
-print( mymath.div(6, 2) )
+5
+3.0
 ```
 
-{% embed include file="src/examples/testing/run_mymath.py" %}
-
-
+Some people will wite such examples during development, look at the results and conclude that the functions work fine.
+Unfortunatelly they will leave these helper programs scattered around their computer and then these would get lost.
 

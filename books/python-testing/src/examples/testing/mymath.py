@@ -21,5 +21,3 @@ def div(x, y):
     """
     return x / y
 
-
-#print add(2, 3, 4)
