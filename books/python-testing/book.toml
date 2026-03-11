@@ -9,6 +9,7 @@ title = "Testing in Python"
 git-repository-url = "https://github.com/szabgab/python.code-maven.com"
 git-repository-icon = "fas-code-fork"
 edit-url-template = "https://github.com/szabgab/python.code-maven.com/edit/main/books/python-testing/{path}"
+additional-js = ["custom.js", "addlinks.js"]
 
 [output.markdown]
 
