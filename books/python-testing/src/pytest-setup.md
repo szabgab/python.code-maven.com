@@ -1,28 +1,28 @@
 # Pytest setup
 
-**Python 2**
+## Python 2
 
 ```
-virtualenv venv2
-source venv2/bin/activate
+virtualenv venv
+source venv/bin/activate
 pip install pytest
 ```
 
-**Python 3**
+## Python 3
 
 ```
-virtualenv venv3 -p python3
-source venv3/bin/activate
+virtualenv venv -p python3
+source venv/bin/activate
 pip install pytest
 ```
 
-**Python 3 Debian/Ubuntu**
+## Python 3 Debian/Ubuntu
 
 ```
 apt-get install python3-pytest
 ```
 
-**Python 3 RedHat/Centos**
+## Python 3 RedHat/Centos
 
 ```
 yum install python3-pytest

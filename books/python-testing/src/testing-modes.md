@@ -9,9 +9,12 @@ There are many categories of testing. Let's list some of them:
     * White box
     * Black box
     * Regression testing
+* Code quality tests
 * Usability testing
 * Performance testing
 * Load testing
+* Stress test
+* Endurance test
 * Security testing
 * ...
 
@@ -19,4 +22,5 @@ There are many categories of testing. Let's list some of them:
 
 * Smoke testing
 * Sanity testing (preliminary testing).
+
 

@@ -1,6 +1,6 @@
 # Summary
 
-- [Testing](./index.md)
+- [Testing in Python](./index.md)
   - [Traditional Organizations](./traditional-organization.md)
   - [Quality Assurance](./quality-assurance.md)
   - [Web age Organizations](./web-organization.md)
@@ -25,7 +25,6 @@
   - [Test examples](./test-example.md)
 - [Testing with PyTest](./pytest.md)
   - [Pytest features](./pytest-features.md)
-  - [Test methods](./pytest-test-methods.md)
   - [Pytest setup](./pytest-setup.md)
   - [Pytest - AUT - Application Under Test](./pytest-simple-aut.md)
   - [How to use the module?](./pytest-how-to-use-the-simple-aut.md)

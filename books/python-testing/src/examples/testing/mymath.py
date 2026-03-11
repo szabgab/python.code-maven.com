@@ -12,12 +12,11 @@ def div(x, y):
     """Dividing two numbers
 
     >>> div(8, 2)
-    4
+    4.0
     >>> div(8, 0)
     Traceback (most recent call last):
     ...
-    ZeroDivisionError: integer division or modulo by zero
-
+    ZeroDivisionError: division by zero
     """
     return x / y
 
