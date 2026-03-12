@@ -1,6 +1,9 @@
 # Summary
 
 - [Testing in Python](./index.md)
+  - [The software testing equasion](./software-testing-equasion.md)
+  - [The software testing equasion (fixed)](./software-testing-equasion-revised.md)
+  - [Manual testing](./manual-testing.md)
   - [Traditional Organizations](./traditional-organization.md)
   - [Quality Assurance](./quality-assurance.md)
   - [Web age Organizations](./web-organization.md)
@@ -14,6 +17,9 @@
   - [Testing Setup - Fixture](./testing-setup-fixtures.md)
   - [Testing Resources](./testing-resources.md)
   - [The plan of this course](./testing-the-plan-of-the-course.md)
+  - [The pieces of your software?](./pieces-of-your-software.md)
+  - [Continuous Integration](./continuous-integration.md)
+
 - [The mymath module](./tested-module.md)
 - [Testing with doctest](./testing-with-doctest.md)
 - [Testing with unittest](./testing-with-unittest.md)
@@ -211,14 +217,5 @@
   - [PyTest - list](./pytest-list.md)
   - [Pytest: monkeypatching time](./pytest-monkeypatching-time.md)
   - [PyTest: no random order](./pytest-no-random-order.md)
-
-- [Testing Intro](./testing-intro/index.md)
-  - [The software testing equasion](./testing-intro/software-testing-equasion.md)
-  - [The software testing equasion (fixed)](./testing-intro/software-testing-equasion-revised.md)
-  - [The pieces of your software?](./testing-intro/pieces-of-your-software.md)
-  - [Manual testing](./testing-intro/manual-testing.md)
-  - [What to tests?](./testing-intro/what-to-test.md)
-  - [Continuous Integration](./testing-intro/continuous-integration.md)
-
 
 
