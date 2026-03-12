@@ -9,4 +9,4 @@ The complexity of the function does not matter.
 
 In this case each function also comes with some documentation, including examples using the interactive shell.
 
-{% embed include file="src/examples/testing/mymath.py" %}
+{% embed include file="src/examples/testing/good/mymath.py" %}

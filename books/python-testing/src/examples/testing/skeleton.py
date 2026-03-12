@@ -24,7 +24,7 @@ class Something(unittest.TestCase):
         self.assertEqual(add(-3, 2), 7)
         self.assertEqual(add(-3, 2), 0)
 
-    
+
 if __name__ == '__main__':
     unittest.main()
 

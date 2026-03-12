@@ -4,12 +4,12 @@ Once we had that passing test we might have shared our code just to receive comp
 
 So for your investigation the first thing you need to do is to write a test case expecting it to work proving that your code works. So you add a second assertion.
 
-{% embed include file="src/examples/pytest/math/test_mymath_more.py" %}
+{% embed include file="src/examples/testing/bad/test_mymath_more.py" %}
 
 To your surprise the tests fails with the following output:
 
 
-{% embed include file="src/examples/pytest/math/test_mymath_more.out" %}
+{% embed include file="src/examples/testing/bad/test_mymath_more.out" %}
 
 We see the `collected 1 item` because we still only have one test function.
 

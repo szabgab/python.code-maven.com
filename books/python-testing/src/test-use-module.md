@@ -2,7 +2,7 @@
 
 Before we start testing it, let's see how we would use this module?
 
-{% embed include file="src/examples/testing/use_mymath.py" %}
+{% embed include file="src/examples/testing/good/use_mymath.py" %}
 
 The output looks like this
 
