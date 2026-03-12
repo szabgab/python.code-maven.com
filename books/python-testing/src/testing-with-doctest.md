@@ -10,8 +10,6 @@ Doctest will read our source code. It will read our functions and their document
 
 It will extract the examples from the documentation. Run the function as shown after the `>>>` prompt and compare the results to what can be found next.
 
-"literate testing" or "executable documentation"
-
-
+This is sometimes referred to as "literate testing" or "executable documentation".
 
 
