@@ -1,20 +1,25 @@
 def test_one():
+    print('one before')
     assert True
-    print('one')
+    print('one after')
 
 def test_two():
+    print('two before')
     assert False
-    print('two')
+    print('two after')
 
 def test_three():
+    print('three before')
     assert True
-    print('three')
+    print('three after')
 
 def test_four():
+    print('four before')
     assert False
-    print('four')
+    print('four after')
 
 def test_five():
+    print('five before')
     assert True
-    print('five')
+    print('five after')
 

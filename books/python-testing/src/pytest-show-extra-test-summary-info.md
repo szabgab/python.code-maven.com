@@ -1,7 +1,6 @@
-# Pytest: show extra test summmary info with -r
+# Pytest: show extra test summmary info with `-r`
 
-* -r
-* -ra
+The letters one can use with the `-r` flag:
 
 * (f)ailed
 * (E)error
@@ -20,9 +19,5 @@ pytest -ra  - all the special cases
 ```
 
 {% embed include file="src/examples/pytest/test_r.py" %}
-
-```
-pytest -h
-```
 
 
