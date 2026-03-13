@@ -7,6 +7,8 @@ Before we start testing it, let's see how we would use this module?
 The output looks like this
 
 ```
+$ python src/examples/testing/good/use_mymath.py
+
 5
 3.0
 ```

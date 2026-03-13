@@ -1,7 +1,7 @@
 # Doctest for good module
 
 ```
-python3 -m doctest src/examples/testing/good/mymath.py
+python -m doctest src/examples/testing/good/mymath.py
 ```
 
 In case of success there is no output.
@@ -27,7 +27,7 @@ Exit code on Windwos:
 We can also use the verbose mode to see the progress:
 
 ```
-python3 -m doctest -v src/examples/testing/good/mymath.py
+python -m doctest -v src/examples/testing/good/mymath.py
 ```
 
 

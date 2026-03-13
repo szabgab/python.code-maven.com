@@ -4,12 +4,12 @@ In this case we have a function that works for some input and returns incorrect 
 
 It can still have documentation with working examples:
 
-{% embed include file="src/examples/testing/bad/mymath.py" %}
+{% embed include file="src/examples/testing/bad/fibonacci.py" %}
 
 We can run the tests and they will pass.
 
 ```
-python3 -m doctest src/examples/testing/bad/mymath.py
+python -m doctest src/examples/testing/bad/fibonacci.py
 ```
 
 Exit code on Linux and macOS:

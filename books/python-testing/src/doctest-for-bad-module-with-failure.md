@@ -3,30 +3,28 @@
 We can add another test case that was reported to return bad results.
 
 
-{% embed include file="src/examples/testing/failure/mymath.py" %}
+{% embed include file="src/examples/testing/failure/fibonacci.py" %}
 
 
 We can run doctest:
 
 ```
-python3 -m doctest src/examples/testing/failure/mymath.py
-```
-
-```
-$ python -m doctest mymath.py
+$ python3 -m doctest fibonacci.py
 **********************************************************************
-File ".../src/examples/testing/failure/mymath.py", line 8, in mymath.add
+File "src/examples/testing/failure/fibonacci.py", line 5, in fibonacci.fib
 Failed example:
-    add(2, 3)
+    fib(1)
 Expected:
-    5
+    0
 Got:
-    6
+    1
 **********************************************************************
 1 item had failures:
-   1 of   2 in mymath.add
+   1 of   4 in fibonacci.fib
 ***Test Failed*** 1 failure.
 ```
+
+It still checked all the 4 test cases and reported that one of them failed.
 
 The exit code will also indicate the failure.
 
@@ -45,5 +43,7 @@ Exit code on Windwos:
 ```
 
 
-At this point we probably need to fix our code or comment out the failing test-case.
+At this point we probably need to fix our code, but for this course we are more intereste in the various ways
+we can test code and how failures are reported.
+
 

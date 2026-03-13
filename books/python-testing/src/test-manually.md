@@ -7,9 +7,9 @@ We can create a command line application using the module
 And then we can ask our QA team to try it:
 
 ```
-$ python3 src/examples/testing/good/run_mymath.py add 19 23
+$ python src/examples/testing/good/run_mymath.py add 19 23
 42
-$ python3 src/examples/testing/good/run_mymath.py div 19 23
+$ python src/examples/testing/good/run_mymath.py div 19 23
 0.8260869565217391
 ```
 
