@@ -1,21 +1,45 @@
 # Pytest failing test in one function
 
-Once we had that passing test we might have shared our code just to receive complaints that it does not always work properly. One use might complain that passing in 2 and 3 does not give the expected 5.
+Once we had that passing test we might have shared our code just to receive complaints that it does not always work properly. Specifically passing in 1 should return , but it returns 1.
 
 So for your investigation the first thing you need to do is to write a test case expecting it to work proving that your code works. So you add a second assertion.
 
-{% embed include file="src/examples/testing/bad/test_mymath_more.py" %}
+{% embed include file="src/examples/testing/bad/test_fibonacci_with_pytest_failing.py" %}
 
 To your surprise the tests fails with the following output:
 
 
-{% embed include file="src/examples/testing/bad/test_mymath_more.out" %}
+```
+$ pytest test_fibonacci_with_pytest_failing.py
+=========================================== test session starts ============================================
+platform linux -- Python 3.13.7, pytest-9.0.2, pluggy-1.6.0
+rootdir: /home/gabor/github/code-maven.com/python.code-maven.com
+configfile: pyproject.toml
+plugins: anyio-4.12.0, cov-7.0.0
+collected 1 item
+
+test_fibonacci_with_pytest_failing.py F                                                              [100%]
+
+================================================= FAILURES =================================================
+_________________________________________________ test_fib _________________________________________________
+
+    def test_fib():
+>       assert fib(1)  == 0
+E       assert 1 == 0
+E        +  where 1 = fib(1)
+
+test_fibonacci_with_pytest_failing.py:5: AssertionError
+========================================= short test summary info ==========================================
+FAILED test_fibonacci_with_pytest_failing.py::test_fib - assert 1 == 0
+============================================ 1 failed in 0.12s =============================================
+
+```
 
 We see the `collected 1 item` because we still only have one test function.
 
 Then next to the test file we see the letter F indicating that we had a single test failure.
 
-Then we can see the details of the test failure. Among other things we can see the actual value returned by the `add` function
+Then we can see the details of the test failure. Among other things we can see the actual value returned by the `fib` function
 and the expected value.
 
 Knowing that `assert` only receives the True or False values of the comparision, you might wonder how did this happen.
@@ -36,7 +60,6 @@ $ echo $?
 1
 ```
 
-One big disadvantage of having two asserts in the same test function is that we don't have clear indication that the first assert was successful.
-Moreover if the first assert fails then the second would not be even executed so we would not know what is the status of that case.
+One big disadvantage of having two or more asserts in the same test function is that we don't know what would be the result of the other asserts.
 
 

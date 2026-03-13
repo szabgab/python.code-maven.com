@@ -1,5 +1,7 @@
 # Pytest setup
 
+You will need to install pytest before you can use it. It should be added as a development-time dependency of the project.
+
 ## Python 2
 
 ```
