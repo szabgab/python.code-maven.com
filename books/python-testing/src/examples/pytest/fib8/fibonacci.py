@@ -1,6 +1,7 @@
 def fib(n):
-    if int(n) != n:
-        raise ValueError(f'Invalid parameter {n} is not an integer')
+    var_type = type(n).__name__
+    if var_type != 'int':
+        raise ValueError(f'Invalid value type of "{n}" is "{var_type}"')
     if n < 1:
         raise ValueError(f'Invalid parameter {n} is negative')
     a, b = 1, 1

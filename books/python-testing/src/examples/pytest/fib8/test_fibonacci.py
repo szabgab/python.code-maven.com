@@ -18,10 +18,14 @@ def test_fib_negative_again():
 def test_fib_floating_point():
     with pytest.raises(ValueError) as err:
         fib(3.5)
-    assert str(err.value) == 'Invalid parameter 3.5 is not an integer'
+    assert str(err.value) == 'Invalid value type of "3.5" is "float"'
 
 def test_fib_small_floating_point():
     with pytest.raises(ValueError) as err:
         fib(0.5)
-    assert str(err.value) == 'Invalid parameter 0.5 is not an integer'
+    assert str(err.value) == 'Invalid value type of "0.5" is "float"'
 
+def test_fib_big_floating_point():
+    with pytest.raises(ValueError) as err:
+        fib(3.0)
+    assert str(err.value) == 'Invalid value type of "3.0" is "float"'
