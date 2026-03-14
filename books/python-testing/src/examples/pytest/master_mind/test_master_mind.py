@@ -1,5 +1,5 @@
-import master_mind as mm
 import random
+import master_mind as mm
 
 def test_mm():
     random.sample = lambda a, b: [1,2,3,4]
@@ -7,8 +7,8 @@ def test_mm():
     output = []
 
     def mock_input():
-       #output.append(s)
-       return input_values.pop(0)
+        #output.append(s)
+        return input_values.pop(0)
     mm.input = mock_input
     mm.print = lambda *s : output.append(s)
 
@@ -17,7 +17,7 @@ def test_mm():
     assert output == [
         ("Please enter 4 digits",),
         ('Congrats!',),
-    ] 
+    ]
 
 
 def test_wrong():
@@ -26,8 +26,8 @@ def test_wrong():
     output = []
 
     def mock_input():
-       #output.append(s)
-       return input_values.pop(0)
+        #output.append(s)
+        return input_values.pop(0)
     mm.input = mock_input
     mm.print = lambda *s : output.append(s)
 
@@ -38,6 +38,5 @@ def test_wrong():
         ("bbb",),
         ("Please enter 4 digits",),
         ('Congrats!',),
-    ] 
-
+    ]
 

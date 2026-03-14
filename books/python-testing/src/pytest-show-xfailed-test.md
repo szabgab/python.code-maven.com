@@ -1,6 +1,4 @@
-# PyTest: show xfailed tests with -rx
-
-* -rx
+# PyTest: show xfailed tests with `-rx`
 
 ```
 $ pytest -rx test_mymod_3.py
