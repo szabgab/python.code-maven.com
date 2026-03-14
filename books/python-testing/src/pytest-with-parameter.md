@@ -4,11 +4,9 @@
 * mark
 * parametrize
 
-{% embed include file="src/examples/pytest/test_with_param.py" %}
+{% embed include file="src/examples/pytest/parametrize/test_with_param.py" %}
 
 **Output:**
 
-{% embed include file="src/examples/pytest/test_with_param.out" %}
-
-
+{% embed include file="src/examples/pytest/parametrize/test_with_param.out" %}
 

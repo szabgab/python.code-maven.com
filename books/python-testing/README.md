@@ -6,16 +6,8 @@ Maybe also show a few other modules we need to test e.g. one with random numbers
 
 
 
-doctest / unittest show test failure as well
 
 
-@pytest.mark.parametrize("val", [1, 2])
-@pytest.mark.parametrize("expected", [2, 4])
-def test_setter_singular_dim(val, expected):
-
-
-What does pytest. do?
- 
 Git listing all the python files can be used to feed tools such as pylint.
 
 ```
