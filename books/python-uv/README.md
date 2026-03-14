@@ -1,13 +1,4 @@
 
-GitHub Action
-```
-      - name: Install uv
-        uses: astral-sh/setup-uv@v7
-        with:
-           enable-cache: true
-           cache-dependency-glob: "**/requirements.txt"
-```
-
 ```
       - name: Install requirements
         run: |
