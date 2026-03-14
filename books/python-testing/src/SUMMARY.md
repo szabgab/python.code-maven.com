@@ -117,7 +117,7 @@
   - [PyTest: compare numbers relatively](./pytest-compare-numbers-relatively.md)
   - [PyTest: compare strings](./pytest-compare-strings.md)
   - [PyTest: compare long strings](./pytest-compare-long-strings.md)
-  - [PyTest: is one string in another strings](./pytest-in-strings.md)
+  - [PyTest: is one string in another strings?](./pytest-in-strings.md)
   - [PyTest: test any expression](./pytest-any-expression.md)
   - [PyTest: element in list](./pytest-element-in-list.md)
   - [PyTest: compare short lists](./pytest-compare-short-lists.md)

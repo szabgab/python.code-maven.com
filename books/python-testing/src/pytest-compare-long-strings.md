@@ -1,4 +1,4 @@
-# PyTest compare long strings
+# PyTest: compare long strings
 
 However, comparing long strings would be extremly difficult for us.
 
@@ -7,7 +7,7 @@ Luckily pytest will point us to the first character that differs.
 {% embed include file="src/examples/pytest/test_long_strings.py" %}
 
 ```
-$ pytest test_long_strings.py
+$ pytest -q test_long_strings.py
 ```
 
 

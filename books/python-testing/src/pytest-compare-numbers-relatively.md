@@ -1,4 +1,4 @@
-# PyTest compare numbers relatively
+# PyTest: compare numbers relatively
 
 {% embed include file="src/examples/pytest/test_number_less_than.py" %}
 

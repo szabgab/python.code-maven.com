@@ -1,0 +1,13 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+____________________________ test_expression_equal _____________________________
+
+    def test_expression_equal():
+        a = 3
+>       assert a % 2 == 0
+E       assert (3 % 2) == 0
+
+test_expression_equal.py:3: AssertionError
+=========================== short test summary info ============================
+FAILED test_expression_equal.py::test_expression_equal - assert (3 % 2) == 0
+1 failed in 0.09s

@@ -1,4 +1,4 @@
-# PyTest compare numbers
+# PyTest: compare numbers
 
 {% embed include file="src/examples/pytest/test_number_equal.py" %}
 
