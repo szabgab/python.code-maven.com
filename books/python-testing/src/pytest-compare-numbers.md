@@ -3,14 +3,13 @@
 {% embed include file="src/examples/pytest/test_number_equal.py" %}
 
 ```
-    $ pytest test_number_equal.py
-
-    def test_string_equal():
-        assert double(2) == 4
->       assert double(21) == 42
-E       assert 23 == 42
-E        +  where 23 = double(21)
+$ pytest -q test_number_equal.py
 ```
 
+{% embed include file="src/examples/pytest/test_number_equal.out" %}
 
+In this case it is easy to see what is the difference between the expected and the actual value.
+
+Well except that pytest does not have a notion of which side is the expected side and which is the actual value,
+but you can clearly see if from the code.
 

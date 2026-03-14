@@ -3,7 +3,7 @@
 {% embed include file="src/examples/pytest/test_number_less_than.py" %}
 
 ```
-$ pytest test_number_less_than.py
+$ pytest -q test_number_less_than.py
 ```
 
 

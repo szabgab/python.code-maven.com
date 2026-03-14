@@ -1,6 +1,15 @@
-    def test_string_equal():
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_______________________________ test_get_string ________________________________
+
+    def test_get_string():
 >       assert get_string() == "abd"
 E       AssertionError: assert 'abc' == 'abd'
-E         - abc
-E         + abd
+E         
+E         - abd
+E         + abc
 
+test_string_equal.py:5: AssertionError
+=========================== short test summary info ============================
+FAILED test_string_equal.py::test_get_string - AssertionError: assert 'abc' =...
+1 failed in 0.04s

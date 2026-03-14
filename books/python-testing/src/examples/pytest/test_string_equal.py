@@ -1,6 +1,6 @@
 def get_string():
     return "abc"
 
-def test_string_equal():
+def test_get_string():
     assert get_string() == "abd"
 

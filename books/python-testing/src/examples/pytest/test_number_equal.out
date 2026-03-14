@@ -1,0 +1,14 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_________________________________ test_double __________________________________
+
+    def test_double():
+        assert double(2) == 4
+>       assert double(21) == 42
+E       assert 23 == 42
+E        +  where 23 = double(21)
+
+test_number_equal.py:7: AssertionError
+=========================== short test summary info ============================
+FAILED test_number_equal.py::test_double - assert 23 == 42
+1 failed in 0.09s
