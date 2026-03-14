@@ -5,3 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "books/python-uv/src/examples/first",
+]
