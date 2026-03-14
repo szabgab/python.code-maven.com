@@ -51,6 +51,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 * [PyCharm](/python-pycharm/)
 * [VS Code](/python-vscode/)
 * [Jupyter](/python-jupyter/) (also: images and drawings with Matplotlib, Seaborn)
+* [uv](/python-uv/)
 
 ## Python Flavors
 
