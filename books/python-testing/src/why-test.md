@@ -1,6 +1,6 @@
 # Why test?
 
-More specifically why invest in tests that can be executade unattended?
+More specifically why invest in tests that can be executed unattended?
 
 * Business Value:
     * Shorter development cycles.

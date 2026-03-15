@@ -18,7 +18,7 @@ Ran 1 test in 0.000s
 OK
 ```
 
-The single `.` in this output indicates that we had a single test function and it was successfull.
+The single `.` in this output indicates that we had a single test function and it was successful.
 
 
 Alternatively we can leave out the last two lines:

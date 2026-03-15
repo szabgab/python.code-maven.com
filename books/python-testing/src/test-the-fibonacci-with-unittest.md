@@ -2,7 +2,7 @@
 
 {% embed include file="src/examples/testing/bad/test_fibonacci_with_unittest.py" %}
 
-We don't need the extra code to trigger the unittes from inside our module. We can just run it using the follow
+We don't need the extra code to trigger the unittest from inside our module. We can just run it using the follow
 command line:
 
 ```

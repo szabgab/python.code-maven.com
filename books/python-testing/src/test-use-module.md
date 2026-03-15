@@ -13,6 +13,6 @@ $ python src/examples/testing/good/use_mymath.py
 3.0
 ```
 
-Some people will wite such examples during development, look at the results and conclude that the functions work fine.
-Unfortunatelly they will leave these helper programs scattered around their computer and then these would get lost.
+Some people will write such examples during development, look at the results and conclude that the functions work fine.
+Unfortunately they will leave these helper programs scattered around their computer and then these would get lost.
 
