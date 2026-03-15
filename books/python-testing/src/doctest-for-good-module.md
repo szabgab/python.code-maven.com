@@ -15,7 +15,7 @@ $ echo $?
 0
 ```
 
-Exit code on Windwos:
+Exit code on Windows:
 
 ```
 > echo %ERRORLEVEL%

@@ -35,7 +35,7 @@ $ echo $?
 1
 ```
 
-Exit code on Windwos:
+Exit code on Windows:
 
 ```
 > echo %ERRORLEVEL%
@@ -43,7 +43,7 @@ Exit code on Windwos:
 ```
 
 
-At this point we probably need to fix our code, but for this course we are more intereste in the various ways
+At this point we probably need to fix our code, but for this course we are more interested in the various ways
 we can test code and how failures are reported.
 
 

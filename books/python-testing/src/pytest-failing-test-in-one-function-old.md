@@ -18,7 +18,7 @@ Then next to the test file we see the letter F indicating that we had a single t
 Then we can see the details of the test failure. Among other things we can see the actual value returned by the `add` function
 and the expected value.
 
-Knowing that `assert` only receives the True or False values of the comparision, you might wonder how did this happen.
+Knowing that `assert` only receives the True or False values of the comparison, you might wonder how did this happen.
 This is part of the magic of pytest. It uses some introspection to see what was in the expression that was passed to `assert` and it can print out the details
 helping us see what was the expected value and what was the actual value. This can help understanding the real problem behind the scenes.
 

@@ -25,5 +25,5 @@ test_mymath_with_pytest_class.py .                                              
 
 Shall we use OOP for writing tests?
 
-Test are supposed to be a lot less complex than our real code. Therfore in general I discourage using OOP in the tests.
+Test are supposed to be a lot less complex than our real code. Therefore in general I discourage using OOP in the tests.
 

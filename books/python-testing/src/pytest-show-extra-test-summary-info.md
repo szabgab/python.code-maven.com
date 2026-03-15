@@ -1,6 +1,6 @@
-# Pytest: show extra test summmary info with `-r`
+# Pytest: show extra test summary info with `-r`
 
-Soon we'll learn about the ability to mark certain test functions as expected to fail and others to be skipped in some condition. Wehen running these tests we'll want to be able list these based on their special feature.
+Soon we'll learn about the ability to mark certain test functions as expected to fail and others to be skipped in some condition. When running these tests we'll want to be able list these based on their special feature.
 
 Using the `-v` flag would just list all of them which, if you have a lot of tests, would be messy.
 

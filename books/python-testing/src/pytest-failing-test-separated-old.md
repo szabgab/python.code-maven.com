@@ -1,6 +1,6 @@
 # Pytest failing test separated
 
-Instead of putting the two asserts in the same test function we could also put them in separate onese like in this example.
+Instead of putting the two asserts in the same test function we could also put them in separate ones like in this example.
 
 {% embed include file="src/examples/testing/bad/test_mymath_more_separate.py" %}
 

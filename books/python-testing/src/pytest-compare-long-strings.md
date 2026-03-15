@@ -1,6 +1,6 @@
 # PyTest: compare long strings
 
-However, comparing long strings would be extremly difficult for us.
+However, comparing long strings would be extremely difficult for us.
 
 Luckily pytest will point us to the first character that differs.
 

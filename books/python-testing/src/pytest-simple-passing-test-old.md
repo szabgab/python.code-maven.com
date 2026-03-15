@@ -2,11 +2,11 @@
 
 We don't need much to test such code. Just the following things:
 
-* Filename startes with `test_`
+* Filename starts with `test_`
 * A function that starts with `test_`
 * Call the test function with some parameters and check if the results are as expected.
 
-Specifically the `assert` function of Python expects to recived a True (or False) value.
+Specifically the `assert` function of Python expects to received a True (or False) value.
 If it is True the code keeps running as if nothing has happened.
 
 If it is False and exception is raised.
