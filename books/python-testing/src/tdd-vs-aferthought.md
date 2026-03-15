@@ -12,7 +12,7 @@ where possible.
 
 After a while you reach the point where
 
-* There is an exiting product (service).
+* There is an existing product (service).
 * It mostly works (otherwise noone would care).
 * It is written in a way that is hard to test.
 
