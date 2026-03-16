@@ -1,4 +1,5 @@
-from mymod_1 import is_anagram
+from anagram import is_anagram
+#from fixed_anagram import is_anagram
 import pytest
 
 def test_anagram():
