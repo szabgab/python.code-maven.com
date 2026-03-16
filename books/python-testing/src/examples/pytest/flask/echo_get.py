@@ -1,7 +1,8 @@
 from flask import Flask, request
-eapp = Flask(__name__)
 
-@eapp.route("/")
+app = Flask(__name__)
+
+@app.route("/")
 def hello():
     return '''
 <form action="/echo" method="GET">
@@ -10,7 +11,7 @@ def hello():
 </form>
 '''
 
-@eapp.route("/echo")
+@app.route("/echo")
 def echo():
     answer = request.args.get('text')
     if answer:
@@ -18,6 +19,3 @@ def echo():
     else:
         return "Nothing to say?"
 
-
-if __name__ == "__main__":
-    eapp.run()

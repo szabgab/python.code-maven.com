@@ -111,8 +111,10 @@
   - [PyTest testing CLI](./pytest-test-cli.md)
 
 - [Flask](./pytest-flask.md)
-  - [Pytest: Flask echo](./pytest-flask-echo.md)
-  - [Pytest: testing Flask echo](./pytest-testing-flask-echo.md)
+  - [Pytest: Flask echo GET](./pytest-flask-echo.md)
+  - [Pytest: testing Flask echo GET](./pytest-testing-flask-echo.md)
+  - [Pytest: Flask echo POST](./pytest-flask-echo-post.md)
+  - [Pytest: testing Flask echo POST](./pytest-testing-flask-echo-post.md)
 - [Parametrize tests](./pytest-parametrize.md)
   - [Parametrize PyTest with pytest.mark.parametrize (len)](./pytest-with-parameter.md)
   - [Test len without parametrization](./pytest-test-len-no-parameters.md)
