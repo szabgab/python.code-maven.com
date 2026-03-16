@@ -9,7 +9,7 @@ An anagram is a pair of words containing the exact same letters in different ord
 * elvis lives
 
 
-{% embed include file="src/examples/pytest/mymod_1.py" %}
+{% embed include file="src/examples/pytest/anagram/anagram.py" %}
 
 
 

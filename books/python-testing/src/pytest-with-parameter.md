@@ -1,12 +1,6 @@
-# Parametrize PyTest with pytest.mark.parametrize
+# Parametrize PyTest with `pytest.mark.parametrize` testing `len`
 
-* @pytest.mark.parametrize
-* mark
-* parametrize
+Let's test the built-in `len` function.
 
-{% embed include file="src/examples/pytest/parametrize/test_with_param.py" %}
 
-**Output:**
-
-{% embed include file="src/examples/pytest/parametrize/test_with_param.out" %}
 

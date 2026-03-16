@@ -3,5 +3,5 @@
 * assert
 * pytest
 
-{% embed include file="src/examples/pytest/test_mymod_1.py" %}
+{% embed include file="src/examples/pytest/anagram/test_mymod_1.py" %}
 

@@ -1,4 +1,4 @@
-from mymod_1 import is_anagram
+from anagram import is_anagram
 import sys
 
 if len(sys.argv) != 3:

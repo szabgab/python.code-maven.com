@@ -8,14 +8,3 @@ def test_cases_3(text):
 def test_cases_5(text):
     assert len(text) == 5
 
-
-@pytest.mark.parametrize("text,length", [
-    ("Foo", 3),
-    ("Bar", 3),
-    ("🐍🐪🦀", 3),
-    ("apple", 5),
-    ("banana", 6),
-    ])
-def test_cases(text, length):
-    assert len(text) == length
-
