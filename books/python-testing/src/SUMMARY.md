@@ -26,10 +26,12 @@
   - [Use the mymath module](./test-use-module.md)
   - [Manually test the mymath module](./test-manually.md)
   - [Use the Fibonacci module](./use-fibonacci-module.md)
+
 - [Testing with doctest](./testing-with-doctest.md)
   - [Doctest for good module](./doctest-for-good-module.md)
   - [Doctest for bad module](./doctest-for-bad-module.md)
   - [Doctest for bad module with failure](./doctest-for-bad-module-with-failure.md)
+
 - [Testing with unittest](./testing-with-unittest.md)
   - [Test the mymath module](./test-module.md)
   - [Each test case in its own method](./test-separate-functions.md)
@@ -40,6 +42,7 @@
   - [TODO Testing - skeleton](./test-skeleton.md)
   - [TODO Testing](./test.md)
   - [TODO Test examples](./test-example.md)
+
 - [Testing with PyTest](./pytest.md)
   - [Pytest features](./pytest-features.md)
   - [Pytest setup](./pytest-setup.md)
@@ -51,12 +54,14 @@
   - [Pytest run all the test files](./pytest-run-all-the-test-files.md)
   - [Exercise: test simple module (math)](./exercise-test-simple-module.md)
   - [Solution: test simple module (math)](./solution-test-simple-module.md)
+
 - [Pytest basic command line options](./pytest-basic-options.md)
   - [Getting help for pytest](./pytest-getting-help.md)
   - [Verbose mode](./pytest-verbose.md)
   - [Quiet mode](./pytest-quiet.md)
   - [Print STDOUT and STDERR using -s](./pytest-print-stdout-and-stderr.md)
   - [Pytest: show extra test summmary info with -r](./pytest-show-extra-test-summary-info.md)
+
 - [Pytest expected exception](./pytest-expected-exception.md)
   - [Pytest a nice Fibonacci example](./pytest-fibonacci.md)
   - [Pytest testing Fibonacci](./pytest-testing-fibonacci.md)
@@ -72,6 +77,7 @@
   - [Another Solution: test more exceptions](./solution-test-more-exception2.md)
   - [Exercise: test exeptions in the math functions](./pytest-exercise-test-execptions-in-math.md)
   - [Solution: test exeptions in the math functions](./pytest-solution-test-execptions-in-math.md)
+
 - [Handling failing tests (bugs)](./pytest-handling-failing-tests.md)
   - [Anagram](./pytest-simple-module-to-be-tested.md)
   - [Pytest simple tests - success](./pytest-simple-success.md)
@@ -83,38 +89,16 @@
   - [PyTest: show xfailed tests with -rx](./pytest-show-xfailed-test.md)
   - [Fixed Anagram](./pytest-fixed-anagram.md)
 
-- [Multiple test functions - selection]()
+- [Multiple test functions - selection](./pytest-multiple-test-functions.md)
   - [PyTest: Multiple Failures](./pytest-multiple-failures.md)
   - [PyTest: Multiple Failures output](./pytest-multiple-failures-output.md)
   - [PyTest: stop on first failure](./pytest-stop-on-first-failure.md)
   - [PyTest Selective running of test functions](./pytest-selective-running-of-test-functions.md)
 
-- [Skipping tests]()
-  - [Pytest: skipping tests](./pytest-skiping-test.md)
+- [Pytest: skipping tests](./pytest-skiping-test.md)
+  - [Pytest: Operating System specific test](./pytest-operating-system-specific-tests.md)
   - [Pytest: show skipped tests with -rs](./pytest-show-skipped-tests.md)
   - [Pytest: skipping tests output in verbose mode](./pytest-skiping-test-output.md)
-
-- [Other]()
-  - [Exercise: test this app](./pytest-exercise-app.md)
-  - [Exercise: test the csv module](./pytest-exercise-csv.md)
-  - [Solution: Pytest test this app](./pytest-solution-app.md)
-  - [Solution: test the csv module](./pytest-solution-csv.md)
-  - [PyTest using classes](./pytest-using-classes.md)
-  - [Exercise: module](./pytest-exercise-module.md)
-  - [Exercise: Open Source](./pytest-exercise-open-source.md)
-  - [Pytest and forking](./pytest-and-forking.md)
-  - [Exercise: Write tests for script combining files](./exercise-write-tests-for-script-combining-file.md)
-  - [Solution: Write tests for script combining files](./solution-write-tests-for-script-combining-file.md)
-  - [Pytest resources](./pytest-resources.md)
-  - [PyTest compare short lists - output](./pytest-compare-short-lists-output.md)
-  - [Anagram on the command line](./pytest-anagram-on-the-command-line.md)
-  - [PyTest testing CLI](./pytest-test-cli.md)
-
-- [Flask](./pytest-flask.md)
-  - [Pytest: Flask echo GET](./pytest-flask-echo.md)
-  - [Pytest: testing Flask echo GET](./pytest-testing-flask-echo.md)
-  - [Pytest: Flask echo POST](./pytest-flask-echo-post.md)
-  - [Pytest: testing Flask echo POST](./pytest-testing-flask-echo-post.md)
 
 - [Parametrize tests](./pytest-parametrize.md)
   - [Parametrize PyTest with pytest.mark.parametrize (len)](./pytest-with-parameter.md)
@@ -217,6 +201,14 @@
   - [Pytest: Mocking Flask app sending mail](./pytest-mocking-flask-app-sending-mail.md)
   - [Pytest: Mocking - collecting stats example](./pytest-mocking-collecting-stats.md)
 
+- [Flask](./pytest-flask.md)
+  - [Pytest: Flask echo GET](./pytest-flask-echo.md)
+  - [Pytest: testing Flask echo GET](./pytest-testing-flask-echo.md)
+  - [Pytest: Flask echo POST](./pytest-flask-echo-post.md)
+  - [Pytest: testing Flask echo POST](./pytest-testing-flask-echo-post.md)
+
+
+
 - [Pytest command line options](./pytest-options.md)
   - [PyTest: Run tests in parallel with xdist](./pytest-run-test-in-parallel.md)
   - [PyTest: Order of tests](./pytest-order-of-test.md)
@@ -266,6 +258,23 @@
   - [PyTest expected exceptions (other exception) output](./pytest-expected-exceptions-failure-output.md)
   - [PyTest expected exceptions (no exception)](./pytest-expected-exceptions-no-exception.md)
   - [PyTest expected exceptions (no exception) output](./pytest-expected-exceptions-no-exception-output.md)
+
+- [Other]()
+  - [Exercise: test this app](./pytest-exercise-app.md)
+  - [Exercise: test the csv module](./pytest-exercise-csv.md)
+  - [Solution: Pytest test this app](./pytest-solution-app.md)
+  - [Solution: test the csv module](./pytest-solution-csv.md)
+  - [PyTest using classes](./pytest-using-classes.md)
+  - [Exercise: module](./pytest-exercise-module.md)
+  - [Exercise: Open Source](./pytest-exercise-open-source.md)
+  - [Pytest and forking](./pytest-and-forking.md)
+  - [Exercise: Write tests for script combining files](./exercise-write-tests-for-script-combining-file.md)
+  - [Solution: Write tests for script combining files](./solution-write-tests-for-script-combining-file.md)
+  - [Pytest resources](./pytest-resources.md)
+  - [PyTest compare short lists - output](./pytest-compare-short-lists-output.md)
+  - [Anagram on the command line](./pytest-anagram-on-the-command-line.md)
+  - [PyTest testing CLI](./pytest-test-cli.md)
+
 
 - [Old pages]()
   - [How to use the module?](./pytest-how-to-use-the-simple-aut.md)

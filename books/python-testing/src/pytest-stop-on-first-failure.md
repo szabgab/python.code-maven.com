@@ -1,4 +1,4 @@
-# PyTest: stop on first failure
+# PyTest: stop on first failure `-x`, `--maxfail`
 
 Seeing all the failures might help in some case, but in in some other cases, especially during development, you might not want to wait for all the tests to run.
 
