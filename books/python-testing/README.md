@@ -13,3 +13,5 @@ Git listing all the python files can be used to feed tools such as pylint.
 ```
 git ls-files '*.py'
 ```
+
+Take the key-value store example and use mocking to replace the get_filename function

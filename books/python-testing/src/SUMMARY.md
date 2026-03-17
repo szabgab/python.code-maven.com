@@ -115,6 +115,7 @@
   - [Pytest: testing Flask echo GET](./pytest-testing-flask-echo.md)
   - [Pytest: Flask echo POST](./pytest-flask-echo-post.md)
   - [Pytest: testing Flask echo POST](./pytest-testing-flask-echo-post.md)
+
 - [Parametrize tests](./pytest-parametrize.md)
   - [Parametrize PyTest with pytest.mark.parametrize (len)](./pytest-with-parameter.md)
   - [Test len without parametrization](./pytest-test-len-no-parameters.md)
@@ -132,6 +133,7 @@
   - [Parametrize PyTest with multiple parameters](./pytest-with-parameters.md)
   - [Exercise: parametrize the tests of the math functions](./pytest-exercise-math.md)
   - [Solution: parametrize the tests of the math functions](./pytest-solution-math.md)
+
 - [Pytest assert](./pytest-assert.md)
   - [PyTest: failure reports](./pytest-failure-reports.md)
   - [PyTest: compare numbers](./pytest-compare-numbers.md)
@@ -146,6 +148,7 @@
   - [PyTest: compare lists](./pytest-compare-lists.md)
   - [PyTest: compare dictionaries - different values](./pytest-compare-dictionaries.md)
   - [PyTest: compare dictionaries  - missing-keys](./pytest-compare-dictionaries-missing-keys.md)
+
 - [PyTest Fixtures](./pytest-fixtures.md)
   - [PyTest: What are Fixtures?](./pytest-what-are-fixture.md)
   - [PyTest: test with functions](./pytest-test-with-functions.md)
@@ -164,7 +167,7 @@
   - [PyTest - write your own fixture](./pytest-write-your-own-fixture.md)
   - [Pytest Fixture - autouse fixtures](./pytest-autouse-fixture.md)
   - [Share fixtures among test files: conftest.py](./pytest-conftest.md)
-  - [Manual fixtures (dependency injection)](./pytest-manual-fixtures.md)
+  - [Manual fixtures (using dependency injection)](./pytest-manual-fixtures.md)
   - [Pytest Fixture providing value](./pytest-fixture-providing-value.md)
   - [Pytest Fixture providing value with teardown](./pytest-fixture-providing-value-with-teardown.md)
   - [Pytest create fixture with file(s) - app and test](./pytest-create-fixture-with-files-app-and-test.md)
@@ -178,6 +181,7 @@
   - [Pytest parametrized fixture](./pytest-parametrized-fixture.md)
   - [Pytest parametrized fixture with dependency injection](./pytest-parametrized-fixture-with-dependency-injection.md)
   - [Pytest parametrized fixture to use Docker](./pytest-parametrized-fixture-to-use-docker.md)
+
 - [Pytest Mocking](./pytest-mocking.md)
   - [Pytest: Mocking - why?](./pytest-mocking-why.md)
   - [Pytest: Mocking - what?](./pytest-mocking-what.md)
@@ -212,6 +216,7 @@
   - [Pytest: Flask app sending mail](./pytest-flask-app-sending-mail.md)
   - [Pytest: Mocking Flask app sending mail](./pytest-mocking-flask-app-sending-mail.md)
   - [Pytest: Mocking - collecting stats example](./pytest-mocking-collecting-stats.md)
+
 - [Pytest command line options](./pytest-options.md)
   - [PyTest: Run tests in parallel with xdist](./pytest-run-test-in-parallel.md)
   - [PyTest: Order of tests](./pytest-order-of-test.md)
@@ -232,12 +237,14 @@
   - [Add extra command line parameters to Pytest - as a fixture](./add-extra-command-line-parameters-as-a-fixture.md)
   - [Add extra command line parameters to Pytest - used in the autouse fixtures](./add-extra-command-line-parameters-autouse-fixture.md)
   - [PyTest: Test Coverage](./pytest-coverage.md)
+
 - [Static Analyzers (Linters)](./static-analyzers.md)
   - [Pytest and flake8](./pytest-and-flake-8.md)
   - [Pytest and pylint](./pytest-and-pylint.md)
   - [Pytest and ruff](./pytest-and-ruff.md)
   - [Pytest and mypy](./pytest-and-mypy.md)
   - [Black code formatter](./black-code-formatter.md)
+
 - [Pytest - other](./pytest-other.md)
   - [Testing Master Mind](./pytest-master-mind.md)
   - [Module Fibonacci](./pytest-fibo.md)
@@ -259,6 +266,7 @@
   - [PyTest expected exceptions (other exception) output](./pytest-expected-exceptions-failure-output.md)
   - [PyTest expected exceptions (no exception)](./pytest-expected-exceptions-no-exception.md)
   - [PyTest expected exceptions (no exception) output](./pytest-expected-exceptions-no-exception-output.md)
+
 - [Old pages]()
   - [How to use the module?](./pytest-how-to-use-the-simple-aut.md)
   - [Pytest - simple passing test](./pytest-simple-passing-test-old.md)
