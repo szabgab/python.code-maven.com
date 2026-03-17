@@ -1,16 +1,29 @@
-$ pytest -qqs test_functions.py
 setup db_server
-new db_serverironment
-setup_db             <TemporaryDirectory '/tmp/tmpvct7ng6r'>
-    test_one         <TemporaryDirectory '/tmp/tmpvct7ng6r'>
+new   db_server environment /tmp/tmp2hxf25v3
+setup_db             1773757447_0637202
+    test_one         1773757447_0637202
     test_one after
-teardown_db          <TemporaryDirectory '/tmp/tmpvct7ng6r'>
-setup db_server
-setup_db             <TemporaryDirectory '/tmp/tmptmaql_a_'>
-    test_two         <TemporaryDirectory '/tmp/tmptmaql_a_'>
-setup db_server
-setup_db             <TemporaryDirectory '/tmp/tmpwb18nwil'>
-    test_three       <TemporaryDirectory '/tmp/tmpwb18nwil'>
+teardown_db          1773757447_0637202
+.setup db_server
+setup_db             1773757447_064304
+    test_two         1773757447_064304
+Fsetup db_server
+setup_db             1773757447_0757604
+    test_three       1773757447_0757604
     test_three after
-teardown_db          <TemporaryDirectory '/tmp/tmpwb18nwil'>
+teardown_db          1773757447_0757604
+.
+=================================== FAILURES ===================================
+___________________________________ test_two ___________________________________
 
+    def test_two():
+        db_server = setup_db_server()
+        db = setup_db()
+        print(f"    test_two         {db}")
+>       assert False
+E       assert False
+
+test_functions.py:17: AssertionError
+=========================== short test summary info ============================
+FAILED test_functions.py::test_two - assert False
+1 failed, 2 passed in 0.06s

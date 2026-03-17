@@ -1,4 +1,5 @@
 import tempfile
+import time
 
 def test_one():
     db_server = setup_db_server()
@@ -28,23 +29,22 @@ def test_three():
     # teardown_db_server(db_server)
 
 def setup_db():
-    db = tempfile.TemporaryDirectory()
-    ...
+    db = str(time.time()).replace(".", "_")
     print(f"setup_db             {db}")
     return db
 
 def teardown_db(db):
-    ...
     print(f"teardown_db          {db}")
 
 
 def setup_db_server():
     print("setup db_server")
     if 'db_server' not in setup_db_server.__dict__:
-        print("new db_serverironment")
         setup_db_server.db_server = tempfile.TemporaryDirectory()
+        setup_db_server.time = time.time()
+        print(f"new   db_server environment {setup_db_server.db_server.name}")
     return setup_db_server.db_server
 
 def teardown_db_server(db_server):
-    print("teardown_db_server")
+    print("teardown_db_server {setup_db_server.db_server.name}")
 

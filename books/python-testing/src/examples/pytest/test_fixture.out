@@ -1,14 +1,26 @@
-setup_module:         <TemporaryDirectory '/tmp/tmpaq1r7lnj'>
-  setup_function                                              <TemporaryDirectory '/tmp/tmpvynb1e5h'>
-    test_one          <TemporaryDirectory '/tmp/tmpaq1r7lnj'> <TemporaryDirectory '/tmp/tmpvynb1e5h'>
+setup_module:         /tmp/tmp5vfj_uuh
+  setup_function                                              1773757663.796925
+    test_one          /tmp/tmp5vfj_uuh 1773757663.796925
     test_one after
-  teardown_function                                           <TemporaryDirectory '/tmp/tmpvynb1e5h'>
-  setup_function                                              <TemporaryDirectory '/tmp/tmp6cman2br'>
-    test_two          <TemporaryDirectory '/tmp/tmpaq1r7lnj'> <TemporaryDirectory '/tmp/tmp6cman2br'>
-  teardown_function                                           <TemporaryDirectory '/tmp/tmp6cman2br'>
-  setup_function                                              <TemporaryDirectory '/tmp/tmpbi9pwo3j'>
-    test_three        <TemporaryDirectory '/tmp/tmpaq1r7lnj'> <TemporaryDirectory '/tmp/tmpbi9pwo3j'>
+.  teardown_function                                          1773757663.796925
+  setup_function                                              1773757663.797643
+    test_two          /tmp/tmp5vfj_uuh 1773757663.797643
+F  teardown_function                                          1773757663.797643
+  setup_function                                              1773757663.8085847
+    test_three        /tmp/tmp5vfj_uuh 1773757663.8085847
     test_three after
-.  teardown_function                                          <TemporaryDirectory '/tmp/tmpbi9pwo3j'>
-teardown_module       <TemporaryDirectory '/tmp/tmpaq1r7lnj'>
+.  teardown_function                                          1773757663.8085847
+teardown_module       /tmp/tmp5vfj_uuh
 
+=================================== FAILURES ===================================
+___________________________________ test_two ___________________________________
+
+    def test_two():
+        print(f"    test_two          {db_server.name} {db}")
+>       assert False
+E       assert False
+
+test_fixture.py:29: AssertionError
+=========================== short test summary info ============================
+FAILED test_fixture.py::test_two - assert False
+1 failed, 2 passed in 0.06s

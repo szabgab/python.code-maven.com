@@ -20,7 +20,4 @@ In this example we also see one of the major issues of this style. The variable 
 
 {% embed include file="src/examples/pytest/test_fixture.py" %}
 
-See next slide for the output.
-
-
 

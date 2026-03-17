@@ -135,7 +135,9 @@
 
 - [PyTest Fixtures](./pytest-fixtures.md)
   - [PyTest: What are Fixtures?](./pytest-what-are-fixture.md)
+  - [Fixtures in Pytest](./pytest-fixtures-in-pytest.md)
   - [PyTest: test with functions](./pytest-test-with-functions.md)
+  - [PyTest: test with functions outpus](./pytest-test-with-functions-output.md)
   - [PyTest Fixture setup and teardown xUnit style](./pytest-fixture-setup-teardown.md)
   - [PyTest Fixture setup and teardown output](./pytest-fixture-setup-teardown-output.md)
   - [PyTest: Fixture Class setup and teardown](./pytest-class.md)
@@ -206,8 +208,6 @@
   - [Pytest: testing Flask echo GET](./pytest-testing-flask-echo.md)
   - [Pytest: Flask echo POST](./pytest-flask-echo-post.md)
   - [Pytest: testing Flask echo POST](./pytest-testing-flask-echo-post.md)
-
-
 
 - [Pytest command line options](./pytest-options.md)
   - [PyTest: Run tests in parallel with xdist](./pytest-run-test-in-parallel.md)
