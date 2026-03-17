@@ -15,3 +15,10 @@ git ls-files '*.py'
 ```
 
 Take the key-value store example and use mocking to replace the get_filename function
+
+Add a Flask example that also has a database.
+
+Add example with fixed path in the os
+
+/company_name/application/data
+
