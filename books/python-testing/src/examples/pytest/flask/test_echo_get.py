@@ -19,3 +19,8 @@ class TestEcho:
         rv = self.flapp.get('/echo')
         assert rv.status == '200 OK'
         assert b'Nothing to say?' in rv.data
+
+    def test_missing_page(self):
+        rv = self.flapp.get('/qqrq')
+        assert rv.status == '404 NOT FOUND'
+        assert b'The requested URL was not found on the server.' in rv.data
