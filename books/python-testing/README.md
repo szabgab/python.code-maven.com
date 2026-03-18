@@ -22,3 +22,10 @@ Add example with fixed path in the os
 
 /company_name/application/data
 
+Create a demo version of tmpdir, maybe one that delets its folder
+
+Create demo that will launch a web application and run an external test using request.
+
+
+before https://python.code-maven.com/python-testing/pytest-create-fixture-with-files-fixture
+example add a version where we create the temporary folder directly and we also remove it.
