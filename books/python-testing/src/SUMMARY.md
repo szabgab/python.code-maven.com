@@ -174,6 +174,7 @@
   - [Pytest: What is Mocking? - Test Doubles](./pytest-test-doubles.md)
   - [Pytest: Monkey Patching](./pytest-monkey-patching.md)
   - [Pytest: Hard-coded path](./pytest-hard-coded-path.md)
+  - [Pytest: Hard-coded path - testing](./pytest-hard-coded-path-testing.md)
   - [Pytest: Hard-coded path - manually replace attribute](./pytest-hard-coded-path-manually-replace.md)
   - [Pytest: Hard-coded path - monkeypatch attribute](./pytest-hard-coded-path-monkyepatch.md)
   - [Pytest: Hard-coded path - monkeypatch attribute - tempdir](./pytest-hard-coded-path-monkyepatch-tempdir.md)
