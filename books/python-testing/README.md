@@ -29,3 +29,6 @@ Create demo that will launch a web application and run an external test using re
 
 before https://python.code-maven.com/python-testing/pytest-create-fixture-with-files-fixture
 example add a version where we create the temporary folder directly and we also remove it.
+
+TODO: pytest-with-docker-test.html   get the first unused port
+

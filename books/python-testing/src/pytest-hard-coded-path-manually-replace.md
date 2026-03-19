@@ -1,5 +1,7 @@
 # Pytest: Hard-coded path - manually replace attribute
 
+Because we are in Python, a dynamic language, we can access and replace the content of the `data_file` variable in the `app` module. This is sometimes called Monkey Patching. It works. Partially.
+
 
 {% embed include file="src/examples/pytest/hard-coded-path/test_app_manually.py" %}
 
