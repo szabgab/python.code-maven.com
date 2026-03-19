@@ -32,3 +32,7 @@ example add a version where we create the temporary folder directly and we also 
 
 TODO: pytest-with-docker-test.html   get the first unused port
 
+Write a new example for environment variable https://python.code-maven.com/python-testing/pytest-mocking-environment-variables  where we use some envrironment variable other than PATH
+
+TODO: Flask app sending email, make it really send email and try it on a server. (and maybe that should be part of the flask course?)
+

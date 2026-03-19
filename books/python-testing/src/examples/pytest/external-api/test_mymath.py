@@ -6,6 +6,7 @@ def mocked_remote_compute(x):
         return 9
     if x == 4:
         return 16
+    raise Exception (f"The value {x} isn't supported by the mock")
 
 mymath.externalapi.remote_compute = mocked_remote_compute
 
