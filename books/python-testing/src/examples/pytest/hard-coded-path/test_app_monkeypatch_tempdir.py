@@ -1,12 +1,12 @@
 import app
 
-def test_sum(monkeypatch, tmpdir):
+def test_app_1(monkeypatch, tmpdir):
     mocked_data_file = tmpdir.join('test_1.json')
     monkeypatch.setattr(app, 'data_file', mocked_data_file)
 
     res = app.do_something()
     ...
 
-def test_again():
+def test_app_2():
     res = app.do_something()    # back to the original value
     ...

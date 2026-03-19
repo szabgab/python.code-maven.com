@@ -5,3 +5,6 @@ An even better approach might be to use the [tmpdir](https://docs.pytest.org/en/
 {% embed include file="src/examples/pytest/hard-coded-path/test_app_monkeypatch_tempdir.py" %}
 
 
+{% embed include file="src/examples/pytest/hard-coded-path/test_app_monkeypatch_tempdir.out" %}
+
+
