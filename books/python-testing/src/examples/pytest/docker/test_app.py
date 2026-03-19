@@ -6,7 +6,7 @@ def test_app():
 
     rv = web.get('/')
     assert rv.status == '200 OK'
-    assert b'Post JSON to /api/calc' == rv.data
+    assert b'Send a GET request to /api/calc and get a JSON response.' == rv.data
 
 def test_calc():
     web = app.calcapp.test_client()

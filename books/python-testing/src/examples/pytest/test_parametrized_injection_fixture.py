@@ -18,3 +18,10 @@ def test_with_param(name, generate):
 def test_without_param(generate):
     print(f"Test not using param")
 
+@pytest.mark.parametrize("name", ["banana"])
+def test_with_param_without_fixture(name):
+    print(f"Test using param {name} and not using fixture")
+
+def test_without_param_without_fixture():
+    print(f"Test not using param and not using fixture")
+

@@ -4,7 +4,7 @@ calcapp = Flask(__name__)
 
 @calcapp.route("/")
 def main():
-    return 'Post JSON to /api/calc'
+    return 'Send a GET request to /api/calc and get a JSON response.'
 
 @calcapp.route("/api/calc")
 def add():

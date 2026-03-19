@@ -3,7 +3,8 @@ import requests
 import time
 import os
 
-@pytest.fixture(autouse = True, scope="module")
+#@pytest.fixture(autouse = True, scope="module")
+@pytest.fixture()
 def image():
     image_name = 'test_image_' + str(int(time.time()*1000))
     print(f"image: {image_name}")

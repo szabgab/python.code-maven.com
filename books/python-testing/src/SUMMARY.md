@@ -159,9 +159,6 @@
   - [Pytest create fixture with file(s) - app and test](./pytest-create-fixture-with-files-app-and-test.md)
   - [Pytest create fixture with file(s) - helper function](./pytest-create-fixture-with-files-helper-function.md)
   - [Pytest create fixture with file(s) - fixture](./pytest-create-fixture-with-files-fixture.md)
-  - [Pytest with Docker - application](./pytest-with-docker-application.md)
-  - [Pytest with Docker  - test](./pytest-with-docker-test.md)
-  - [Pytest with Docker  - improved](./pytest-with-docker-improved.md)
   - [Pytest fixture inject data](./pytest-fixture-inject-data.md)
   - [Pytest fixture for MongoDB](./pytest-fixture-mongodb.md)
   - [Pytest parametrized fixture](./pytest-parametrized-fixture.md)
@@ -209,6 +206,13 @@
   - [Pytest: testing Flask echo GET](./pytest-testing-flask-echo.md)
   - [Pytest: Flask echo POST](./pytest-flask-echo-post.md)
   - [Pytest: testing Flask echo POST](./pytest-testing-flask-echo-post.md)
+
+- [Testing Flask in Docker](./pytest-flask-in-docker.md)
+  - [Pytest with Docker - application](./pytest-with-docker-application.md)
+  - [Pytest with Docker - test internally](./pytest-with-docker-test-internally.md)
+  - [Docker to run the Flask app](./pytest-setup-docker.md)
+  - [Pytest with Docker - test](./pytest-with-docker-test.md)
+  - [Pytest with Docker - improved](./pytest-with-docker-improved.md)
 
 - [Pytest command line options](./pytest-options.md)
   - [PyTest: Run tests in parallel with xdist](./pytest-run-test-in-parallel.md)
