@@ -1,6 +1,6 @@
 import requests
 
-# An application that allows us to monitor keyword requency on some popular websites.
+# An application that allows us to monitor keyword frequency on some popular websites.
 # The process:
 #    - get the URLs from the database
 #    - fetch the content of esch page
