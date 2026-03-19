@@ -14,9 +14,9 @@ pytest --mypy
 
 Excluding files when using `mypy` works, but that does not exclude them when using `pytest --mypy`
 
-{% embed include file="src/examples/pytest/mypy/mypy.ini)
+{% embed include file="src/examples/pytest/mypy/mypy.ini" %}
 
 Not even this:
 
-{% embed include file="src/examples/pytest/mypy/pytest.ini)
+{% embed include file="src/examples/pytest/mypy/pytest.ini" %}
 

@@ -1,23 +1,5 @@
-<?xml version="1.0" ?>
-<testsuites>
-	<testsuite name="pytest" errors="0" failures="1" skipped="1" tests="5" time="0.049" timestamp="2021-03-03T22:42:49.080442" hostname="code-maven">
-		<testcase classname="test_colors" name="test_blue" time="0.001"/>
-		<testcase classname="test_colors" name="test_red" time="0.001">
-			<failure message="assert 1 == 2
-  +1
-  -2">def test_red():
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="5" time="0.128" timestamp="2026-03-19T16:57:19.305310+01:00" hostname="code-maven"><testcase classname="books.python-testing.src.examples.pytest.reporting.test_colors" name="test_blue" time="0.001" /><testcase classname="books.python-testing.src.examples.pytest.reporting.test_colors" name="test_red" time="0.001"><failure message="assert 1 == 2">def test_red():
 &gt;       assert 1 == 2
 E       assert 1 == 2
-E         +1
-E         -2
 
-test_colors.py:7: AssertionError</failure>
-		</testcase>
-		<testcase classname="test_colors" name="test_purple" time="0.000">
-			<skipped type="pytest.skip" message="So we can show skip reporting">/home/gabor/work/slides/python/examples/pytest/reporting/test_colors.py:9: So we can show skip reporting</skipped>
-		</testcase>
-		<testcase classname="test_colors" name="test_orange" time="0.000"/>
-		<testcase classname="test_colors" name="test_green" time="0.000"/>
-	</testsuite>
-</testsuites>
-
+test_colors.py:7: AssertionError</failure></testcase><testcase classname="books.python-testing.src.examples.pytest.reporting.test_colors" name="test_purple" time="0.000"><skipped type="pytest.skip" message="So we can show skip reporting">/home/gabor/github/code-maven.com/python.code-maven.com/books/python-testing/src/examples/pytest/reporting/test_colors.py:9: So we can show skip reporting</skipped></testcase><testcase classname="books.python-testing.src.examples.pytest.reporting.test_colors" name="test_orange" time="0.000" /><testcase classname="books.python-testing.src.examples.pytest.reporting.test_colors" name="test_green" time="0.000" /></testsuite></testsuites>

@@ -1,9 +1,13 @@
 # Add extra command line parameters to Pytest - conftest - getoption
 
-* conftest
+In the `conftest.py` file we can use the `pytest_addoption` function to defined new command line options.
 
-* In this case the option expects a value
-* And we need to use getoption to get the value
+* `--demo` expects a value.
+* `--noisy` is a boolean flag. By default it is false.
+
+
+In the tests we need to use the `request` fixture and the `getoption` method to get the value of each option
+
 * See [Parser](https://docs.pytest.org/en/stable/reference.html#parser)
 * See [argparse](https://docs.python.org/library/argparse.html)
 

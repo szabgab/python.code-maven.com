@@ -7,9 +7,9 @@
 pytest --junitxml report.xml
 ```
 
-{% embed include file="src/examples/pytest/reporting/report.xml)
+{% embed include file="src/examples/pytest/reporting/report.xml" %}
 
-To make the XML more himan-readable:
+To make the XML more human-readable:
 
 ```
 cat report.xml | python -c 'import sys;import xml.dom.minidom;s=sys.stdin.read();print(xml.dom.minidom.parseString(s).toprettyxml())'

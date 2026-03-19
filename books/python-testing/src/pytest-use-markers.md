@@ -1,12 +1,26 @@
-# Pytest use markers to select tests
+# Pytest use markers and select tests by `-m`
 
-* -m select by mark
+* Use the `@pytest.mark.name` decorator to tag the tests.
 
-{% embed include file="src/examples/pytest/markers/test_marker.py" %}
-{% embed include file="src/examples/pytest/markers/test_marker.out" %}
+{% embed include file="src/examples/pytest/markers/test_by_marker.py" %}
+
+```
+pytest --collect-only -m security test_by_marker.py
+    test_ui_forget
+    test_database_write
+    test_database_forget
+```
+
+```
+pytest --collect-only -m smoke test_by_marker.py
+    test_database_read
+    test_ui_access
+    test_database_write
+```
+
 
 * We need to declare them in the pytest.ini to avoid the warning
 
-{% embed include file="src/examples/pytest/markers/pytest.ini)
+{% embed include file="src/examples/pytest/markers/pytest.ini" %}
 
 

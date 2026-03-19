@@ -1,7 +1,4 @@
-# PyTest select tests by name
-
-* --collect-only
-* -k
+# PyTest select tests by name `-k`
 
 * --collect-only - only list the tests, don't run them yet.
 * -k select by name

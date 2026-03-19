@@ -1,15 +1,15 @@
 # PyTest: Randomize Order of tests
 
-Install [pytest-random-order](https://pypi.python.org/pypi/pytest-random-order)
+The [pytest-random-order](https://pypi.python.org/pypi/pytest-random-order) provides a new command-line flag `--random-order` that will randomize the test-function.
 
 ```
 pip install pytest-random-order
 ```
 
-And from now we can use the `--random-order` flag to run the tests in a random order.
+You might need to run the tests several times till you see exactly this random order.
 
 ```
-pytest -v --random-order
+$ pytest -v --random-order test_order.py
 
 test_order.py::test_two PASSED
 test_order.py::test_three PASSED

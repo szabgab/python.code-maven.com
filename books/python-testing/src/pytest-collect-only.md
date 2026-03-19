@@ -1,4 +1,4 @@
-# Pytest dry-run - collect-only
+# Pytest dry-run `--collect-only`
 
 * Find all the test files, test classes, test functions that will be executed.
 * But don't run them...

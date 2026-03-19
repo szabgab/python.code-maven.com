@@ -2,3 +2,7 @@
 
 The [black](https://pypi.org/project/black/) code formatter.
 
+
+```
+pip install black
+```

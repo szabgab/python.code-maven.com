@@ -1,27 +1,9 @@
 {
-    "created": 1614804305.2787466,
-    "duration": 0.04550981521606445,
+    "created": 1773935816.731533,
+    "duration": 0.12311553955078125,
     "exitcode": 1,
-    "root": "/home/gabor/work/slides/python/examples/pytest/reporting",
-    "environment": {
-        "Python": "3.8.6",
-        "Platform": "Linux-5.8.0-38-generic-x86_64-with-glibc2.32",
-        "Packages": {
-            "pytest": "6.1.2",
-            "py": "1.9.0",
-            "pluggy": "0.13.1"
-        },
-        "Plugins": {
-            "json-report": "1.2.4",
-            "random-order": "1.0.4",
-            "flake8": "1.0.6",
-            "forked": "1.3.0",
-            "dash": "1.17.0",
-            "metadata": "1.11.0",
-            "xdist": "2.2.1"
-        },
-        "JAVA_HOME": "/usr/lib/jvm/java-8-openjdk-amd64/"
-    },
+    "root": "/home/gabor/github/code-maven.com/python.code-maven.com",
+    "environment": {},
     "summary": {
         "passed": 1,
         "failed": 1,
@@ -36,84 +18,108 @@
             "outcome": "passed",
             "result": [
                 {
-                    "nodeid": "test_colors.py",
-                    "type": "Module"
+                    "nodeid": "books/python-testing/src/examples/pytest/reporting",
+                    "type": "Dir"
                 }
             ]
         },
         {
-            "nodeid": "test_colors.py",
+            "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py",
             "outcome": "passed",
             "result": [
                 {
-                    "nodeid": "test_colors.py::test_blue",
+                    "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_blue",
                     "type": "Function",
                     "lineno": 2
                 },
                 {
-                    "nodeid": "test_colors.py::test_red",
+                    "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_red",
                     "type": "Function",
                     "lineno": 5
                 },
                 {
-                    "nodeid": "test_colors.py::test_purple",
+                    "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_purple",
                     "type": "Function",
                     "lineno": 8
                 },
                 {
-                    "nodeid": "test_colors.py::test_orange",
+                    "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_orange",
                     "type": "Function",
                     "lineno": 12
                 },
                 {
-                    "nodeid": "test_colors.py::test_green",
+                    "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_green",
                     "type": "Function",
                     "lineno": 16
+                }
+            ]
+        },
+        {
+            "nodeid": "books/python-testing/src/examples/pytest/reporting",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py",
+                    "type": "Module"
                 }
             ]
         }
     ],
     "tests": [
         {
-            "nodeid": "test_colors.py::test_blue",
+            "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_blue",
             "lineno": 2,
             "outcome": "passed",
             "keywords": [
                 "test_blue",
                 "test_colors.py",
-                "reporting"
+                "reporting",
+                "pytest",
+                "examples",
+                "src",
+                "python-testing",
+                "books",
+                "python.code-maven.com",
+                ""
             ],
             "setup": {
-                "duration": 0.00020475592464208603,
+                "duration": 0.0002916679950430989,
                 "outcome": "passed"
             },
             "call": {
-                "duration": 0.00017083296552300453,
+                "duration": 0.00021083600586280227,
                 "outcome": "passed"
             },
             "teardown": {
-                "duration": 0.00015691807493567467,
+                "duration": 0.00015628400433342904,
                 "outcome": "passed"
             }
         },
         {
-            "nodeid": "test_colors.py::test_red",
+            "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_red",
             "lineno": 5,
             "outcome": "failed",
             "keywords": [
+                "test_red",
                 "test_colors.py",
                 "reporting",
-                "test_red"
+                "pytest",
+                "examples",
+                "src",
+                "python-testing",
+                "books",
+                "python.code-maven.com",
+                ""
             ],
             "setup": {
-                "duration": 0.00015041790902614594,
+                "duration": 0.00014479199307970703,
                 "outcome": "passed"
             },
             "call": {
-                "duration": 0.00027200207114219666,
+                "duration": 0.00047524301044177264,
                 "outcome": "failed",
                 "crash": {
-                    "path": "/home/gabor/work/slides/python/examples/pytest/reporting/test_colors.py",
+                    "path": "/home/gabor/github/code-maven.com/python.code-maven.com/books/python-testing/src/examples/pytest/reporting/test_colors.py",
                     "lineno": 7,
                     "message": "assert 1 == 2"
                 },
@@ -127,76 +133,97 @@
                 "longrepr": "def test_red():\n>       assert 1 == 2\nE       assert 1 == 2\n\ntest_colors.py:7: AssertionError"
             },
             "teardown": {
-                "duration": 0.0002171061933040619,
+                "duration": 0.0003812770009972155,
                 "outcome": "passed"
             }
         },
         {
-            "nodeid": "test_colors.py::test_purple",
+            "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_purple",
             "lineno": 8,
             "outcome": "skipped",
             "keywords": [
                 "test_purple",
-                "reporting",
+                "skip",
                 "pytestmark",
                 "test_colors.py",
-                "skip"
+                "reporting",
+                "pytest",
+                "examples",
+                "src",
+                "python-testing",
+                "books",
+                "python.code-maven.com",
+                ""
             ],
             "setup": {
-                "duration": 0.00014864513650536537,
+                "duration": 0.00021005500457249582,
                 "outcome": "skipped",
-                "longrepr": "('/home/gabor/work/slides/python/examples/pytest/reporting/test_colors.py', 9, 'Skipped: So we can show skip reporting')"
+                "longrepr": "('/home/gabor/github/code-maven.com/python.code-maven.com/books/python-testing/src/examples/pytest/reporting/test_colors.py', 9, 'Skipped: So we can show skip reporting')"
             },
             "teardown": {
-                "duration": 0.0001513431780040264,
+                "duration": 0.0001474780001444742,
                 "outcome": "passed"
             }
         },
         {
-            "nodeid": "test_colors.py::test_orange",
+            "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_orange",
             "lineno": 12,
             "outcome": "xpassed",
             "keywords": [
-                "xfail",
-                "reporting",
                 "test_orange",
+                "xfail",
                 "pytestmark",
-                "test_colors.py"
+                "test_colors.py",
+                "reporting",
+                "pytest",
+                "examples",
+                "src",
+                "python-testing",
+                "books",
+                "python.code-maven.com",
+                ""
             ],
             "setup": {
-                "duration": 0.00016017630696296692,
+                "duration": 0.00017399700300302356,
                 "outcome": "passed"
             },
             "call": {
-                "duration": 0.00014238758012652397,
+                "duration": 0.0001693279918981716,
                 "outcome": "passed"
             },
             "teardown": {
-                "duration": 0.00013842200860381126,
+                "duration": 0.00013180699897930026,
                 "outcome": "passed"
             }
         },
         {
-            "nodeid": "test_colors.py::test_green",
+            "nodeid": "books/python-testing/src/examples/pytest/reporting/test_colors.py::test_green",
             "lineno": 16,
             "outcome": "xpassed",
             "keywords": [
-                "xfail",
-                "reporting",
                 "test_green",
+                "xfail",
                 "pytestmark",
-                "test_colors.py"
+                "test_colors.py",
+                "reporting",
+                "pytest",
+                "examples",
+                "src",
+                "python-testing",
+                "books",
+                "python.code-maven.com",
+                ""
             ],
             "setup": {
-                "duration": 0.00014974595978856087,
+                "duration": 0.00013885101361665875,
                 "outcome": "passed"
             },
             "call": {
-                "duration": 0.00013947812840342522,
+                "duration": 0.00016100300126709044,
                 "outcome": "passed"
             },
             "teardown": {
-                "duration": 0.0001403489150106907,
+                "duration": 0.00013386199134401977,
                 "outcome": "passed"
             }
         }
