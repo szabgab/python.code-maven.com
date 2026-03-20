@@ -10,4 +10,5 @@
 {% embed include file="src/examples/flask/17/templates/main.html" %}
 
 
+{% embed include file="src/examples/flask/17/test_app.py" %}
 

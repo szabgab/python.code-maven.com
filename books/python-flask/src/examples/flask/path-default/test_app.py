@@ -25,6 +25,6 @@ def test_user_root(web):
     rv = web.get(f'/user')
     assert rv.status == '308 PERMANENT REDIRECT'
     assert rv.headers['Location'] == 'http://localhost/user/'
-    assert b'<p>You should be redirected automatically to target URL:' in rv.data
+    assert b'<p>You should be redirected automatically to the target URL:' in rv.data
 
 

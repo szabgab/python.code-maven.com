@@ -10,3 +10,5 @@
 FLASK_APP=app.py FLASK_DEBUG=0  flask run
 ```
 
+{% embed include file="src/examples/flask/path-any/test_app.py" %}
+
