@@ -12,3 +12,5 @@ By default the logger will only show WARNING and ERROR level log.
 flask --app basic --debug run
 ```
 
+{% embed include file="src/examples/flask/log/test_basic.py" %}
+

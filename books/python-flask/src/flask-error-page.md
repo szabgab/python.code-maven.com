@@ -3,6 +3,8 @@
 
 {% embed include file="src/examples/flask/500/app.py" %}
 
+{% embed include file="src/examples/flask/500/test_app.py" %}
+
 Will not trigger in debug mode!
 
 ```
@@ -16,6 +18,5 @@ HTTP/1.0 500 INTERNAL SERVER ERROR
 ```
 
 {% embed include file="src/examples/flask/500/app500.py" %}
-
 
 

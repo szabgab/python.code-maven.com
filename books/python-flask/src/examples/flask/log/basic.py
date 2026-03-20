@@ -12,5 +12,6 @@ def main():
     app.logger.info("Some info message")
     app.logger.warning("Some warning message")
     app.logger.error("Some error message")
-    return "Hello World"
+    return "Hello World!"
+
 
