@@ -1,5 +1,11 @@
 from flask import Flask
+import logging
 app = Flask(__name__)
+
+
+# minimum log level defaults to warning
+# we can set the minimum loge level
+app.logger.setLevel(logging.INFO)
 
 # This is logged when the server starts
 app.logger.debug('debug')

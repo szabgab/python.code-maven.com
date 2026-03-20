@@ -4,13 +4,11 @@
 
 There are several pre-defined levels of logging. You can use the specific functions to indicate the importance of each log message.
 
-You can set the level of logging inside the code or in an external configuration file.
+By default the logger will only show WARNING and ERROR level log.
 
 {% embed include file="src/examples/flask/log/basic.py" %}
 
 ```
 flask --app basic --debug run
 ```
-
-
 

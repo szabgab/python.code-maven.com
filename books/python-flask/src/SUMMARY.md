@@ -23,6 +23,7 @@
   - [Flask GET and POST in one function](./flask-get-and-post-in-one-function.md)
   - [Flask GET and POST in one function - testing](./flask-get-and-post-in-one-function-testing.md)
 - [Flask Logging](./flask-logging.md)
+  - [Configure logging level](./flask-logging-level.md)
   - [Sendmail from logger](./flask-logging-sendmail.md)
 - [Flask Debugging](./flask-debugging.md)
 - [Flask URL routing](./flask-url-routing.md)
@@ -77,5 +78,6 @@
   - [Flask REST API - parameter parsing - required](./flask-rest-api-parameter-parsing-required.md)
   - [Login](./login.md)
 - [Configuration](./flask-configuration.md)
-
-
+- [Application Factory](./flask-application-factory.md)
+- [Other]()
+  - [Teardown request](./flask-teardown-appcontext.md)
