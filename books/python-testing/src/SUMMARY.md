@@ -18,7 +18,8 @@
   - [Testing Resources](./testing-resources.md)
   - [The plan of this course](./testing-the-plan-of-the-course.md)
   - [The pieces of your software?](./pieces-of-your-software.md)
-  - [Continuous Integration](./continuous-integration.md)
+  - [Continuous Integration (CI)](./continuous-integration.md)
+  - [pre-commit](./pre-commit-hook.md)
 
 - [AUT - Application Under Test](./pytest-simple-aut.md)
   - [mymath module](./tested-module.md)
@@ -235,12 +236,14 @@
   - [Add extra command line parameters to Pytest - used in the autouse fixtures](./add-extra-command-line-parameters-autouse-fixture.md)
   - [PyTest: Test Coverage](./pytest-coverage.md)
 
+
 - [Static Analyzers (Linters)](./static-analyzers.md)
   - [Pytest and flake8](./pytest-and-flake-8.md)
   - [Pytest and pylint](./pytest-and-pylint.md)
   - [Pytest and ruff](./pytest-and-ruff.md)
   - [Pytest and mypy](./pytest-and-mypy.md)
   - [Black code formatter](./black-code-formatter.md)
+
 
 - [Pytest - other](./pytest-other.md)
   - [Testing Master Mind](./pytest-master-mind.md)
