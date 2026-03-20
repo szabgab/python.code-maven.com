@@ -20,12 +20,7 @@ discuss it in detail later on.
 For now, let's see how we can use this.
 
 
-{% embed include file="src/examples/flask/hello_world/app.py" %}
+{% embed include file="src/examples/flask/hello_world/hello.py" %}
 
----
-
-* Flask
-* route
-* app
-
+On the next page we'll run this web application.
 
