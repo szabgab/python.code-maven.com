@@ -9,13 +9,13 @@ def test_app():
 
     rv = web.post('/goto', data={'username': 'Joe'})
     assert rv.status == '302 FOUND'
-    assert rv.headers['Location'] == 'http://localhost/user/Joe'
-    assert b'<p>You should be redirected automatically to target URL: <a href="/user/Joe">/user/Joe</a>' in rv.data
+    assert rv.headers['Location'] == '/user/Joe'
+    assert b'<p>You should be redirected automatically to the target URL: <a href="/user/Joe">/user/Joe</a>' in rv.data
 
     rv = web.post('/goto')
     assert rv.status == '302 FOUND'
-    assert rv.headers['Location'] == 'http://localhost/user/'
-    assert b'<p>You should be redirected automatically to target URL: <a href="/user/">/user/</a>' in rv.data
+    assert rv.headers['Location'] == '/user/'
+    assert b'<p>You should be redirected automatically to the target URL: <a href="/user/">/user/</a>' in rv.data
 
     rv = web.get('/user/Jane')
     assert rv.status == '200 OK'

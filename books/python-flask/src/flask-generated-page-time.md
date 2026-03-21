@@ -28,7 +28,7 @@ At this point you can refresh the page using `Ctrl-r` and you'll see that the nu
 ## To run it
 
 ```
-FLASK_APP=app FLASK_DEBUG=1 flask run
+flask run
 ```
 
 

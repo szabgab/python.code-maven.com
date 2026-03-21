@@ -10,3 +10,5 @@ you can get the browser to open an interactive prompt where you can execute arbi
 $ flask --app app --debug run
 ```
 
+
+{% embed include file="src/examples/flask/debugging/test_app.py" %}
