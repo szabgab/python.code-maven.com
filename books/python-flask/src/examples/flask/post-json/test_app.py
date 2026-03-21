@@ -28,5 +28,5 @@ def test_bad_request():
     web = app.app.test_client()
 
     rv = web.post('/api/calc')
-    assert rv.status == '400 BAD REQUEST'
+    assert rv.status == '415 UNSUPPORTED MEDIA TYPE'
 

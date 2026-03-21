@@ -28,9 +28,6 @@ for my $dir (@folders) {
     next if $dir eq 'path-int';
     next if $dir eq 'counter';
 
-    # errors
-    next if $dir eq 'post-json';
-
     say $dir;
 
     chdir "$folder/$dir";
