@@ -7,6 +7,7 @@
 ```
 .
 ├── app.py
+├── test_app.py
 ├── static
 │   └── img
 │       └── python.png
@@ -15,4 +16,5 @@
     └── other.html
 ```
 
+{% embed include file="src/examples/flask/st/test_app.py" %}
 

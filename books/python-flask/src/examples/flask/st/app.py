@@ -9,3 +9,4 @@ def main():
 def other():
     return render_template('other.html',
         img_path = url_for('static', filename='img/python.png'))
+
