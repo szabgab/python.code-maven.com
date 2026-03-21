@@ -9,4 +9,5 @@ curl -I http://localhost:5000/not
 HTTP/1.0 404 NOT FOUND
 ```
 
+{% embed include file="src/examples/flask/404/test_app.py" %}
 

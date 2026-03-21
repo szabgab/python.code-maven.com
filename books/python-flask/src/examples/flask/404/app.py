@@ -3,7 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return '''
-Main
-<a href="/not">404 page</a>
-'''
+    return 'Main <a href="/not">404 page</a>'

@@ -23,7 +23,6 @@ for my $dir (@folders) {
     next if $dir eq 'calc-path';
     next if $dir eq 'st';
     next if $dir eq '50';
-    next if $dir eq '404';
     next if $dir eq 'api_paremeters';
     next if $dir eq 'path-int';
     next if $dir eq 'counter';
