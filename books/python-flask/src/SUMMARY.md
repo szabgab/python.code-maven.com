@@ -83,4 +83,5 @@
 - [Application Factory](./flask-application-factory.md)
 - [Other]()
   - [Teardown request](./flask-teardown-appcontext.md)
+  - [Calc path](./flask-calc-path.md)
   - [Flask based applications](./flask-based-applications.md)
