@@ -5,7 +5,11 @@
 {% embed include file="src/examples/decorators/flask_app.py" %}
 
 ```
-FLASK_APP=flask_app flask run
+$ flask --app flask_app run
 ```
+
+## Testing
+
+{% embed include file="src/examples/decorators/test_flask_app.py" %}
 
 
