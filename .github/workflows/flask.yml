@@ -12,7 +12,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v6
       - name: Install python dependencies
-        run: pip install pytest flask flask-restful
+        run: pip install pytest flask flask-restful flask-httpauth
 
       - name: Run test
         run: |
