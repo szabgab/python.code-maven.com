@@ -27,6 +27,20 @@ Then we can just type in `pytest`. It will find and run the tests.
 pytest
 ```
 
+
+If you are using `uv` then run
+
+```
+uv add --dev pytest
+```
+
+The run
+
+```
+uv run pytest
+```
+
+
 ## The test file
 
 {% embed include file="src/examples/flask/hello_world/test_app.py" %}

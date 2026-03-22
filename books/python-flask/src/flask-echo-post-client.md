@@ -1,13 +1,12 @@
-# Flask: Echo POST - client
+# Flask: Echo POST - `curl` and `requests`
 
-* request
-* request.form
-* curl
+```
+curl -X POST http://localhost:5000/echo
+```
 
 ```
 curl --data "text=Sancho Panza" http://localhost:5000/echo
 ```
 
 {% embed include file="src/examples/flask/echo_post/client.py" %}
-
 

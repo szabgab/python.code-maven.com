@@ -16,15 +16,15 @@ Once you had enough enjoying the view of your new application, you can hit Ctr-C
 ## Linux/Mac:
 
 ```
-$ export FLASK_APP=app
-$ export FLASK_DEBUG=1
-$ flask run
+$ FLASK_APP=hello FLASK_DEBUG=1 flask run
 ```
 
 or
 
 ```
-FLASK_APP=app FLASK_DEBUG=1 flask run
+$ export FLASK_APP=hello
+$ export FLASK_DEBUG=1
+$ flask run
 ```
 
 Then visit: `http://127.0.0.1:5000/` or type in
@@ -38,7 +38,7 @@ curl http://localhost:5000/
 On the command line or in the terminal of PyCharm, VS Code or any other IDE:
 
 ```
-set FLASK_APP=app
+set FLASK_APP=hello
 set FLASK_DEBUG=1
 flask run
 ```

@@ -2,8 +2,8 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route("/")
-def main():
+@app.get("/")
+def main_page():
     return '''
      <form action="/echo" method="POST">
          <input name="text">

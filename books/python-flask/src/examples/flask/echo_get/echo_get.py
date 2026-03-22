@@ -1,8 +1,8 @@
 from flask import Flask, request
 app = Flask(__name__)
 
-@app.route("/")
-def main():
+@app.get("/")
+def main_page():
     return '''
      <form action="/echo" method="GET">
          <input name="text">
@@ -10,7 +10,7 @@ def main():
      </form>
      '''
 
-@app.route("/echo")
+@app.get("/echo")
 def echo():
     user_text = request.args.get('text', '')
     if user_text:

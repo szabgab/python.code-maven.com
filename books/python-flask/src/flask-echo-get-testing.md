@@ -1,4 +1,8 @@
 # Flask: Echo GET - testing
 
 
-{% embed include file="src/examples/flask/echo_get/test_app.py" %}
+{% embed include file="src/examples/flask/echo_get/test_echo_get.py" %}
+
+```
+pytest
+```

@@ -6,4 +6,9 @@ In order to run the [Hello World application](./flask-hello-world.md) we execute
 flask --app hello --debug run
 ```
 
+If you are using `uv` then you might want to run
+
+```
+uv run flask --app hello --debug run
+```
 
