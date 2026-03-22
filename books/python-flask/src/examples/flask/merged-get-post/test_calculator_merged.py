@@ -1,21 +1,23 @@
-import app
+import calculator_merged
 import pytest
 
 
 def test_app():
-    web = app.app.test_client()
+    web = calculator_merged.app.test_client()
 
     rv = web.get('/')
     assert rv.status == '200 OK'
     assert b'<a href="/calc">calc</a>' == rv.data
 
-
-def test_calc():
-    web = app.app.test_client()
+def test_calc_get():
+    web = calculator_merged.app.test_client()
 
     rv = web.get('/calc')
     assert rv.status == '200 OK'
     assert b'<form' in rv.data
+
+def test_calc_post():
+    web = calculator_merged.app.test_client()
 
     rv = web.post('/calc', data={'a': 7, 'b': 11})
     assert rv.status == '200 OK'

@@ -3,7 +3,9 @@
 * request.method
 * methods
 
-{% embed include file="src/examples/flask/merged-get-post/app.py" %}
+{% embed include file="src/examples/flask/merged-get-post/calculator_merged.py" %}
 
-
+```
+flask --app calculator_merged run
+```
 

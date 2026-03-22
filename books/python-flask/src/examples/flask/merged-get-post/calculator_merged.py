@@ -1,8 +1,8 @@
 from flask import Flask, request
 app = Flask(__name__)
 
-@app.route("/")
-def index():
+@app.get("/")
+def main_page():
     return '<a href="/calc">calc</a>'
 
 @app.route("/calc", methods=['GET', 'POST'] )
