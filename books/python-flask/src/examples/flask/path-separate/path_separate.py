@@ -1,8 +1,8 @@
 from flask import Flask, jsonify
 app = Flask(__name__)
 
-@app.route("/")
-def index():
+@app.get("/")
+def main_page():
     return '''
 Main<br>
 <a href="/user/23">23</a><br>
@@ -10,10 +10,10 @@ Main<br>
 <a href="/user/Joe">Joe</a><br>
 '''
 
-@app.route("/user/<uid>")
+@app.get("/user/<uid>")
 def api_info(uid):
     return uid
 
-@app.route("/user/")
+@app.get("/user/")
 def user():
     return 'User List'

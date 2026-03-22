@@ -1,8 +1,8 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
-def index():
+@app.get("/")
+def main_page():
     return '''
 Main<br>
 <a href="/user/23">23</a><br>
@@ -10,8 +10,10 @@ Main<br>
 <a href="/user/Joe">Joe</a><br>
 '''
 
-@app.route("/user/", defaults={ 'uid': 'zero' })
-@app.route("/user/<uid>")
-def api_info(uid):
+@app.get("/user/", defaults={ 'uid': 'zero' })
+@app.get("/user/<uid>")
+def user_by_uid(uid):
+    if uid == 'zero':
+        return "List users"
     return uid
 

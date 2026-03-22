@@ -1,11 +1,11 @@
-import app
 import pytest
+import path_default
 
 @pytest.fixture()
 def web():
-    return app.app.test_client()
+    return path_default.app.test_client()
 
-def test_app(web):
+def test_main_page(web):
     rv = web.get('/')
     assert rv.status == '200 OK'
     assert b'Main<br>' in rv.data
@@ -19,7 +19,7 @@ def test_user(web, uid):
 def test_user_root_slash(web):
     rv = web.get(f'/user/')
     assert rv.status == '200 OK'
-    assert b'zero' == rv.data
+    assert b'List users' == rv.data
 
 def test_user_root(web):
     rv = web.get(f'/user')

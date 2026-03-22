@@ -1,9 +1,9 @@
-import app
 import pytest
+import path_params
 
 @pytest.fixture()
 def web():
-    return app.app.test_client()
+    return path_params.app.test_client()
 
 def test_app(web):
     rv = web.get('/')
@@ -16,15 +16,12 @@ def test_user(web, uid):
     assert rv.status == '200 OK'
     assert uid == rv.data.decode('utf-8')
 
-def test_user_root_slash(web):
+def test_user_fail(web):
     rv = web.get(f'/user/')
-    assert rv.status == '200 OK'
-    assert b'User List' == rv.data
+    assert rv.status == '404 NOT FOUND'
 
-def test_user_root(web):
+def test_user_fail(web):
     rv = web.get(f'/user')
-    assert rv.status == '308 PERMANENT REDIRECT'
-    assert rv.headers['Location'] == 'http://localhost/user/'
-    assert b'<p>You should be redirected automatically to the target URL:' in rv.data
+    assert rv.status == '404 NOT FOUND'
 
 
