@@ -1,8 +1,8 @@
 # Static files
 
-{% embed include file="src/examples/flask/st/app.py" %}
-{% embed include file="src/examples/flask/st/templates/main.html" %}
-{% embed include file="src/examples/flask/st/templates/other.html" %}
+{% embed include file="src/examples/flask/static/app.py" %}
+{% embed include file="src/examples/flask/static/templates/main.html" %}
+{% embed include file="src/examples/flask/static/templates/other.html" %}
 
 ```
 .
@@ -16,5 +16,5 @@
     └── other.html
 ```
 
-{% embed include file="src/examples/flask/st/test_app.py" %}
+{% embed include file="src/examples/flask/static/test_app.py" %}
 
