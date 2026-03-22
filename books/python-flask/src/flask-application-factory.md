@@ -7,4 +7,5 @@
 flask --app myapp --debug run
 ```
 
+{% embed include file="src/examples/flask/hello-in-module/test_app.py" %}
 
