@@ -3,7 +3,7 @@ from flask import Flask, request, redirect, url_for
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def main_page():
     return '''<form action="/goto" method="POST">
             <input name="username">
             <input type="submit" value="Go">

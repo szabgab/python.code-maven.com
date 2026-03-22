@@ -11,10 +11,10 @@ urls = [
     'https://szabgab.com/',
 ]
 
-@app.route('/')
-def index():
+@app.get('/')
+def main_page():
     return '<a href="/random">Random</a>'
 
-@app.route('/random')
+@app.get('/random')
 def random_redirect():
     return redirect(random.choice(urls))

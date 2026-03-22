@@ -1,9 +1,6 @@
 # Flask Redirect
 
-* redirect
+{% embed include file="src/examples/flask/redirect/redirect.py" %}
 
-* redirect(external url)
-
-{% embed include file="src/examples/flask/redirect/app.py" %}
-{% embed include file="src/examples/flask/redirect/test_app.py" %}
+{% embed include file="src/examples/flask/redirect/test_redirect.py" %}
 

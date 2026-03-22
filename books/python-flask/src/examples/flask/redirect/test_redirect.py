@@ -1,12 +1,14 @@
-import app
+import redirect
 
-def test_app():
-    web = app.app.test_client()
+def test_main_page():
+    web = redirect.app.test_client()
 
     rv = web.get('/')
     assert rv.status == '200 OK'
     assert rv.data == b'<a href="/cm">Go to Code Maven</a>'
 
+def test_redirect():
+    web = redirect.app.test_client()
 
     rv = web.get('/cm')
     assert rv.status == '302 FOUND'

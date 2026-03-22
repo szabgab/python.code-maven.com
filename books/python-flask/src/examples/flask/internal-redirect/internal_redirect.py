@@ -3,7 +3,7 @@ from flask import Flask, redirect, url_for
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def main_page():
     return '<a href="/goto">Go to</a>'
 
 @app.route('/goto')
