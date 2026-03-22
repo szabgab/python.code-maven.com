@@ -5,3 +5,4 @@
 
 
 
+{% embed include file="src/examples/flask/color/test_color.py" %}

@@ -18,7 +18,6 @@ for my $dir (@folders) {
     next if $dir eq 'api_paremeters_required';
     next if $dir eq 'simple_auth';
     next if $dir eq 'hello-in-module';
-    next if $dir eq 'color';
     next if $dir eq 'login';
     next if $dir eq '50';
     next if $dir eq 'api_paremeters';
