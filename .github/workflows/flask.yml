@@ -12,7 +12,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v6
       - name: Install python dependencies
-        run: pip install -r books/python-flask/requiremens.txt
+        run: pip install -r books/python-flask/requirements.txt
 
       - name: Run test
         run: |
