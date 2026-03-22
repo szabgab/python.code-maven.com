@@ -1,6 +1,5 @@
 # Flask Jinja template with conditional
 
-
 * if
 * endif
 

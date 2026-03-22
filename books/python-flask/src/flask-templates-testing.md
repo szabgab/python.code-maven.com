@@ -1,5 +1,5 @@
 # Flask Jinja template - testing
 
-{% embed include file="src/examples/flask/jinja-plain/test_app.py" %}
+{% embed include file="src/examples/flask/jinja-plain/test_jinja_plain.py" %}
 
 
