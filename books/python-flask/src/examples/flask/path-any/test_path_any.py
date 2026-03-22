@@ -1,9 +1,9 @@
-import app
 import pytest
+import path_any
 
 @pytest.fixture()
 def web():
-    return app.app.test_client()
+    return path_any.app.test_client()
 
 def test_app(web):
     rv = web.get('/')

@@ -4,11 +4,14 @@
 
 * Accept any path, including slashes:
 
-{% embed include file="src/examples/flask/path-any/app.py" %}
+{% embed include file="src/examples/flask/path-any/path_any.py" %}
 
 ```
-FLASK_APP=app.py FLASK_DEBUG=0  flask run
+flask --app path_any run
 ```
 
-{% embed include file="src/examples/flask/path-any/test_app.py" %}
+{% embed include file="src/examples/flask/path-any/path_any.py" %}
 
+```
+pytest
+```
