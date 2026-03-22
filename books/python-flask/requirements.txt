@@ -1,0 +1,4 @@
+pytest
+flask
+flask-restful
+flask-httpauth
