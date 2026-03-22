@@ -11,4 +11,5 @@
 
 {% embed include file="src/examples/flask/50/nginx.conf" %}
 
+{% embed include file="src/examples/flask/50/test_app.py" %}
 
