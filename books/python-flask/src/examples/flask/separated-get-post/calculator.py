@@ -2,10 +2,10 @@ from flask import Flask, request
 app = Flask(__name__)
 
 @app.route("/")
-def index():
+def main_page():
     return '<a href="/calc">calc</a>'
 
-@app.route("/calc", methods=['GET'] )
+@app.get("/calc")
 def calc_get():
     return '''<form method="POST" action="/calc">
         <input name="a">
@@ -14,7 +14,7 @@ def calc_get():
         </form>'''
 
 
-@app.route("/calc", methods=['POST'] )
+@app.post("/calc")
 def calc_post():
     a = request.form.get('a', '0')
     b = request.form.get('b', '0')

@@ -1,8 +1,10 @@
 # Flask GET and POST in two functions
 
 
-* request
+{% embed include file="src/examples/flask/separated-get-post/calculator.py" %}
 
-{% embed include file="src/examples/flask/separated-get-post/app.py" %}
+```
+flask --app calculator run
+```
 
 

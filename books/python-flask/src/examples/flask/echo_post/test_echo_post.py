@@ -7,7 +7,6 @@ def test_main_page():
     assert rv.status == '200 OK'
     assert '<form action="/echo" method="POST">' in rv.data.decode('utf-8')
 
-
 def test_echo_get():
     web = echo_post.app.test_client()
 
