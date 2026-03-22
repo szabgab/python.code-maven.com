@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 counter = 1
 
-@app.route("/")
-def main():
+@app.get("/")
+def main_page():
     global counter
     counter += 1
     return str(counter)

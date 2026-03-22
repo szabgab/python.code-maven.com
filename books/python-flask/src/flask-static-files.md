@@ -1,13 +1,13 @@
 # Static files
 
-{% embed include file="src/examples/flask/static/app.py" %}
+{% embed include file="src/examples/flask/static/static.py" %}
 {% embed include file="src/examples/flask/static/templates/main.html" %}
 {% embed include file="src/examples/flask/static/templates/other.html" %}
 
 ```
 .
-├── app.py
-├── test_app.py
+├── static.py
+├── test_static.py
 ├── static
 │   └── img
 │       └── python.png
@@ -16,5 +16,5 @@
     └── other.html
 ```
 
-{% embed include file="src/examples/flask/static/test_app.py" %}
+{% embed include file="src/examples/flask/static/test_static.py" %}
 

@@ -1,8 +1,12 @@
-import app
+import counter
+import pytest
 
-def test_app():
-    web = app.app.test_client()
+@pytest.fixture()
+def web():
+    return counter.app.test_client()
 
+
+def test_app(web):
     rv = web.get('/')
     assert rv.status == '200 OK'
     assert rv.data.decode('utf-8') == '2'
@@ -15,9 +19,7 @@ def test_app():
     assert rv.status == '200 OK'
     assert rv.data.decode('utf-8') == '4'
 
-def test_app_separate():
-    web = app.app.test_client()
-
+def test_app_separate(web):
     rv = web.get('/')
     assert rv.status == '200 OK'
     assert rv.data.decode('utf-8') == '5'
