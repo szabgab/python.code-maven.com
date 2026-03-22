@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  flask:
     runs-on: ubuntu-latest
     container:
       image: python:3.14
@@ -18,4 +18,19 @@ jobs:
         run: |
           cd books/python-flask/
           perl run_tests.pl
+
+  decorators:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.14
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v6
+      #- name: Install python dependencies
+      #  run: pip install -r books/python-decorators/requirements.txt
+
+      - name: Run test
+        run: |
+          cd books/python-decorators/src/examples/decorators
+          pytest
 
