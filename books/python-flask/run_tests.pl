@@ -14,9 +14,7 @@ my $root = Cwd::cwd();
 my $counter = 0;
 my $total = @folders;
 for my $dir (@folders) {
-    # no tests
     next if $dir eq 'api_paremeters_required';
-    next if $dir eq 'simple_auth';
     next if $dir eq 'hello-in-module';
     next if $dir eq 'login';
     next if $dir eq 'api_paremeters';
