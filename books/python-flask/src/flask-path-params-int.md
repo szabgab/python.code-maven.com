@@ -5,7 +5,8 @@
 {% embed include file="src/examples/flask/path-int/app.py" %}
 
 ```
-FLASK_APP=app.py FLASK_DEBUG=0  flask run
+$ flask run
 ```
 
+{% embed include file="src/examples/flask/path-int/test_app.py" %}
 
