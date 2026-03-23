@@ -4,8 +4,8 @@ def compute(x, y):
     # some long computation here
     return x+y
 
-print(compute(2, 3))
-print(compute(3, 4))
-print(compute(2, 3))
-
+if __name__ == '__main__':
+    print(compute(2, 3))
+    print(compute(3, 4))
+    print(compute(2, 3))
 

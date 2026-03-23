@@ -5,6 +5,7 @@
 - [Decorators](./decorators/index.md)
   - [Decorators: simple example](./decorators/decorators-example.md)
   - [Decorators - Flask](./decorators/decorators-flask.md)
+  - [Testing Flask - decorate Pytest fixtures](./decorators/decorators-pytest-fixtures.md)
   - [Decorators - Pytest](./decorators/decorators-pytest.md)
   - [Decorators caching - no cache](./decorators/decorators-caching-no-cache.md)
   - [Decorators caching - with cache](./decorators/decorators-caching-with-cache.md)
