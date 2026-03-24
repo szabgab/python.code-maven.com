@@ -10,7 +10,7 @@
 flask --app path_any run
 ```
 
-{% embed include file="src/examples/flask/path-any/path_any.py" %}
+{% embed include file="src/examples/flask/path-any/test_path_any.py" %}
 
 ```
 pytest
