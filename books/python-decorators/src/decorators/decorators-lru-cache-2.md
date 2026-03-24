@@ -6,3 +6,4 @@
 
 {% embed include file="src/examples/decorators/lru_cache_example_2.py" %}
 
+{% embed include file="src/examples/decorators/test_lru_cache_example_2.py" %}
