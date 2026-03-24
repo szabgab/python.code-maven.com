@@ -1,10 +1,13 @@
-
-
 def call(func):
     return func(42)
 
 def double(val):
-    print(2*val)
+    return 2 * val
 
-call(double)      # 84
-call(lambda x: print(x // 2))    # 21
+def square(val):
+    return val * val
+
+if __name__ == "__main__":
+    print(call(double))            # 84
+    print(call(square))            # 1764
+    print(call(lambda x: x // 2))  # 21
