@@ -14,7 +14,7 @@ def test_calculator_get():
 
     rv = web.get('/calc')
     assert rv.status == '200 OK'
-    assert b'<form' in rv.data
+    assert b'<form method="POST" action="/calc"' in rv.data
 
 def test_calculator_post():
     web = calculator.app.test_client()
