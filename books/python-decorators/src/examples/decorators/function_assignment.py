@@ -2,11 +2,11 @@
 def hello(name):
     print(f"Hello {name}")
 
-hello("Python")
-print(hello)
+if __name__ == "__main__":
+    hello("Python")
+    print(hello)
 
-greet = hello
-greet("Python")
-print(greet)
-
+    greet = hello
+    greet("Rust")
+    print(greet)
 
