@@ -1,4 +1,5 @@
 # Functools
 
 
-* [functools](https://docs.python.org/3/library/functools.html) provieds a number of decorators.
+[functools](https://docs.python.org/library/functools.html) provieds a number of decorators.
+

@@ -1,6 +1,6 @@
 # Decorators - Flask
 
-In Flask we use decorators to map pathes to functions and make them "routes".
+In [Flask](https://flask.palletsprojects.com/) we use decorators to map pathes to functions and make them "routes".
 
 {% embed include file="src/examples/decorators/flask_app.py" %}
 
