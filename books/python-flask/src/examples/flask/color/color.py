@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import re
 app = Flask(__name__)
 
-@app.route("/",methods=['GET', 'POST'] )
+@app.route("/", methods=['GET', 'POST'] )
 def main():
     color = "FFFFFF"
     new_color = request.form.get('color', '')
