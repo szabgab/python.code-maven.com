@@ -3,8 +3,11 @@
 <input type="submit" value="Echo">
 </form>
 
-{% if text %}
-  You said: <b>{{ text }}</b>
-{% else %}
-  You did not say anything.
+
+{% if not main %}
+  {% if text %}
+    You said: <b>{{ text }}</b>
+  {% else %}
+    You did not say anything.
+  {% endif %}
 {% endif %}

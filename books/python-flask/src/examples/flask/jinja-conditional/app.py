@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return render_template('echo.html')
+    return render_template('echo.html', main=True)
 
 @app.route("/echo", methods=['POST'])
 def echo():
