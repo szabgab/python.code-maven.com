@@ -8,6 +8,7 @@
 {% embed include file="src/examples/flask/17/templates/login.html" %}
 {% embed include file="src/examples/flask/17/templates/logout.html" %}
 {% embed include file="src/examples/flask/17/templates/main.html" %}
+{% embed include file="src/examples/flask/17/templates/message.html" %}
 
 
 {% embed include file="src/examples/flask/17/test_app.py" %}

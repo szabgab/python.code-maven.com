@@ -7,37 +7,38 @@ users = {
     'foo'   : 'myfoo',
 }
 
-@app.route("/")
+@app.get("/")
 def main():
     return render_template('main.html')
 
-@app.route('/login')
+@app.get('/login')
 def login_form():
     return render_template('login.html')
 
-@app.route('/login', methods=['POST'])
+@app.post('/login')
 def login():
     username = request.form.get('username')
     password = request.form.get('password')
     if username and password and username in users and users[username] == password:
-        session['logged_in'] = True
+        session['username'] = username
         return redirect(url_for('account'))
 
-    return render_template('login.html')
+    return render_template('login.html', error_message="Invalid login")
 
-@app.route("/account")
+@app.get("/account")
 def account():
-    if not session.get('logged_in'):
+    username = session.get('username')
+    if not username:
         return redirect(url_for('login'))
 
-    return render_template('account.html')
+    return render_template('account.html', username=username)
 
-@app.route('/logout')
+@app.get('/logout')
 def logout():
-    if not session.get('logged_in'):
-        return "Not logged in"
+    if not session.get('username'):
+        return render_template('message.html', message="Not logged in")
     else:
-        session['logged_in'] = False
+        del session['username']
     return render_template('logout.html')
 
 
