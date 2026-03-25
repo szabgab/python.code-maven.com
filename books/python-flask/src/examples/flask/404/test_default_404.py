@@ -1,14 +1,14 @@
-import app
+import default_404
 
 def test_main_page():
-    web = app.app.test_client()
+    web = default_404.app.test_client()
 
     rv = web.get('/')
     assert rv.status == '200 OK'
     assert rv.data.decode('utf-8') == 'Main <a href="/not">404 page</a>'
 
 def test_missing_page():
-    web = app.app.test_client()
+    web = default_404.app.test_client()
 
     rv = web.get('/not')
     assert rv.status == '404 NOT FOUND'
