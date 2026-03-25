@@ -7,14 +7,20 @@ def main_page():
 
 @app.route("/calc", methods=['GET', 'POST'] )
 def calc():
+    error = ""
     if request.method == 'POST':
-        a = request.form.get('a', '0')
-        b = request.form.get('b', '0')
-        return str(float(a) + float(b))
-    else:
-        return '''<form method="POST" action="/calc">
-            <input name="a">
-            <input name="b">
-            <input type="submit" value="Compute">
-            </form>'''
+        a = request.form.get('a')
+        b = request.form.get('b')
+        try:
+            result = float(a) + float(b)
+            return str(result)
+        except Exception:
+            error = "There was a problem"
+
+    return f'''<form method="POST" action="/calc">
+        <input name="a">
+        <input name="b">
+        <input type="submit" value="Compute">
+        </form>
+        {error}'''
 
