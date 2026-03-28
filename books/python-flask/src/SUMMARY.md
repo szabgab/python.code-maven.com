@@ -80,6 +80,7 @@
   - [Flask Deploy app](./flask-deploy.md)
   - [Flask Simple Authentication + test](./flask-simple-authentication-test.md)
 - [Flask-restful REST API](./flask-rest-api.md)
+  - [Flask REST API - Hello World](./flask-rest-api-hello-world.md)
   - [Flask REST API - Echo](./flask-rest-api-echo.md)
   - [Flask REST API - parameters in path](./flask-rest-api-parameters-in-path.md)
   - [Flask REST API - parameter parsing](./flask-rest-api-parameter-parsing.md)
