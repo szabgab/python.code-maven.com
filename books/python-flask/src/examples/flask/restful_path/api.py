@@ -6,12 +6,12 @@ app = Flask(__name__)
 api = Api(app)
 
 class Echo(Resource):
-    def get(self, me):
-        return { "res": f"Text: {me}" }
+    def get(self, text):
+        return { "GET response": f"Text: {text}" }
 
-    def post(self, me):
-        return { "Answer": f"You said: {me}" }
+    def post(self, text):
+        return { "POST response": f"Text: {text}" }
 
 
-api.add_resource(Echo, '/echo/<me>')
+api.add_resource(Echo, '/echo/<text>')
 

@@ -1,15 +1,19 @@
 import api
+import pytest
 
-def test_echo():
-    web = api.app.test_client()
+@pytest.fixture()
+def web():
+    return api.app.test_client()
 
+
+def test_get(web):
     rv = web.get('/echo/hello')
     assert rv.status == '200 OK'
     assert rv.headers['Content-Type'] == 'application/json'
-    assert rv.json ==  {'res': 'Text: hello'}
+    assert rv.json ==  {'GET response': 'Text: hello'}
 
-
+def test_post(web):
     rv = web.post('/echo/ciao')
     assert rv.status == '200 OK'
     assert rv.headers['Content-Type'] == 'application/json'
-    assert rv.json == {'Answer': 'You said: ciao'}
+    assert rv.json == {'POST response': 'Text: ciao'}

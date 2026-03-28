@@ -25,7 +25,7 @@ def test_echo_post_empty(web):
     assert rv.json == {"echo": "", "method": "POST"}
 
 def test_echo_post_text(web):
-    rv = web.post('/echo', data="text=Happy Path")
+    rv = web.post('/echo', data={"text": "Happy Path"})
     assert rv.status == '200 OK'
     assert rv.headers['Content-Type'] == 'application/json'
     assert rv.json == {"echo": "Happy Path", "method": "POST"}
