@@ -3,20 +3,21 @@
 
 
 ```
+$ tree
 .
-├── app.py
-├── test_app.py
-└── templates
-    ├── incl
-    │   ├── footer.html
-    │   └── header.html
-    └── main.html
+├── jinja_include.py
+├── templates
+│   ├── echo.html
+│   ├── incl
+│   │   └── echo_form.html
+│   └── main.html
+└── test_jinja_include.py
 ```
 
-{% embed include file="src/examples/flask/jinja-include/app.py" %}
+{% embed include file="src/examples/flask/jinja-include/jinja_include.py" %}
 {% embed include file="src/examples/flask/jinja-include/templates/main.html" %}
-{% embed include file="src/examples/flask/jinja-include/templates/incl/header.html" %}
-{% embed include file="src/examples/flask/jinja-include/templates/incl/footer.html" %}
+{% embed include file="src/examples/flask/jinja-include/templates/echo.html" %}
+{% embed include file="src/examples/flask/jinja-include/templates/incl/echo_form.html" %}
 
-{% embed include file="src/examples/flask/jinja-include/test_app.py" %}
+{% embed include file="src/examples/flask/jinja-include/test_jinja_include.py" %}
 

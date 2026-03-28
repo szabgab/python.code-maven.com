@@ -2,8 +2,8 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 @app.route("/")
-def main():
-    return render_template('echo.html')
+def main_page():
+    return render_template('main.html')
 
 @app.route("/echo", methods=['POST'])
 def echo():
