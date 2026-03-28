@@ -1,7 +1,7 @@
 # Flask REST API - parameter parsing
 
 
-{% embed include file="src/examples/flask/api_paremeters/api.py" %}
-{% embed include file="src/examples/flask/api_paremeters/test_api.py" %}
+{% embed include file="src/examples/flask/restful_parameters/api.py" %}
+{% embed include file="src/examples/flask/restful_parameters/test_api.py" %}
 
 

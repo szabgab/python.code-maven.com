@@ -7,9 +7,11 @@ api = Api(app)
 
 class Echo(Resource):
     def get(self):
-        return { "prompt": "Type in something" }
+        user_text = request.args.get('text', '')
+        return { "echo": user_text, "method": "GET" }
     def post(self):
-        return { "echo": "This" }
+        user_text = request.form.get('text', '')
+        return { "echo": user_text, "method": "POST" }
 
 api.add_resource(Echo, '/echo')
 
