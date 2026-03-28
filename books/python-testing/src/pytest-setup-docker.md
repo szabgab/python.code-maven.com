@@ -13,7 +13,7 @@ This will speed up the tests as the test will be able to reuse this image.
 The name of the image does not really matter here.
 
 ```
-$ docker build myimg -t .
+$ docker build -t myimg .
 ```
 
 We can run the container manually

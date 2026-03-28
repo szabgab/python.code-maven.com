@@ -2,6 +2,7 @@ import pytest
 import requests
 import time
 import os
+import random
 
 #@pytest.fixture(autouse = True, scope="module")
 @pytest.fixture()
@@ -12,12 +13,13 @@ def image():
 
     yield image_name
 
-    print("teardown_module ", os.system(f"docker rmi -f {image_name}"))
+    print("teardown_module ", os.system(f"docker image rm -f {image_name}"))
 
 
 @pytest.fixture()
 def myport(image):
-    port = '5001'
+    # TODO how can we make sure this is really unique?
+    port = str(random.randint(5000, 65535))
     container_name = 'test_container_' + str(int(time.time()*1000))
     print(f"container: {container_name}")
     print("setup_function ", os.system(f"docker run --rm -d -v$(pwd):/workdir -p{port}:5000 --name {container_name} {image}"))
@@ -32,6 +34,7 @@ def test_app(myport):
     print(url)
     res = requests.get(url)
     assert res.status_code == 200
+    assert res.headers['Content-Type'] == "application/json"
     assert res.json() == {'a': 3, 'add': 13, 'b': 10}
 
 def test_app_again(myport):
@@ -39,4 +42,6 @@ def test_app_again(myport):
     print(url)
     res = requests.get(url)
     assert res.status_code == 200
+    assert res.headers['Content-Type'] == "application/json"
     assert res.json() == {'a': -1, 'add': 0, 'b': 1}
+

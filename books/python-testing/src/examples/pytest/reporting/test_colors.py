@@ -16,7 +16,7 @@ def test_purple():
 
 @pytest.mark.xfail(reason="To show xfail that really fails")
 def test_orange():
-    1 == 4
+    assert 1 == 4
 
 
 @pytest.mark.xfail(reason="To show xfail that passes")

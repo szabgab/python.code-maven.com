@@ -36,3 +36,4 @@ Write a new example for environment variable https://python.code-maven.com/pytho
 
 TODO: Flask app sending email, make it really send email and try it on a server. (and maybe that should be part of the flask course?)
 
+Test Flask in Docker - run the tests too in a docker container.
