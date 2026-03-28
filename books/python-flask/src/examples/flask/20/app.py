@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
@@ -15,4 +15,4 @@ def api_info():
        "description" : "Main server",
        "load" : [ 3.21, 7, 14 ]
     }
-    return jsonify(info)
+    return info
