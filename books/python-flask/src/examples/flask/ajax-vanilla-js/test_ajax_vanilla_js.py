@@ -1,8 +1,8 @@
-import app
+import ajax_vanilla_js
 
 
 def test_app():
-    web = app.app.test_client()
+    web = ajax_vanilla_js.app.test_client()
 
     rv = web.get('/')
     assert rv.status == '200 OK'
