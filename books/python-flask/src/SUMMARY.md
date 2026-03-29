@@ -69,7 +69,7 @@
   - [Flask Exercises](./flask-exercises.md)
   - [Flask login](./flask-login.md)
   - [Login](./login.md)
-- [Flask API]()
+- [Flask API](./flask-api.md)
   - [Flask JSON API](./flask-json-api.md)
   - [Flask and AJAX with Vanila JavaScript](./flask-and-ajax-plain-javascript.md)
   - [Flask and AJAX with JQuery](./flask-and-ajax-jquery.md)

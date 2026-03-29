@@ -3,8 +3,6 @@
 If instead of a string we return a dictionary, Flask will assume it is an API endpoint
 and will return a serialized version of the data structure.
 
-* jsonify
-
 {% embed include file="src/examples/flask/return-json/return_json.py" %}
 
 ```
