@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, render_template, request
 import time
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ def api_info():
        "description" : "Main server",
        "load" : [ 3.21, 7, 14 ]
     }
-    return jsonify(info)
+    return info
 
 @app.route("/api/calc")
 def add():
@@ -23,12 +23,12 @@ def add():
     div = 'na'
     if b != 0:
         div = a/b
-    return jsonify({
+    return {
         "a"        :  a,
         "b"        :  b,
         "add"      :  a+b,
         "multiply" :  a*b,
         "subtract" :  a-b,
         "divide"   :  div,
-    })
+    }
 
