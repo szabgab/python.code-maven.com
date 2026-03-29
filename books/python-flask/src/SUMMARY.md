@@ -85,7 +85,7 @@
 - [Application Factory](./flask-application-factory.md)
 - [Other]()
   - [passlib](./passlib.md)
-  - [Flask Testing](./flask-testing.md)
+  - [Flask Testing with unittest](./flask-testing.md)
   - [Flask Deploy app](./flask-deploy.md)
   - [Flask Simple Authentication + test](./flask-simple-authentication-test.md)
   - [Teardown request](./flask-teardown-appcontext.md)
