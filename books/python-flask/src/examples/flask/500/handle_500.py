@@ -16,4 +16,4 @@ def bad():
 @app.errorhandler(500)
 def not_found(err):
     #raise Exception("There should not be an exception here!")
-    return f"Our Page crashed {err}", 500
+    return f"Our Page crashed <b>{err}</b>", 500

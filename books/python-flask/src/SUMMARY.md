@@ -58,7 +58,7 @@
 - [Static files](./flask-static-files.md)
 - [Special error handles](./flask-errorhandles.md)
   - [Flask custom 404 page](./flask-404-page.md)
-  - [Flask Error page](./flask-error-page.md)
+  - [Flask 500 Internal Server Error page](./flask-error-page.md)
 - [Session management](./flask-session-management.md)
   - [Flask: Counter](./flask-counter.md)
   - [Color selector without session](./flask-no-session.md)
