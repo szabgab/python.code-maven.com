@@ -1,9 +1,9 @@
-import app
+import return_json
 import pytest
 
 @pytest.fixture()
 def web():
-    return app.app.test_client()
+    return return_json.app.test_client()
 
 def test_main_page(web):
     rv = web.get('/')
