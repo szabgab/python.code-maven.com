@@ -10,6 +10,11 @@ $ curl -I http://localhost:5000/api/info
 HTTP/1.0 200 OK
 Content-Type: application/json
 ```
+
 {% embed include file="src/examples/flask/return-json/test_return_json.py" %}
+
+## Client in Python
+
+{% embed include file="src/examples/flask/return-json/client.py" %}
 
 
