@@ -21,15 +21,16 @@
 * pip install pytest flask
 
 
-{% embed include file="src/examples/flask/50/app.py" %}
+{% embed include file="src/examples/flask/deploy/app.py" %}
+
+{% embed include file="src/examples/flask/deploy/test_app.py" %}
 
 [uwsgi](https://uwsgi-docs.readthedocs.io/)
 
-{% embed include file="src/examples/flask/50/uwsgi.ini" %}
+{% embed include file="src/examples/flask/deploy/uwsgi.ini" %}
 
 [nginx](https://nginx.org/)
 
-{% embed include file="src/examples/flask/50/nginx.conf" %}
+{% embed include file="src/examples/flask/deploy/nginx.conf" %}
 
-{% embed include file="src/examples/flask/50/test_app.py" %}
 
