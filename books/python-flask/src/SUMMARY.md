@@ -91,3 +91,5 @@
   - [Teardown request](./flask-teardown-appcontext.md)
   - [Calc path](./flask-calc-path.md)
   - [Flask based applications](./flask-based-applications.md)
+- [Applications](./applications.md)
+  - [URL Shortener](./url-shortener.md)

@@ -1,0 +1,9 @@
+<form action="/add" method="POST">
+    <input name="url">
+    <input type="submit" value="Shorten">
+</form>
+
+{% if error %}
+  <span style="color: red">{{error}}</span>
+{% endif %}
+

@@ -6,3 +6,4 @@ books/*/book/
 __pycache__
 
 /books/python-machine-learning/src/examples/ml/linear.joblib
+/books/python-flask/src/examples/flask/url-shortener/short.json
