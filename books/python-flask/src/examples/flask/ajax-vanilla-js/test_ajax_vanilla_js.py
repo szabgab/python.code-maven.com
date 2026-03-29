@@ -38,7 +38,7 @@ def test_api_calc(web):
     }
 
 def test_api_calc_query_string(web):
-    rv = web.get('/api/calc', query_string={ 'a' : '10', 'b': '2' })
+    rv = web.get('/api/calc', query_string={ 'a' : 10, 'b': 2 })
     assert rv.status == '200 OK'
     assert rv.headers['Content-Type'] == 'application/json'
     resp = rv.json
