@@ -25,3 +25,5 @@ Implement a simple url shortener
 Show how the one function for both GET and POST and the separate functions work in a more complete example.
 
 Take the jinja examples from python.org.il and show them in the slides.
+
+Improve the JavaScript code (e.g. var => let or const)

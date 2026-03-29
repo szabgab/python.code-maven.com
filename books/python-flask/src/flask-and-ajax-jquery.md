@@ -1,9 +1,7 @@
 # Flask and AJAX with JQuery
 
-* jsonify
-
-{% embed include file="src/examples/flask/22/app.py" %}
-{% embed include file="src/examples/flask/22/static/math.js" %}
-{% embed include file="src/examples/flask/22/templates/main.html" %}
+{% embed include file="src/examples/flask/ajax-jquery/app.py" %}
+{% embed include file="src/examples/flask/ajax-jquery/static/math.js" %}
+{% embed include file="src/examples/flask/ajax-jquery/templates/main.html" %}
 
 
