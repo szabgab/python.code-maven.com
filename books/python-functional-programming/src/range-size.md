@@ -1,4 +1,4 @@
-# range vs. list size using getsizeof
+# The size of a `range` vs. a `list` using `getsizeof`
 
 Showing that the range object remains the same size regardless of the size of the range, but if we convert it into a list then its
 memory footprint is proportional to its size. To the number of elements in it.

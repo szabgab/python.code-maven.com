@@ -1,4 +1,4 @@
-# range index and len
+# index and `len` of a `range`
 
 Similar to strings, lists, and tuple, but unlike filehandles, we can use the `len` function on the `range` object and we can also access a specific element
 using the square-bracket indexing without actually iterating over all the elements.

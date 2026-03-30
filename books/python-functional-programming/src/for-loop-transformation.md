@@ -1,4 +1,4 @@
-# for loop with transformation
+# `for` loop with transformation
 
 
 There are many cases when we have a list of some values and we need to apply some transformation to each value. At the end we would

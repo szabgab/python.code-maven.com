@@ -1,4 +1,4 @@
-# filehandle index and len
+# index and `len` of a filehandle
 
 On a filehandle (returned by the `open` function) we cannot call the `len` function, nor can we access arbitrary element (row) using index in a square bracket `[]`.
 We can only use it as an iterator.

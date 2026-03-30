@@ -1,4 +1,4 @@
-# range with list
+# Flattening a range with `list()`
 
 Using the **list** function we can tell the **range** object to generate the whole list immediately. Either using
 the variable that holds the **range** object, or wrapping the **range()** call in a **list()** call.
