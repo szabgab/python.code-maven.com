@@ -1,4 +1,4 @@
-# map with condtion
+# map with condition
 
 * map
 

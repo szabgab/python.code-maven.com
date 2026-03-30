@@ -4,6 +4,5 @@
 
 * We have a bunch of people who research a series of DNA sequences.
 
-* ???
-
+* Other ideas ???
 
