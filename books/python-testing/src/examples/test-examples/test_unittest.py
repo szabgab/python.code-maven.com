@@ -1,10 +1,5 @@
-import pytest
 import os
 import subprocess
-
-@pytest.fixture()
-def root():
-    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def capture(command):
     proc = subprocess.Popen(command,
