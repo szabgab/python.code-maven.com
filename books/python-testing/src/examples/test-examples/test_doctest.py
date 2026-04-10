@@ -1,14 +1,5 @@
 import os
-import subprocess
-
-def capture(command):
-    proc = subprocess.Popen(command,
-        stdout = subprocess.PIPE,
-        stderr = subprocess.PIPE,
-    )
-    out,err = proc.communicate()
-    return out, err, proc.returncode
-
+from conftest import capture
 
 def test_doctest_good_module(root):
     #print(root)
