@@ -2,7 +2,7 @@ import sys
 import appprint
 
 def test_hello():
-    print("hello testing")
+    print("stdout during testing")
     print("stderr during testing", file=sys.stderr)
 
 def test_add():

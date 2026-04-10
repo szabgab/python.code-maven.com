@@ -6,7 +6,7 @@ Using also `-q` makes it easier to see the printed text.
 
 ```
 $ pytest -s -q test_stdout_stderr.py
-hello testing
+stdout during testing
 stderr during testing
 .Adding 2 to 3
 .
