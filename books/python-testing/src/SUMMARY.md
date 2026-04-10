@@ -52,7 +52,8 @@
   - [Pytest - passing test for the Fibonacci function](./pytest-simple-passing-test.md)
   - [Pytest - failing test for the Fibonacci in one function](./pytest-failing-test-in-one-function.md)
   - [Pytest - failing test separated](./pytest-failing-test-separated.md)
-  - [Pytest run all the test files](./pytest-run-all-the-test-files.md)
+  - [Pytest run all the good test files](./pytest-run-all-the-test-files.md)
+  - [Pytest run all the bad test files](./pytest-run-all-the-bad-test-files.md)
   - [Exercise: test simple module (math)](./exercise-test-simple-module.md)
   - [Solution: test simple module (math)](./solution-test-simple-module.md)
 
