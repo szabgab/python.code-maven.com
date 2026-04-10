@@ -9,4 +9,5 @@ dependencies = []
 [tool.uv.workspace]
 members = [
     "books/python-uv/src/examples/first",
+    "books/python-testing/src/examples/test-examples",
 ]
