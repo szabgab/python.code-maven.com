@@ -236,6 +236,7 @@
   - [Add extra command line parameters to Pytest - as a fixture](./add-extra-command-line-parameters-as-a-fixture.md)
   - [Add extra command line parameters to Pytest - used in the autouse fixtures](./add-extra-command-line-parameters-autouse-fixture.md)
   - [PyTest: Test Coverage](./pytest-coverage.md)
+  - [Test coverage with uv](./pytest-coverage-with-uv.md)
 
 
 - [Static Analyzers (Linters)](./static-analyzers.md)
