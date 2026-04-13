@@ -1,11 +1,5 @@
 # Test coverage with uv
 
-## Install the already required `pytest`
-
-```
-uv sync --extra dev
-```
-
 ## Add the coverage module
 
 ```
