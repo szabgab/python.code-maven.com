@@ -69,7 +69,7 @@ Welcome to the Python Maven web site about, well, the Python programming languag
 
 ## Other
 
-* [Databases using Python](/python-databases/)
+* [Databases using Python](/python-databases/) SQLi, SQLite, MySQL, PostgreSQL, MongoDB, Redis, SQLAlchemy
 * [GUI with Python/Tk](/python-tk/)
 * [Python Turtle](/python-turtle/)
 * [Python and the GitHub API](/python-github/)
