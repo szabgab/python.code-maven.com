@@ -651,6 +651,10 @@
   - [Other](./argparse/argparse-other.md)
 
 - [Exception handling](./exception-handling/index.md)
+  - [Exercise: Roman numbers](./exercise-roman-numbers.md)
+  - [Exercise: Transpose text](./exercise-transpose-text.md)
+  - [Solution: Roman numbers](./solution-roman-numbers.md)
+  - [Solution: Transpose text](./solution-transpose-text.md)
 
 
 
