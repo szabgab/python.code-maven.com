@@ -32,8 +32,6 @@ explain their project and we discuss the code. These videos are here for your en
 
 * [Basic modification of Biological data frames using Pandas](/bootcamp-shelley-klompus) by Shelley Klompus
 * [Managing jobs in a PBS cluster using Python](/managing-jobs-in-a-pbs-cluster) by Oz Mendelsohn
-* [Command line accounting in Python](/command-line-accounting-in-python) by Olga Tapinova
-* [Getting started with Git and GitHub](/getting-started-with-git-and-github-on-windows) with Olga Tapinova
 * [Fixing elevation data in gpx file](https://he.code-maven.com/fixing-elevation-data-in-gpx-file) by Nathan Weinstein (Hebrew)
 * [Getting started with Git and GitHub](https://he.code-maven.com/creating-project-on-github) with Nathan Weinstein (Hebrew)
 <!--
