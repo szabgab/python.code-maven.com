@@ -10,7 +10,7 @@ jobs:
       image: python:3.14
     steps:
       - name: Checkout source
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Install python dependencies
         run: pip install -r books/python-flask/requirements.txt
 
@@ -25,7 +25,7 @@ jobs:
       image: python:3.14
     steps:
       - name: Checkout source
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Install python dependencies
         run: pip install -r books/python-decorators/requirements.txt
 
@@ -40,7 +40,7 @@ jobs:
       image: python:3.14
     steps:
       - name: Checkout source
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
