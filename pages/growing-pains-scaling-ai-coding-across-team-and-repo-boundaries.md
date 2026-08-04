@@ -1,7 +1,7 @@
 ---
 title: "Growing Pains: Scaling AI Coding across Team and Repo Boundaries with Graham Knapp"
 timestamp: 2026-06-07T19:00:01
-author: szabgab
+author:
 published: true
 description:
 tags:
