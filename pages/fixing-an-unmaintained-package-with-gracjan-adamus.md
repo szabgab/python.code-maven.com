@@ -1,7 +1,7 @@
 ---
 title: Fixing an unmaintained package, spanning Python, C++, nanobind and Github Actions
 timestamp: 2026-08-04T10:30:01
-author: szabgab
+author:
 published: true
 description:
 tags:

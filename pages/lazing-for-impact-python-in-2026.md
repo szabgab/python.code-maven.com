@@ -1,7 +1,7 @@
 ---
 title: Lazing for Impact, Python in 2026 with Aekasitt (Sitt) Guruvanich
 timestamp: 2026-07-20T14:30:01
-author: szabgab
+author:
 published: true
 description:
 tags:

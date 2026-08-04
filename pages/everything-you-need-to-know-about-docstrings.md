@@ -1,7 +1,7 @@
 ---
 title: Everything you need to know about docstrings, but never wanted to ask
 timestamp: 2026-08-04T10:10:01
-author: szabgab
+author:
 published: true
 description:
 tags:
