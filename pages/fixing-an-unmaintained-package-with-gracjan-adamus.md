@@ -5,7 +5,6 @@ author: szabgab
 published: true
 description:
 tags:
-    - Python
 ---
 
 <a class="button is-primary" href="https://luma.com/exyszwcp">register</a>
