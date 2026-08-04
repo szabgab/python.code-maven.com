@@ -5,7 +5,6 @@ author: szabgab
 published: true
 description:
 tags:
-    - Python
 ---
 
 

@@ -5,7 +5,6 @@ author: szabgab
 published: true
 description:
 tags:
-    - Python
 ---
 
 {% youtube id="xvxZAGIPGhg" file="2026-06-07-ai-coding-with-graham-knapp-in-english.mp4" %}
