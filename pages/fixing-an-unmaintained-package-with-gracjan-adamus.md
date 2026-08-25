@@ -21,6 +21,13 @@ In this talk, I will share the fun (and not-so-fun) parts of my journey to fix t
 
 {% youtube id="etxnKZVYi1s" file="2026-08-24-fixing-an-unmaintained-package-with-gracjan-adamus.mp4" %}
 
+## Useful links
+nanobind_json project repo: https://github.com/Griger5/nanobind_json
+nanobind project repo: https://github.com/wjakob/nanobind
+nanobind docs: https://nanobind.readthedocs.io/en/latest/
+PyPartMC repo: https://github.com/open-atmos/PyPartMC
+PyPartMC SoftwareX paper: https://doi.org/10.1016/j.softx.2023.101613
+
 ## Transcript
 
 1
