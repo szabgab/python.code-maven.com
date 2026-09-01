@@ -1,7 +1,7 @@
 ---
 title: Coding Best Practices Spotlight - My Top Selections
 timestamp: 2026-09-01T08:30:01
-author: szabgab
+author:
 published: true
 description:
 tags:
