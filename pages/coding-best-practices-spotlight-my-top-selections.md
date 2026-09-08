@@ -7,7 +7,6 @@ description:
 tags:
 ---
 
-<a class="button is-primary" href="https://luma.com/4w6ahs0s">register</a>
 
 ## Description
 
@@ -22,3 +21,9 @@ He's led development efforts across multiple teams, driving improvements in arch
 Nadav is passionate about clean code, mentoring engineers, and helping others grow into better versions of themselves.
 He cares deeply about doing things right and helping others level up.
 
+## Length
+
+30 min
+
+
+<a class="button is-primary" href="https://luma.com/4w6ahs0s">register</a>
