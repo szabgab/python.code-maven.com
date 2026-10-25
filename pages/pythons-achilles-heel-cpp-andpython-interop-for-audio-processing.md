@@ -7,6 +7,8 @@ description:
 tags:
 ---
 
+Unfortunatelly this event has been cancelled
+
 ## Description
 
 Python is pleasant to write but slow to run once the data gets big. Using a silence-stripping algorithm as an example, I look at why the per-block loop costs so much (158 million samples in an hour of 44.1 kHz audio), then move it into C++ for SIMD and pre-allocated memory, with Boost.Python handling the bridge.
@@ -18,6 +20,3 @@ Python is pleasant to write but slow to run once the data gets big. Using a sile
 ## Length
 
 30 min
-
-
-<a class="button is-primary" href="https://luma.com/xznf1drl">register</a>
