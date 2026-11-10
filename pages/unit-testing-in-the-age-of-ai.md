@@ -21,6 +21,10 @@ Currently a senior software engineer at Fullpath, where we build AI-based soluti
 
 60 min
 
+## Slides
+
+[Unit testing in the age of AI](https://media.code-maven.com/slides/Unit-Testing-In-the-Age-of-AI.pptx)
+
 
 {% youtube id="ayUw8qMPtiM" file="2026-11-10-unit-testing-in-the-age-of-ai-with-jason-elbaum.mp4" %}
 
