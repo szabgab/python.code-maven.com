@@ -6,7 +6,7 @@ What is the result of this code in Perl / Python / JavaScript / Rust?
 
 {% embed include file="src/examples/python-types-at-pyweb-2025-05/add.py" %}
 
-{% embed include file="src/examples/python-types-at-pyweb-2025-05/add.js)
+{% embed include file="src/examples/python-types-at-pyweb-2025-05/add.js" %}
 
 {% embed include file="src/examples/python-types-at-pyweb-2025-05/add.pl" %}
 
